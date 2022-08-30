@@ -1,0 +1,199 @@
+{
+  "CanBeFinalised": true,
+  "HasBeenFinalised": false,
+  "CurrencyCode": "GBP",
+  "LanguageCode": "EN",
+  "WebsiteRegionCode": "en",
+  "JourneyPairs": [
+    {
+      "Id": 1,
+      "IsPrimaryPair": true,
+      "BaseCurrency": "GBP",
+      "OutboundSlot": {
+        "Flight": {
+          "FlightFares": [
+            {
+              "FareType": "Standard",
+              "Prices": {
+                "Adult": {
+                  "Price": 28.99,
+                  "PriceWithDebitCard": 28.99,
+                  "PriceWithCreditCard": 28.99
+                }
+              },
+              "FlightIdentification": "UVEwMUJCQkIzcVZeQkJCQkJCQkJFRElCQkJCVC5HVkFDUS5HQlBCQkJCRy5HQlBCQjA3MjAyMi0wOS0yOSAwODoxMDowMDJN"
+            }
+          ],
+          "FlightTaxes": {
+            "TaxAmount": 13.0,
+            "ApplyApdRules": false
+          },
+          "InternalId": "5e28a596-4926-ef8c-0c88-bdac8afa6464",
+          "CarrierCode": "EZS",
+          "FlightNumber": 6908,
+          "DepartureIata": "EDI",
+          "ArrivalIata": "GVA",
+          "DepTerminalName": "",
+          "ArrTerminalName": "",
+          "LocalDepartureTime": "2022-09-29T08:10:00",
+          "LocalArrivalTime": "2022-09-29T11:25:00",
+          "SegmentId": "20220929EDIGVA6908"
+        }
+      },
+      "ReturnSlot": {
+        "Flight": {
+          "FlightFares": [
+            {
+              "FareType": "Standard",
+              "Prices": {
+                "Adult": {
+                  "Price": 29.99,
+                  "PriceWithDebitCard": 29.99,
+                  "PriceWithCreditCard": 29.99
+                }
+              },
+              "FlightIdentification": "UUMwMUJCQkI0JWw3QkJCQkJCQkJHVkFCQkJCVi5FRElDUS5HQlBCQkJCQi5HQlBCQjA3MjAyMi0xMC0wMiAxMDo1MDowMFA3"
+            }
+          ],
+          "FlightTaxes": {
+            "TaxAmount": 0.0,
+            "ApplyApdRules": false
+          },
+          "InternalId": "8e306459-3545-b443-88f6-08088c6f770f",
+          "CarrierCode": "EZY",
+          "FlightNumber": 6906,
+          "DepartureIata": "GVA",
+          "ArrivalIata": "EDI",
+          "DepTerminalName": "",
+          "ArrTerminalName": "",
+          "LocalDepartureTime": "2022-10-02T10:50:00",
+          "LocalArrivalTime": "2022-10-02T12:05:00",
+          "SegmentId": "20221002GVAEDI6906"
+        }
+      }
+    }
+  ],
+  "Bags": [],
+  "SportsEquipment": [],
+  "FareType": "Standard",
+  "FlightItemChargesList": [
+    {
+      "SegmentId": "20220929EDIGVA6908",
+      "HoldLuggage": {
+        "ChargeCode": "HoldLuggage",
+        "Amount": 24.99,
+        "AmountWithCreditCard": 24.99
+      },
+      "HoldLuggageExcessWeight": {
+        "ChargeCode": "HoldLuggageExcessWeight",
+        "Amount": 12.0,
+        "AmountWithCreditCard": 12.0
+      },
+      "SmallSportsEquipment": {
+        "ChargeCode": "SmallSportsEquipment",
+        "Amount": 37.0,
+        "AmountWithCreditCard": 37.0
+      },
+      "LargeSportsEquipment": {
+        "ChargeCode": "LargeSportsEquipment",
+        "Amount": 45.0,
+        "AmountWithCreditCard": 45.0
+      },
+      "SmallHoldLuggage": {
+        "ChargeCode": "SmallHoldLuggage",
+        "Amount": 20.49,
+        "AmountWithCreditCard": 20.49
+      },
+      "VouchersCost": {
+        "ChargeCode": "VoucherCost",
+        "Amount": 8.0,
+        "AmountWithCreditCard": 8.0
+      },
+      "VouchersRedeemableAmount": {
+        "ChargeCode": "InFlightVoucherOnBoardPrice",
+        "Amount": 10.0,
+        "AmountWithCreditCard": 10.0
+      }
+    },
+    {
+      "SegmentId": "20221002GVAEDI6906",
+      "HoldLuggage": {
+        "ChargeCode": "HoldLuggage",
+        "Amount": 25.99,
+        "AmountWithCreditCard": 25.99
+      },
+      "HoldLuggageExcessWeight": {
+        "ChargeCode": "HoldLuggageExcessWeight",
+        "Amount": 12.0,
+        "AmountWithCreditCard": 12.0
+      },
+      "SmallSportsEquipment": {
+        "ChargeCode": "SmallSportsEquipment",
+        "Amount": 37.0,
+        "AmountWithCreditCard": 37.0
+      },
+      "LargeSportsEquipment": {
+        "ChargeCode": "LargeSportsEquipment",
+        "Amount": 45.0,
+        "AmountWithCreditCard": 45.0
+      },
+      "SmallHoldLuggage": {
+        "ChargeCode": "SmallHoldLuggage",
+        "Amount": 21.99,
+        "AmountWithCreditCard": 21.99
+      },
+      "VouchersCost": {
+        "ChargeCode": "VoucherCost",
+        "Amount": 8.0,
+        "AmountWithCreditCard": 8.0
+      },
+      "VouchersRedeemableAmount": {
+        "ChargeCode": "InFlightVoucherOnBoardPrice",
+        "Amount": 10.0,
+        "AmountWithCreditCard": 10.0
+      }
+    }
+  ],
+  "AdminFee": {
+    "AdminFee": {
+      "Price": 0.0,
+      "PriceWithDebitCard": 0.0,
+      "PriceWithCreditCard": 0.0
+    }
+  },
+  "Passengers": [
+    {
+      "InternalId": "1ca9757d-28e0-4aef-5da2-3bd2deef35cf",
+      "FirstName": "",
+      "LastName": "",
+      "Type": "Adult",
+      "HasSpecialServiceFlags": false
+    },
+    {
+      "InternalId": "77105756-0e08-5701-5f72-dfb75c63ba34",
+      "FirstName": "",
+      "LastName": "",
+      "Type": "Adult",
+      "HasSpecialServiceFlags": false
+    }
+  ],
+  "Associations": [
+    {
+      "FlightInternalId": "5e28a596-4926-ef8c-0c88-bdac8afa6464",
+      "PassengerInternalId": "1ca9757d-28e0-4aef-5da2-3bd2deef35cf"
+    },
+    {
+      "FlightInternalId": "5e28a596-4926-ef8c-0c88-bdac8afa6464",
+      "PassengerInternalId": "77105756-0e08-5701-5f72-dfb75c63ba34"
+    },
+    {
+      "FlightInternalId": "8e306459-3545-b443-88f6-08088c6f770f",
+      "PassengerInternalId": "1ca9757d-28e0-4aef-5da2-3bd2deef35cf"
+    },
+    {
+      "FlightInternalId": "8e306459-3545-b443-88f6-08088c6f770f",
+      "PassengerInternalId": "77105756-0e08-5701-5f72-dfb75c63ba34"
+    }
+  ],
+  "CarriedInfants": []
+}

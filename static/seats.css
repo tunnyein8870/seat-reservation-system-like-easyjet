@@ -1,0 +1,29 @@
+.block{
+    display: inline-block;
+}
+
+.seat{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(/static/seat-available.png);
+    background-size: cover;
+}
+
+#rhs{
+    display: inline-block;
+    width:320px;
+    background-color: #f2f2f2;
+}
+#lhs{
+    width:320px;
+    display: inline-block;
+    background-color:aqua;
+    vertical-align: top;
+}
+#center{
+    width:310px;
+    display: inline-block;
+    background-color:pink;
+    vertical-align: top;
+}

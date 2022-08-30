@@ -1,0 +1,9691 @@
+{
+ "NearbyAirportSettings": {
+  "AlternateOriginSearchDistanceKm": 160,
+  "AlternateDestinationSearchDistanceKm": 160,
+  "DisplayUnit": {
+   "UnitName": "kilometers",
+   "Abbreviation": "km",
+   "MetersPerUnit": 1000.0
+  },
+  "NearbyNumberToShow": 5
+ },
+ "Airports": [
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CPH",
+     "DistanceKm": 146.893
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Foodies",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5102",
+   "EuropcarStationCode": "AART01",
+   "CityIata": "AAR",
+   "BookingIata": null,
+   "Iata": "AAR",
+   "Name": "Aarhus",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "GVA",
+    "LGW",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "INV",
+     "DistanceKm": 118.004
+    },
+    {
+     "Iata": "EDI",
+     "DistanceKm": 157.063
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5148",
+   "EuropcarStationCode": "ABZT01",
+   "CityIata": "ABZ",
+   "BookingIata": null,
+   "Iata": "ABZ",
+   "Name": "Aberdeen",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SC",
+    "BSL",
+    "CDG",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ESU",
+     "DistanceKm": 122.671
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Beach"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1997",
+   "EuropcarStationCode": "AGAT01",
+   "CityIata": "AGA",
+   "BookingIata": null,
+   "Iata": "AGA",
+   "Name": "Agadir",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*PA",
+    "BOD",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LYS",
+    "NTE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "FSC",
+     "DistanceKm": 53.234
+    },
+    {
+     "Iata": "CLY",
+     "DistanceKm": 67.233
+    },
+    {
+     "Iata": "BIA",
+     "DistanceKm": 90.042
+    },
+    {
+     "Iata": "OLB",
+     "DistanceKm": 128.409
+    },
+    {
+     "Iata": "AHO",
+     "DistanceKm": 149.101
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1218",
+   "EuropcarStationCode": "AJAT01",
+   "CityIata": "AJA",
+   "BookingIata": null,
+   "Iata": "AJA",
+   "Name": "Ajaccio, Corsica",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*SC",
+    "AMS",
+    "BFS",
+    "BRS",
+    "BSL",
+    "EDI",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "RMU",
+     "DistanceKm": 72.735
+    },
+    {
+     "Iata": "VLC",
+     "DistanceKm": 134.346
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2231",
+   "EuropcarStationCode": "ALCT01",
+   "CityIata": "ALC",
+   "BookingIata": null,
+   "Iata": "ALC",
+   "Name": "Alicante",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "GRX",
+     "DistanceKm": 130.429
+    },
+    {
+     "Iata": "RMU",
+     "DistanceKm": 153.396
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2179",
+   "EuropcarStationCode": "LEIT02",
+   "CityIata": "LEI",
+   "BookingIata": null,
+   "Iata": "LEI",
+   "Name": "Almeria",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*LO",
+    "*MI",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGP",
+    "ALC",
+    "BDS",
+    "BER",
+    "BFS",
+    "BGY",
+    "BHX",
+    "BRS",
+    "BSL",
+    "BUD",
+    "CFU",
+    "CPH",
+    "CTA",
+    "DBV",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FCO",
+    "FUE",
+    "GLA",
+    "GVA",
+    "HRG",
+    "IBZ",
+    "INN",
+    "LGW",
+    "LIN",
+    "LIS",
+    "LPA",
+    "LPL",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "OLB",
+    "PMI",
+    "PMO",
+    "PRG",
+    "PSA",
+    "PUY",
+    "RAK",
+    "RHO",
+    "SPU",
+    "SSH",
+    "STN",
+    "SZG",
+    "TFS",
+    "TLV",
+    "VCE",
+    "VRN",
+    "ZAD"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BRU",
+     "DistanceKm": 158.08
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2018",
+   "EuropcarStationCode": "AMST01",
+   "CityIata": "AMS",
+   "BookingIata": null,
+   "Iata": "AMS",
+   "Name": "Amsterdam",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PUY",
+     "DistanceKm": 149.554
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5141",
+   "EuropcarStationCode": "AOIT01",
+   "CityIata": "AOI",
+   "BookingIata": null,
+   "Iata": "AOI",
+   "Name": "Ancona",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BRS",
+    "GVA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2792",
+   "EuropcarStationCode": "AYTT01",
+   "CityIata": "AYT",
+   "BookingIata": null,
+   "Iata": "AYT",
+   "Name": "Antalya",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "BER",
+    "GVA",
+    "LGW",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Adventure and the great outdoors",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5169",
+   "EuropcarStationCode": "AQRT01",
+   "CityIata": "AQJ",
+   "BookingIata": null,
+   "Iata": "AQJ",
+   "Name": "Aqaba",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Snow and slopes",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4342",
+   "EuropcarStationCode": "OSDT01",
+   "CityIata": "OSD",
+   "BookingIata": null,
+   "Iata": "OSD",
+   "Name": "Are Ostersund",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "BER",
+    "BRS",
+    "BSL",
+    "EDI",
+    "GVA",
+    "LGW",
+    "MAN",
+    "MXP",
+    "NAP",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "JMK",
+     "DistanceKm": 135.172
+    },
+    {
+     "Iata": "JSI",
+     "DistanceKm": 143.323
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Culture",
+    "Family",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Instagram hotspots",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1444, 5115",
+   "EuropcarStationCode": "ATHT01",
+   "CityIata": "ATH",
+   "BookingIata": null,
+   "Iata": "ATH",
+   "Name": "Athens",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "BER",
+    "BFS",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LPL",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "REU",
+     "DistanceKm": 77.763
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2271,2214,1001",
+   "EuropcarStationCode": "BCNT02",
+   "CityIata": "BCN",
+   "BookingIata": null,
+   "Iata": "BCN",
+   "Name": "Barcelona",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "BSL",
+    "CDG",
+    "LGW",
+    "MXP",
+    "NTE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BDS",
+     "DistanceKm": 112.023
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Family",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5143",
+   "EuropcarStationCode": "BRIT01",
+   "CityIata": "BRI",
+   "BookingIata": null,
+   "Iata": "BRI",
+   "Name": "Bari",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGA",
+    "AGP",
+    "AJA",
+    "ALC",
+    "AMS",
+    "ATH",
+    "BCN",
+    "BDS",
+    "BEG",
+    "BER",
+    "BIA",
+    "BIQ",
+    "BOD",
+    "BRI",
+    "BRS",
+    "BUD",
+    "CAG",
+    "CFU",
+    "CLY",
+    "CPH",
+    "CTA",
+    "DBV",
+    "EDI",
+    "FAO",
+    "FCO",
+    "FSC",
+    "FUE",
+    "HAM",
+    "HER",
+    "HRG",
+    "IBZ",
+    "JMK",
+    "KGS",
+    "KRK",
+    "LGW",
+    "LIS",
+    "LPA",
+    "MAD",
+    "MAH",
+    "MAN",
+    "MPL",
+    "MRS",
+    "NAP",
+    "NCE",
+    "NTE",
+    "OLB",
+    "OPO",
+    "PMI",
+    "PMO",
+    "PRG",
+    "PRN",
+    "PUY",
+    "RAK",
+    "RHO",
+    "SCQ",
+    "SKG",
+    "SPU",
+    "SSH",
+    "SUF",
+    "TFS",
+    "TLS",
+    "TLV",
+    "VCE",
+    "VLC",
+    "ZAD"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ZRH",
+     "DistanceKm": 79.194
+    },
+    {
+     "Iata": "FDH",
+     "DistanceKm": 149.693
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Instagram hotspots",
+    "Snow and slopes",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2735,5189",
+   "EuropcarStationCode": "BSLT01",
+   "CityIata": "BSL",
+   "BookingIata": null,
+   "Iata": "BSL",
+   "Name": "Basel",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "BER",
+    "BOD",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LYS",
+    "NTE",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CLY",
+     "DistanceKm": 56.623
+    },
+    {
+     "Iata": "AJA",
+     "DistanceKm": 90.042
+    },
+    {
+     "Iata": "FSC",
+     "DistanceKm": 120.819
+    },
+    {
+     "Iata": "PSA",
+     "DistanceKm": 147.867
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1218",
+   "EuropcarStationCode": "BIAT01",
+   "CityIata": "BIA",
+   "BookingIata": null,
+   "Iata": "BIA",
+   "Name": "Bastia, Corsica",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BRS",
+    "GLA",
+    "LGW",
+    "LPL",
+    "*CN",
+    "*PA",
+    "ACE",
+    "AGP",
+    "ALC",
+    "AMS",
+    "BCN",
+    "BHX",
+    "BOD",
+    "CDG",
+    "CFU",
+    "DLM",
+    "EDI",
+    "FAO",
+    "GVA",
+    "IBZ",
+    "IOM",
+    "JER",
+    "KRK",
+    "LBA",
+    "LPA",
+    "LTN",
+    "LYS",
+    "MAH",
+    "MAN",
+    "NCE",
+    "NCL",
+    "PMI",
+    "STN",
+    "TFS"
+   ],
+   "B2bAreaCode": "BELFAST",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "BHD",
+    "BFS"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2848",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "",
+   "Iata": "*BE",
+   "Name": "Belfast (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BRS",
+    "GLA",
+    "LGW",
+    "LPL"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BFS",
+     "DistanceKm": 23.246
+    },
+    {
+     "Iata": "IOM",
+     "DistanceKm": 99.379
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2848",
+   "EuropcarStationCode": "BFST05",
+   "CityIata": "BHD",
+   "BookingIata": null,
+   "Iata": "BHD",
+   "Name": "Belfast City (George Best)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CN",
+    "*LO",
+    "*PA",
+    "*SC",
+    "ACE",
+    "AGP",
+    "ALC",
+    "AMS",
+    "BCN",
+    "BHX",
+    "BOD",
+    "BRS",
+    "CDG",
+    "CFU",
+    "DLM",
+    "EDI",
+    "FAO",
+    "GLA",
+    "GVA",
+    "IBZ",
+    "IOM",
+    "JER",
+    "KRK",
+    "LBA",
+    "LGW",
+    "LPA",
+    "LPL",
+    "LTN",
+    "LYS",
+    "MAH",
+    "MAN",
+    "NCE",
+    "NCL",
+    "PMI",
+    "STN",
+    "TFS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BHD",
+     "DistanceKm": 23.246
+    },
+    {
+     "Iata": "IOM",
+     "DistanceKm": 121.143
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2848",
+   "EuropcarStationCode": "BFST06",
+   "CityIata": "BFS",
+   "BookingIata": null,
+   "Iata": "BFS",
+   "Name": "Belfast Intl",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BSL",
+    "GVA"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2138",
+   "EuropcarStationCode": "BEGT01",
+   "CityIata": "BEG",
+   "BookingIata": null,
+   "Iata": "BEG",
+   "Name": "Belgrade",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGP",
+    "AMS",
+    "AQJ",
+    "ARN",
+    "ATH",
+    "BCN",
+    "BIA",
+    "BOD",
+    "BOJ",
+    "BRS",
+    "BSL",
+    "CAG",
+    "CDG",
+    "CFU",
+    "CGN",
+    "CHQ",
+    "CPH",
+    "CTA",
+    "DBV",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FCO",
+    "FNC",
+    "FUE",
+    "GLA",
+    "GOT",
+    "GVA",
+    "HEL",
+    "HER",
+    "HRG",
+    "IBZ",
+    "INN",
+    "JMK",
+    "JTR",
+    "KGS",
+    "LCA",
+    "LGW",
+    "LIN",
+    "LIS",
+    "LPA",
+    "LTN",
+    "LYS",
+    "MAH",
+    "MAN",
+    "MRS",
+    "MXP",
+    "NAP",
+    "NCE",
+    "OLB",
+    "OPO",
+    "ORY",
+    "PFO",
+    "PMI",
+    "PRN",
+    "PSA",
+    "PUY",
+    "PVK",
+    "RAK",
+    "RHO",
+    "RJK",
+    "RMF",
+    "SKG",
+    "SPC",
+    "SPU",
+    "SSH",
+    "SUF",
+    "SZG",
+    "TFS",
+    "TIV",
+    "TLV",
+    "VAR",
+    "VCE",
+    "VIE",
+    "VLC",
+    "ZAD",
+    "ZRH",
+    "ZTH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "DRS",
+     "DistanceKm": 139.178
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family holiday",
+    "Going solo",
+    "Instagram hotspots",
+    "Music and festivals",
+    "CityBreak",
+    "Culture",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1363",
+   "EuropcarStationCode": "BERT01",
+   "CityIata": "BER",
+   "BookingIata": null,
+   "Iata": "BER",
+   "Name": "Berlin Brandenburg",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "BSL",
+    "CDG",
+    "LGW",
+    "LYS",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PUF",
+     "DistanceKm": 90.633
+    },
+    {
+     "Iata": "BIO",
+     "DistanceKm": 112.508
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5192",
+   "EuropcarStationCode": "BIQT01",
+   "CityIata": "BIQ",
+   "BookingIata": null,
+   "Iata": "BIQ",
+   "Name": "Biarritz",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "BRS",
+    "GVA",
+    "LGW",
+    "LIS",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BIQ",
+     "DistanceKm": 112.508
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5138",
+   "EuropcarStationCode": "BIOT01",
+   "CityIata": "BIO",
+   "BookingIata": null,
+   "Iata": "BIO",
+   "Name": "Bilbao",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*SC",
+    "AGP",
+    "AMS",
+    "BFS",
+    "EDI",
+    "FAO",
+    "GLA",
+    "GVA",
+    "LIS",
+    "NTE",
+    "PMI"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "EMA",
+     "DistanceKm": 49.617
+    },
+    {
+     "Iata": "MAN",
+     "DistanceKm": 107.39
+    },
+    {
+     "Iata": "LTN",
+     "DistanceKm": 112.396
+    },
+    {
+     "Iata": "LPL",
+     "DistanceKm": 123.795
+    },
+    {
+     "Iata": "BRS",
+     "DistanceKm": 136.184
+    },
+    {
+     "Iata": "STN",
+     "DistanceKm": 149.697
+    },
+    {
+     "Iata": "LBA",
+     "DistanceKm": 157.624
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2851",
+   "EuropcarStationCode": "BHXT01",
+   "CityIata": "BHX",
+   "BookingIata": null,
+   "Iata": "BHX",
+   "Name": "Birmingham",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BRS",
+    "EDI",
+    "LGW",
+    "LPL",
+    "LTN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "KGS",
+     "DistanceKm": 71.448
+    },
+    {
+     "Iata": "RHO",
+     "DistanceKm": 100.698
+    },
+    {
+     "Iata": "DLM",
+     "DistanceKm": 115.012
+    },
+    {
+     "Iata": "ADB",
+     "DistanceKm": 124.864
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2800",
+   "EuropcarStationCode": "BJVT01",
+   "CityIata": "BJV",
+   "BookingIata": null,
+   "Iata": "BJV",
+   "Name": "Bodrum",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SD",
+    "LGW",
+    "OLB"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "VRN",
+     "DistanceKm": 101.838
+    },
+    {
+     "Iata": "PSA",
+     "DistanceKm": 116.939
+    },
+    {
+     "Iata": "VCE",
+     "DistanceKm": 136.213
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5141",
+   "EuropcarStationCode": "BLQT01",
+   "CityIata": "BLQ",
+   "BookingIata": null,
+   "Iata": "BLQ",
+   "Name": "Bologna",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AJA",
+    "BER",
+    "BFS",
+    "BIA",
+    "BRS",
+    "BSL",
+    "CPH",
+    "CTA",
+    "ESU",
+    "FAO",
+    "FSC",
+    "GLA",
+    "GVA",
+    "HER",
+    "IBZ",
+    "LGW",
+    "LIL",
+    "LIS",
+    "LTN",
+    "LUX",
+    "LYS",
+    "MAH",
+    "MAN",
+    "MRS",
+    "MXP",
+    "NCE",
+    "OLB",
+    "OPO",
+    "PMI",
+    "RAK",
+    "RHO",
+    "TFS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LRH",
+     "DistanceKm": 154.315
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5192",
+   "EuropcarStationCode": "BODT01",
+   "CityIata": "BOD",
+   "BookingIata": null,
+   "Iata": "BOD",
+   "Name": "Bordeaux",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "GVA"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SOU",
+     "DistanceKm": 38.494
+    },
+    {
+     "Iata": "BRS",
+     "DistanceKm": 91.288
+    },
+    {
+     "Iata": "LGW",
+     "DistanceKm": 123.438
+    },
+    {
+     "Iata": "LTN",
+     "DistanceKm": 158.968
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Family",
+    "City explorer"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2859,3012,3022,5146",
+   "EuropcarStationCode": "BOHT01",
+   "CityIata": "BOH",
+   "BookingIata": null,
+   "Iata": "BOH",
+   "Name": "Bournemouth",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "LYS",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Music and festivals",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5193",
+   "EuropcarStationCode": "BEST01",
+   "CityIata": "BES",
+   "BookingIata": null,
+   "Iata": "BES",
+   "Name": "Brest Brittany",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "AMS",
+    "BSL",
+    "GVA",
+    "LGW",
+    "MXP",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BRI",
+     "DistanceKm": 112.023
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5143",
+   "EuropcarStationCode": "BDST01",
+   "CityIata": "BDS",
+   "BookingIata": null,
+   "Iata": "BDS",
+   "Name": "Brindisi",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*MI",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGP",
+    "ALC",
+    "AMS",
+    "ATH",
+    "AYT",
+    "BCN",
+    "BER",
+    "BFS",
+    "BHD",
+    "BIO",
+    "BJV",
+    "BOD",
+    "BSL",
+    "CDG",
+    "CFU",
+    "CPH",
+    "CTA",
+    "DBV",
+    "DLM",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FCO",
+    "FNC",
+    "FUE",
+    "GIB",
+    "GLA",
+    "GNB",
+    "GVA",
+    "HER",
+    "HRG",
+    "IBZ",
+    "INN",
+    "INV",
+    "IOM",
+    "JMK",
+    "JTR",
+    "KEF",
+    "KGS",
+    "KRK",
+    "LCA",
+    "LIS",
+    "LPA",
+    "LRH",
+    "LYS",
+    "MAD",
+    "MAH",
+    "MRS",
+    "MXP",
+    "NAP",
+    "NCE",
+    "NCL",
+    "NTE",
+    "OLB",
+    "OPO",
+    "ORY",
+    "PFO",
+    "PMI",
+    "PRG",
+    "PSA",
+    "PUY",
+    "PVK",
+    "RHO",
+    "RMU",
+    "RVN",
+    "SOF",
+    "SPU",
+    "SSH",
+    "SZG",
+    "TFS",
+    "TLS",
+    "TRN",
+    "VCE",
+    "ZTH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BOH",
+     "DistanceKm": 91.288
+    },
+    {
+     "Iata": "SOU",
+     "DistanceKm": 106.031
+    },
+    {
+     "Iata": "BHX",
+     "DistanceKm": 136.184
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2865",
+   "EuropcarStationCode": "BRST01",
+   "CityIata": "BRS",
+   "BookingIata": null,
+   "Iata": "BRS",
+   "Name": "Bristol",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "GVA",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LIL",
+     "DistanceKm": 103.585
+    },
+    {
+     "Iata": "AMS",
+     "DistanceKm": 158.08
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1059",
+   "EuropcarStationCode": "BRUT01",
+   "CityIata": "BRU",
+   "BookingIata": null,
+   "Iata": "BRU",
+   "Name": "Brussels Intl",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "OTP",
+   "BookingIata": null,
+   "Iata": "OTP",
+   "Name": "Bucharest (Otopeni)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "AMS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Off the beaten track",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1690",
+   "EuropcarStationCode": "BUDT02",
+   "CityIata": "BUD",
+   "BookingIata": null,
+   "Iata": "BUD",
+   "Name": "Budapest",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "LGW",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "VAR",
+     "DistanceKm": 78.556
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "6003",
+   "EuropcarStationCode": "",
+   "CityIata": "BOJ",
+   "BookingIata": null,
+   "Iata": "BOJ",
+   "Name": "Burgas",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*PA",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LYS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BIA",
+     "DistanceKm": 56.623
+    },
+    {
+     "Iata": "AJA",
+     "DistanceKm": 67.233
+    },
+    {
+     "Iata": "FSC",
+     "DistanceKm": 116.767
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1218",
+   "EuropcarStationCode": "",
+   "CityIata": "CLY",
+   "BookingIata": null,
+   "Iata": "CLY",
+   "Name": "Calvi, Corsica",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BER",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "*BE",
+    "BFS",
+    "GLA",
+    "BOD",
+    "LPL",
+    "NCE",
+    "NTE"
+   ],
+   "B2bAreaCode": "CANARY ISLANDS",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "SPC",
+    "FUE",
+    "LPA",
+    "ACE",
+    "TFS"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "LPA",
+   "Iata": "*CN",
+   "Name": "Canary Islands (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*PA",
+    "ACE",
+    "AGP",
+    "ALC",
+    "AMS",
+    "ATH",
+    "BER",
+    "BFS",
+    "BHX",
+    "BJV",
+    "BRS",
+    "BSL",
+    "CDG",
+    "CFU",
+    "CPH",
+    "DBV",
+    "DLM",
+    "EFL",
+    "FUE",
+    "GIB",
+    "GNB",
+    "GVA",
+    "HAM",
+    "HER",
+    "KEF",
+    "KRK",
+    "LGW",
+    "LIS",
+    "LTN",
+    "LYS",
+    "MAD",
+    "MUC",
+    "MXP",
+    "NAP",
+    "NCE",
+    "PFO",
+    "PMI",
+    "PRG",
+    "RHO",
+    "STN",
+    "TFS",
+    "VCE",
+    "AGA",
+    "BCN",
+    "BHD",
+    "BOD",
+    "CHQ",
+    "FAO",
+    "JER",
+    "KGS",
+    "LPA",
+    "MRS",
+    "NQY",
+    "PUY",
+    "SPU"
+   ],
+   "B2bAreaCode": "CENTRAL SCOTLAND",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "EDI",
+    "GLA"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5148",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "GLA",
+   "Iata": "*SC",
+   "Name": "Central Scotland (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "LGW",
+    "OPO",
+    "PMI"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "DUS",
+     "DistanceKm": 52.47
+    },
+    {
+     "Iata": "DTM",
+     "DistanceKm": 79.338
+    },
+    {
+     "Iata": "FRA",
+     "DistanceKm": 136.829
+    },
+    {
+     "Iata": "LUX",
+     "DistanceKm": 151.873
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "CityBreak",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1382",
+   "EuropcarStationCode": "CGNT01",
+   "CityIata": "CGN",
+   "BookingIata": null,
+   "Iata": "CGN",
+   "Name": "Cologne Bonn",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AGP",
+    "AMS",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LYS",
+    "MAN",
+    "MXP",
+    "PMI"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "AAR",
+     "DistanceKm": 146.893
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1158",
+   "EuropcarStationCode": "CPHT01",
+   "CityIata": "CPH",
+   "BookingIata": null,
+   "Iata": "CPH",
+   "Name": "Copenhagen",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PVK",
+     "DistanceKm": 105.469
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1469",
+   "EuropcarStationCode": "CFUT01",
+   "CityIata": "CFU",
+   "BookingIata": null,
+   "Iata": "CFU",
+   "Name": "Corfu",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*PA",
+    "BOD",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LYS",
+    "NTE",
+    "*LO",
+    "BER",
+    "LGW",
+    "TLS"
+   ],
+   "B2bAreaCode": "CORSICA",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "AJA",
+    "BIA",
+    "CLY",
+    "FSC"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1218",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "CCM",
+   "Iata": "*CO",
+   "Name": "Corsica (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "BER",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NCE",
+    "*PA",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "LPL",
+    "NTE"
+   ],
+   "B2bAreaCode": "CRETE",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "CHQ",
+    "HER"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1501",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "HER",
+   "Iata": "*CR",
+   "Name": "Crete (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "BER",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "HER",
+     "DistanceKm": 96.399
+    },
+    {
+     "Iata": "JTR",
+     "DistanceKm": 153.631
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1501",
+   "EuropcarStationCode": "CHQT01",
+   "CityIata": "CHQ",
+   "BookingIata": null,
+   "Iata": "CHQ",
+   "Name": "Crete Chania",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NTE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CHQ",
+     "DistanceKm": 96.399
+    },
+    {
+     "Iata": "JTR",
+     "DistanceKm": 121.577
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1501",
+   "EuropcarStationCode": "HERT01",
+   "CityIata": "HER",
+   "BookingIata": null,
+   "Iata": "HER",
+   "Name": "Crete Heraklion",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "BER",
+    "BRS",
+    "CDG",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PFO",
+     "DistanceKm": 103.257
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1141",
+   "EuropcarStationCode": "LCAT01",
+   "CityIata": "LCA",
+   "BookingIata": null,
+   "Iata": "LCA",
+   "Name": "Cyprus Larnaca",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BER",
+    "BRS",
+    "EDI",
+    "LGW",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LCA",
+     "DistanceKm": 103.257
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1149",
+   "EuropcarStationCode": "PFOT01",
+   "CityIata": "PFO",
+   "BookingIata": null,
+   "Iata": "PFO",
+   "Name": "Cyprus Paphos",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*SC",
+    "BFS",
+    "BRS",
+    "EDI",
+    "GLA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "RHO",
+     "DistanceKm": 71.3
+    },
+    {
+     "Iata": "BJV",
+     "DistanceKm": 115.012
+    },
+    {
+     "Iata": "KGS",
+     "DistanceKm": 151.462
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim",
+    "Beach",
+    "Family"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2833,2814",
+   "EuropcarStationCode": "DLMT01",
+   "CityIata": "DLM",
+   "BookingIata": null,
+   "Iata": "DLM",
+   "Name": "Dalaman",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "DUS",
+     "DistanceKm": 64.374
+    },
+    {
+     "Iata": "CGN",
+     "DistanceKm": 79.338
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1387,1398,1409",
+   "EuropcarStationCode": "DTMT01",
+   "CityIata": "DTM",
+   "BookingIata": null,
+   "Iata": "DTM",
+   "Name": "Dortmund",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PRG",
+     "DistanceKm": 118.762
+    },
+    {
+     "Iata": "BER",
+     "DistanceKm": 139.178
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Family holiday",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1394",
+   "EuropcarStationCode": "DRST01",
+   "CityIata": "DRS",
+   "BookingIata": null,
+   "Iata": "DRS",
+   "Name": "Dresden",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LYS",
+    "MAN",
+    "NAP",
+    "NTE",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TIV",
+     "DistanceKm": 40.893
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1087",
+   "EuropcarStationCode": "DBVT01",
+   "CityIata": "DBV",
+   "BookingIata": null,
+   "Iata": "DBV",
+   "Name": "Dubrovnik",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CGN",
+     "DistanceKm": 52.47
+    },
+    {
+     "Iata": "DTM",
+     "DistanceKm": 64.374
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Going solo"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1396,1398,1409",
+   "EuropcarStationCode": "DUST01",
+   "CityIata": "DUS",
+   "BookingIata": null,
+   "Iata": "DUS",
+   "Name": "Dusseldorf",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BHX",
+     "DistanceKm": 49.617
+    },
+    {
+     "Iata": "MAN",
+     "DistanceKm": 86.631
+    },
+    {
+     "Iata": "LPL",
+     "DistanceKm": 116.514
+    },
+    {
+     "Iata": "LBA",
+     "DistanceKm": 118.062
+    },
+    {
+     "Iata": "LTN",
+     "DistanceKm": 123.58
+    },
+    {
+     "Iata": "STN",
+     "DistanceKm": 150.063
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "EMAT01",
+   "CityIata": "EMA",
+   "BookingIata": null,
+   "Iata": "EMA",
+   "Name": "East Midlands",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*PA",
+    "ACE",
+    "AGP",
+    "ALC",
+    "AMS",
+    "ATH",
+    "BER",
+    "BFS",
+    "BHX",
+    "BJV",
+    "BRS",
+    "BSL",
+    "CDG",
+    "CFU",
+    "CPH",
+    "DBV",
+    "DLM",
+    "EFL",
+    "FUE",
+    "GIB",
+    "GNB",
+    "GVA",
+    "HAM",
+    "HER",
+    "KEF",
+    "KRK",
+    "LGW",
+    "LIS",
+    "LTN",
+    "LYS",
+    "MAD",
+    "MUC",
+    "MXP",
+    "NAP",
+    "NCE",
+    "PFO",
+    "PMI",
+    "PRG",
+    "RHO",
+    "STN",
+    "TFS",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "GLA",
+     "DistanceKm": 67.278
+    },
+    {
+     "Iata": "NCL",
+     "DistanceKm": 145.361
+    },
+    {
+     "Iata": "ABZ",
+     "DistanceKm": 157.063
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Off the beaten track",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5148",
+   "EuropcarStationCode": "EDIT01",
+   "CityIata": "EDI",
+   "BookingIata": null,
+   "Iata": "EDI",
+   "Name": "Edinburgh",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "GVA",
+    "LGW",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "Family"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "6001",
+   "EuropcarStationCode": "NBE001",
+   "CityIata": "NBE",
+   "BookingIata": null,
+   "Iata": "NBE",
+   "Name": "Enfidha - Hammamet",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BOD"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "AGA",
+     "DistanceKm": 122.671
+    },
+    {
+     "Iata": "RAK",
+     "DistanceKm": 159.062
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Foodies",
+    "Going solo",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2003",
+   "EuropcarStationCode": "ESUT01",
+   "CityIata": "ESU",
+   "BookingIata": null,
+   "Iata": "ESU",
+   "Name": "Essaouira",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BHX",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NTE",
+    "ORY",
+    "SEN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Music and festivals",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2055",
+   "EuropcarStationCode": "FAOT01",
+   "CityIata": "FAO",
+   "BookingIata": null,
+   "Iata": "FAO",
+   "Name": "Faro",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "BOD",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LYS",
+    "NTE",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "AJA",
+     "DistanceKm": 53.234
+    },
+    {
+     "Iata": "OLB",
+     "DistanceKm": 75.175
+    },
+    {
+     "Iata": "CLY",
+     "DistanceKm": 116.767
+    },
+    {
+     "Iata": "AHO",
+     "DistanceKm": 117.568
+    },
+    {
+     "Iata": "BIA",
+     "DistanceKm": 120.819
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1218",
+   "EuropcarStationCode": "",
+   "CityIata": "FSC",
+   "BookingIata": null,
+   "Iata": "FSC",
+   "Name": "Figari, Corsica",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CGN",
+     "DistanceKm": 136.829
+    },
+    {
+     "Iata": "STR",
+     "DistanceKm": 157.006
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Foodies",
+    "Going solo"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5044",
+   "EuropcarStationCode": "FRAT01",
+   "CityIata": "FRA",
+   "BookingIata": null,
+   "Iata": "FRA",
+   "Name": "Frankfurt International",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ZRH",
+     "DistanceKm": 76.26
+    },
+    {
+     "Iata": "STR",
+     "DistanceKm": 115.627
+    },
+    {
+     "Iata": "INN",
+     "DistanceKm": 144.692
+    },
+    {
+     "Iata": "BSL",
+     "DistanceKm": 149.693
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Off the beaten track",
+    "Snow and slopes",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4850,4476,2757",
+   "EuropcarStationCode": "FDHT01",
+   "CityIata": "FDH",
+   "BookingIata": null,
+   "Iata": "FDH",
+   "Name": "Friedrichshafen",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ACE",
+     "DistanceKm": 61.259
+    },
+    {
+     "Iata": "LPA",
+     "DistanceKm": 159.803
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2347",
+   "EuropcarStationCode": "FUET01",
+   "CityIata": "FUE",
+   "BookingIata": null,
+   "Iata": "FUE",
+   "Name": "Fuerteventura",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5243",
+   "EuropcarStationCode": "",
+   "CityIata": "GDN",
+   "BookingIata": null,
+   "Iata": "GDN",
+   "Name": "Gdansk",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ABZ",
+    "ADB",
+    "AGA",
+    "AGP",
+    "AHO",
+    "AJA",
+    "ALC",
+    "AMS",
+    "AQJ",
+    "ARN",
+    "ATH",
+    "AYT",
+    "BCN",
+    "BDS",
+    "BEG",
+    "BER",
+    "BFS",
+    "BHX",
+    "BIA",
+    "BIO",
+    "BOD",
+    "BOH",
+    "BRS",
+    "BRU",
+    "BUD",
+    "CAG",
+    "CFU",
+    "CHQ",
+    "CLY",
+    "CPH",
+    "CTA",
+    "DBV",
+    "EDI",
+    "FAO",
+    "FCO",
+    "FSC",
+    "FUE",
+    "GLA",
+    "HER",
+    "HRG",
+    "IBZ",
+    "JMK",
+    "JTR",
+    "KGS",
+    "LGW",
+    "LIL",
+    "LIS",
+    "LPA",
+    "LPL",
+    "LRH",
+    "LTN",
+    "MAD",
+    "MAH",
+    "MAN",
+    "MLA",
+    "NAP",
+    "NBE",
+    "NCE",
+    "NCL",
+    "NTE",
+    "OLB",
+    "OPO",
+    "ORY",
+    "PMI",
+    "PMO",
+    "PRG",
+    "PRN",
+    "PUY",
+    "RAK",
+    "RHO",
+    "RNS",
+    "SCQ",
+    "SKP",
+    "SOU",
+    "SPU",
+    "SSH",
+    "SUF",
+    "SVQ",
+    "TFS",
+    "TIA",
+    "TIV",
+    "TLS",
+    "TLV",
+    "VCE",
+    "VLC"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LYS",
+     "DistanceKm": 98.427
+    },
+    {
+     "Iata": "GNB",
+     "DistanceKm": 114.541
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Instagram hotspots",
+    "Snow and slopes",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2742,2757,1231",
+   "EuropcarStationCode": "GVAT01",
+   "CityIata": "GVA",
+   "BookingIata": null,
+   "Iata": "GVA",
+   "Name": "Geneva",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LIN",
+     "DistanceKm": 121.449
+    },
+    {
+     "Iata": "TRN",
+     "DistanceKm": 128.522
+    },
+    {
+     "Iata": "MXP",
+     "DistanceKm": 136.413
+    },
+    {
+     "Iata": "PSA",
+     "DistanceKm": 147.133
+    },
+    {
+     "Iata": "BGY",
+     "DistanceKm": 154.599
+    },
+    {
+     "Iata": "NCE",
+     "DistanceKm": 155.572
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5141",
+   "EuropcarStationCode": "GOAT01",
+   "CityIata": "GOA",
+   "BookingIata": null,
+   "Iata": "GOA",
+   "Name": "Genoa",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BRS",
+    "EDI",
+    "LGW",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TNG",
+     "DistanceKm": 69.489
+    },
+    {
+     "Iata": "XRY",
+     "DistanceKm": 91.614
+    },
+    {
+     "Iata": "AGP",
+     "DistanceKm": 96.028
+    },
+    {
+     "Iata": "SVQ",
+     "DistanceKm": 149.621
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1441",
+   "EuropcarStationCode": "AEIT02",
+   "CityIata": "GIB",
+   "BookingIata": null,
+   "Iata": "GIB",
+   "Name": "Gibraltar",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*LO",
+    "*PA",
+    "AGA",
+    "AGP",
+    "ALC",
+    "AMS",
+    "BCN",
+    "BER",
+    "BFS",
+    "BHD",
+    "BHX",
+    "BOD",
+    "BRS",
+    "CDG",
+    "CHQ",
+    "DLM",
+    "FAO",
+    "GVA",
+    "JER",
+    "KGS",
+    "LGW",
+    "LPA",
+    "LTN",
+    "MRS",
+    "NQY",
+    "PMI",
+    "PUY",
+    "SPU",
+    "STN",
+    "TFS",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "EDI",
+     "DistanceKm": 67.278
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5148",
+   "EuropcarStationCode": "GLAT01",
+   "CityIata": "GLA",
+   "BookingIata": null,
+   "Iata": "GLA",
+   "Name": "Glasgow",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BER"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "GOTT01",
+   "CityIata": "GOT",
+   "BookingIata": null,
+   "Iata": "GOT",
+   "Name": "Gothenburg",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BRS",
+    "BSL",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TFS",
+     "DistanceKm": 117.292
+    },
+    {
+     "Iata": "FUE",
+     "DistanceKm": 159.803
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2359",
+   "EuropcarStationCode": "LPAT01",
+   "CityIata": "LPA",
+   "BookingIata": null,
+   "Iata": "LPA",
+   "Name": "Gran Canaria",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "AGP",
+     "DistanceKm": 85.306
+    },
+    {
+     "Iata": "LEI",
+     "DistanceKm": 130.429
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2378",
+   "EuropcarStationCode": "GRXT01",
+   "CityIata": "GRX",
+   "BookingIata": null,
+   "Iata": "GRX",
+   "Name": "Granada",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "KLU",
+     "DistanceKm": 93.08
+    },
+    {
+     "Iata": "LJU",
+     "DistanceKm": 113.433
+    },
+    {
+     "Iata": "VIE",
+     "DistanceKm": 150.756
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5291,5295",
+   "EuropcarStationCode": "GRZT01",
+   "CityIata": "GRZ",
+   "BookingIata": null,
+   "Iata": "GRZ",
+   "Name": "Graz",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BRS",
+    "EDI",
+    "LGW",
+    "LPL",
+    "LTN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LYS",
+     "DistanceKm": 44.798
+    },
+    {
+     "Iata": "GVA",
+     "DistanceKm": 114.541
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1231,5191",
+   "EuropcarStationCode": "GNBT01",
+   "CityIata": "GNB",
+   "BookingIata": null,
+   "Iata": "GNB",
+   "Name": "Grenoble",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BSL",
+    "EDI",
+    "LGW",
+    "MAN",
+    "SZG"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Music and festivals",
+    "City explorer",
+    "Inspired by movies and TV",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1419",
+   "EuropcarStationCode": "HAMT01",
+   "CityIata": "HAM",
+   "BookingIata": null,
+   "Iata": "HAM",
+   "Name": "Hamburg",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BER"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TLL",
+     "DistanceKm": 100.739
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5042",
+   "EuropcarStationCode": "HELT01",
+   "CityIata": "HEL",
+   "BookingIata": null,
+   "Iata": "HEL",
+   "Name": "Helsinki",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "GVA",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SSH",
+     "DistanceKm": 106.331
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1163",
+   "EuropcarStationCode": "HRGT01",
+   "CityIata": "HRG",
+   "BookingIata": null,
+   "Iata": "HRG",
+   "Name": "Hurghada",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "AMS",
+    "BER",
+    "BFS",
+    "BOD",
+    "BRS",
+    "BSL",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "NTE",
+    "OPO",
+    "TLS",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PMI",
+     "DistanceKm": 139.363
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2406",
+   "EuropcarStationCode": "IBZT01",
+   "CityIata": "IBZ",
+   "BookingIata": null,
+   "Iata": "IBZ",
+   "Name": "Ibiza",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "AMS",
+    "BER",
+    "BRS",
+    "LGW",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MUC",
+     "DistanceKm": 125.736
+    },
+    {
+     "Iata": "SZG",
+     "DistanceKm": 137.28
+    },
+    {
+     "Iata": "FDH",
+     "DistanceKm": 144.692
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Music and festivals",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1016",
+   "EuropcarStationCode": "INNT01",
+   "CityIata": "INN",
+   "BookingIata": null,
+   "Iata": "INN",
+   "Name": "Innsbruck",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BRS",
+    "LGW",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ABZ",
+     "DistanceKm": 118.004
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5148",
+   "EuropcarStationCode": "INVT01",
+   "CityIata": "INV",
+   "BookingIata": null,
+   "Iata": "INV",
+   "Name": "Inverness",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "BFS",
+    "BRS",
+    "LGW",
+    "LPL",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BHD",
+     "DistanceKm": 99.379
+    },
+    {
+     "Iata": "BFS",
+     "DistanceKm": 121.143
+    },
+    {
+     "Iata": "LPL",
+     "DistanceKm": 143.738
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Culture",
+    "Family",
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2929",
+   "EuropcarStationCode": "IOMT02",
+   "CityIata": "IOM",
+   "BookingIata": null,
+   "Iata": "IOM",
+   "Name": "Isle of Man",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "GVA",
+    "LGW",
+    "LPL"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BJV",
+     "DistanceKm": 124.864
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Culture",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim",
+    "Beach",
+    "Family"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2829,2821",
+   "EuropcarStationCode": "ADBT01",
+   "CityIata": "ADB",
+   "BookingIata": null,
+   "Iata": "ADB",
+   "Name": "Izmir",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SVQ",
+     "DistanceKm": 76.806
+    },
+    {
+     "Iata": "GIB",
+     "DistanceKm": 91.614
+    },
+    {
+     "Iata": "TNG",
+     "DistanceKm": 114.089
+    },
+    {
+     "Iata": "AGP",
+     "DistanceKm": 139.811
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Honeymoons and romance",
+    "Music and festivals",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5137",
+   "EuropcarStationCode": "XRYT01",
+   "CityIata": "XRY",
+   "BookingIata": null,
+   "Iata": "XRY",
+   "Name": "Jerez de la Frontera",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*SC",
+    "BFS",
+    "GLA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "RNS",
+     "DistanceKm": 130.781
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Culture",
+    "Family",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2870",
+   "EuropcarStationCode": "JERT01",
+   "CityIata": "JER",
+   "BookingIata": null,
+   "Iata": "JER",
+   "Name": "Jersey",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ZTH",
+     "DistanceKm": 125.764
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1622",
+   "EuropcarStationCode": "KLXT01",
+   "CityIata": "KLX",
+   "BookingIata": null,
+   "Iata": "KLX",
+   "Name": "Kalamata",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "AMS",
+    "BER",
+    "BRS",
+    "EDI",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ZTH",
+     "DistanceKm": 52.622
+    },
+    {
+     "Iata": "PVK",
+     "DistanceKm": 93.193
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1572",
+   "EuropcarStationCode": "EFLT01",
+   "CityIata": "EFL",
+   "BookingIata": null,
+   "Iata": "EFL",
+   "Name": "Kefalonia",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "RVN",
+     "DistanceKm": 132.665
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "KTT01",
+   "CityIata": "KTT",
+   "BookingIata": null,
+   "Iata": "KTT",
+   "Name": "Kittila",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LJU",
+     "DistanceKm": 47.688
+    },
+    {
+     "Iata": "GRZ",
+     "DistanceKm": 93.08
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Snow and slopes",
+    "Adventure and the great outdoors"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4705",
+   "EuropcarStationCode": "KLUT01",
+   "CityIata": "KLU",
+   "BookingIata": null,
+   "Iata": "KLU",
+   "Name": "Klagenfurt",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "BER",
+    "BRS",
+    "BSL",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LPL",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BJV",
+     "DistanceKm": 71.448
+    },
+    {
+     "Iata": "RHO",
+     "DistanceKm": 99.749
+    },
+    {
+     "Iata": "JTR",
+     "DistanceKm": 151.013
+    },
+    {
+     "Iata": "DLM",
+     "DistanceKm": 151.462
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1586",
+   "EuropcarStationCode": "KGST01",
+   "CityIata": "KGS",
+   "BookingIata": null,
+   "Iata": "KGS",
+   "Name": "Kos",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*PA",
+    "*SC",
+    "BFS",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Going solo",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Foodies",
+    "Music and festivals",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2048",
+   "EuropcarStationCode": "KRKT01",
+   "CityIata": "KRK",
+   "BookingIata": null,
+   "Iata": "KRK",
+   "Name": "Krakow",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BRS",
+    "GVA",
+    "LGW",
+    "MAN",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "NTE",
+     "DistanceKm": 113.613
+    },
+    {
+     "Iata": "BOD",
+     "DistanceKm": 154.315
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5193,5192",
+   "EuropcarStationCode": "LRHT01",
+   "CityIata": "LRH",
+   "BookingIata": null,
+   "Iata": "LRH",
+   "Name": "La Rochelle",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "BER",
+    "BSL",
+    "GVA",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5143",
+   "EuropcarStationCode": "SUFT01",
+   "CityIata": "SUF",
+   "BookingIata": null,
+   "Iata": "SUF",
+   "Name": "Lamezia",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "MXP",
+    "NAP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "LMP",
+   "BookingIata": null,
+   "Iata": "LMP",
+   "Name": "Lampedusa",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "LGW",
+    "LPL",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "FUE",
+     "DistanceKm": 61.259
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2432",
+   "EuropcarStationCode": "ACET01",
+   "CityIata": "ACE",
+   "BookingIata": null,
+   "Iata": "ACE",
+   "Name": "Lanzarote",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "BFS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MAN",
+     "DistanceKm": 69.401
+    },
+    {
+     "Iata": "LPL",
+     "DistanceKm": 98.498
+    },
+    {
+     "Iata": "EMA",
+     "DistanceKm": 118.062
+    },
+    {
+     "Iata": "NCL",
+     "DistanceKm": 129.911
+    },
+    {
+     "Iata": "BHX",
+     "DistanceKm": 157.624
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "LBA",
+   "BookingIata": null,
+   "Iata": "LBA",
+   "Name": "Leeds Bradford",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BOD",
+    "GVA",
+    "NCE",
+    "NTE",
+    "PMI",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BRU",
+     "DistanceKm": 103.585
+    },
+    {
+     "Iata": "BVA",
+     "DistanceKm": 142.771
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5190",
+   "EuropcarStationCode": "LILT01",
+   "CityIata": "LIL",
+   "BookingIata": null,
+   "Iata": "LIL",
+   "Name": "Lille",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "LIGT01",
+   "CityIata": "LIG",
+   "BookingIata": null,
+   "Iata": "LIG",
+   "Name": "Limoges",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CN",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BCN",
+    "BER",
+    "BGY",
+    "BHX",
+    "BIO",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "FNC",
+    "FUE",
+    "GVA",
+    "LGW",
+    "LPA",
+    "LTN",
+    "LUX",
+    "LYS",
+    "MAD",
+    "MAN",
+    "MRS",
+    "MXP",
+    "NCE",
+    "NTE",
+    "PXO",
+    "RAK",
+    "RNS",
+    "TFS",
+    "TLS",
+    "VLC",
+    "ZRH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Instagram hotspots",
+    "Sand sun and swim",
+    "Sand sun and swim",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2105",
+   "EuropcarStationCode": "LIST01",
+   "CityIata": "LIS",
+   "BookingIata": null,
+   "Iata": "LIS",
+   "Name": "Lisbon",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*PA",
+    "ACE",
+    "ADB",
+    "AGP",
+    "ALC",
+    "AMS",
+    "AYT",
+    "BCN",
+    "BFS",
+    "BHD",
+    "BJV",
+    "CDG",
+    "DLM",
+    "FAO",
+    "GNB",
+    "GVA",
+    "HER",
+    "IOM",
+    "JER",
+    "KGS",
+    "KRK",
+    "LCA",
+    "MAD",
+    "NCE",
+    "PMI",
+    "SZG",
+    "TFS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MAN",
+     "DistanceKm": 38.661
+    },
+    {
+     "Iata": "LBA",
+     "DistanceKm": 98.498
+    },
+    {
+     "Iata": "EMA",
+     "DistanceKm": 116.514
+    },
+    {
+     "Iata": "BHX",
+     "DistanceKm": 123.795
+    },
+    {
+     "Iata": "IOM",
+     "DistanceKm": 143.738
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2936",
+   "EuropcarStationCode": "LPLT01",
+   "CityIata": "LPL",
+   "BookingIata": null,
+   "Iata": "LPL",
+   "Name": "Liverpool",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "KLU",
+     "DistanceKm": 47.688
+    },
+    {
+     "Iata": "RJK",
+     "DistanceKm": 112.883
+    },
+    {
+     "Iata": "GRZ",
+     "DistanceKm": 113.433
+    },
+    {
+     "Iata": "PUY",
+     "DistanceKm": 153.704
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Off the beaten track",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2145",
+   "EuropcarStationCode": "LJUT01",
+   "CityIata": "LJU",
+   "BookingIata": null,
+   "Iata": "LJU",
+   "Name": "Ljubljana",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*MI",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ABZ",
+    "ACE",
+    "ADB",
+    "AGA",
+    "AGP",
+    "ALC",
+    "AMS",
+    "AQJ",
+    "ATH",
+    "AYT",
+    "BCN",
+    "BDS",
+    "BER",
+    "BFS",
+    "BGY",
+    "BHD",
+    "BIA",
+    "BIO",
+    "BIQ",
+    "BJV",
+    "BLQ",
+    "BOD",
+    "BOJ",
+    "BRI",
+    "BSL",
+    "BUD",
+    "CAG",
+    "CDG",
+    "CFU",
+    "CGN",
+    "CHQ",
+    "CPH",
+    "CTA",
+    "DBV",
+    "DLM",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FCO",
+    "FDH",
+    "FNC",
+    "FSC",
+    "FUE",
+    "GIB",
+    "GLA",
+    "GNB",
+    "GVA",
+    "HAM",
+    "HER",
+    "HRG",
+    "IBZ",
+    "INN",
+    "INV",
+    "IOM",
+    "JER",
+    "JMK",
+    "JTR",
+    "KEF",
+    "KGS",
+    "KLX",
+    "KRK",
+    "LCA",
+    "LEI",
+    "LIG",
+    "LIN",
+    "LIS",
+    "LJU",
+    "LPA",
+    "LRH",
+    "LUX",
+    "LYS",
+    "MAD",
+    "MAH",
+    "MLA",
+    "MPL",
+    "MRS",
+    "MUC",
+    "MXP",
+    "NAP",
+    "NBE",
+    "NCE",
+    "NTE",
+    "OLB",
+    "OPO",
+    "PFO",
+    "PMI",
+    "PMO",
+    "PRG",
+    "PRN",
+    "PSA",
+    "PUY",
+    "PVK",
+    "PXO",
+    "RAK",
+    "RHO",
+    "RJK",
+    "RMU",
+    "RNS",
+    "RVN",
+    "SCQ",
+    "SKG",
+    "SOF",
+    "SPU",
+    "SSH",
+    "SVQ",
+    "SZG",
+    "TFS",
+    "TIA",
+    "TIV",
+    "TLN",
+    "TLS",
+    "TLV",
+    "TRN",
+    "VAR",
+    "VCE",
+    "VLC",
+    "VOL",
+    "VRN",
+    "ZAD",
+    "ZRH",
+    "ZTH"
+   ],
+   "B2bAreaCode": "LONDON",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "LGW",
+    "LTN",
+    "SEN",
+    "STN"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2944",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "LON",
+   "Iata": "*LO",
+   "Name": "London (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*MI",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ABZ",
+    "ACE",
+    "ADB",
+    "AGA",
+    "AGP",
+    "ALC",
+    "AMS",
+    "AQJ",
+    "ATH",
+    "AYT",
+    "BCN",
+    "BDS",
+    "BER",
+    "BFS",
+    "BGY",
+    "BHD",
+    "BIA",
+    "BIO",
+    "BIQ",
+    "BJV",
+    "BLQ",
+    "BOD",
+    "BOJ",
+    "BRI",
+    "BSL",
+    "BUD",
+    "CAG",
+    "CDG",
+    "CFU",
+    "CGN",
+    "CHQ",
+    "CPH",
+    "CTA",
+    "DBV",
+    "DLM",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FCO",
+    "FDH",
+    "FNC",
+    "FSC",
+    "FUE",
+    "GIB",
+    "GLA",
+    "GNB",
+    "GVA",
+    "HAM",
+    "HER",
+    "HRG",
+    "IBZ",
+    "INN",
+    "INV",
+    "IOM",
+    "JER",
+    "JMK",
+    "JTR",
+    "KEF",
+    "KGS",
+    "KLX",
+    "KRK",
+    "LCA",
+    "LEI",
+    "LIG",
+    "LIN",
+    "LIS",
+    "LJU",
+    "LPA",
+    "LRH",
+    "LUX",
+    "LYS",
+    "MAD",
+    "MAH",
+    "MLA",
+    "MPL",
+    "MRS",
+    "MUC",
+    "MXP",
+    "NAP",
+    "NBE",
+    "NCE",
+    "NTE",
+    "OLB",
+    "OPO",
+    "PFO",
+    "PMI",
+    "PMO",
+    "PRG",
+    "PRN",
+    "PSA",
+    "PUY",
+    "PVK",
+    "PXO",
+    "RAK",
+    "RHO",
+    "RJK",
+    "RMU",
+    "RNS",
+    "RVN",
+    "SCQ",
+    "SKG",
+    "SOF",
+    "SPU",
+    "SSH",
+    "SVQ",
+    "SZG",
+    "TFS",
+    "TIA",
+    "TIV",
+    "TLN",
+    "TLS",
+    "TLV",
+    "TRN",
+    "VAR",
+    "VCE",
+    "VLC",
+    "VOL",
+    "VRN",
+    "ZAD",
+    "ZRH",
+    "ZTH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SEN",
+     "DistanceKm": 75.702
+    },
+    {
+     "Iata": "LTN",
+     "DistanceKm": 81.137
+    },
+    {
+     "Iata": "SOU",
+     "DistanceKm": 85.683
+    },
+    {
+     "Iata": "STN",
+     "DistanceKm": 86.531
+    },
+    {
+     "Iata": "BOH",
+     "DistanceKm": 123.438
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Romance",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2944,5098",
+   "EuropcarStationCode": "LGWT01",
+   "CityIata": "LGW",
+   "BookingIata": null,
+   "Iata": "LGW",
+   "Name": "London Gatwick",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*MI",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ABZ",
+    "ACE",
+    "AGA",
+    "AGP",
+    "ALC",
+    "AMS",
+    "AYT",
+    "BCN",
+    "BER",
+    "BFS",
+    "BJV",
+    "BOD",
+    "CDG",
+    "CFU",
+    "CHQ",
+    "CTA",
+    "DLM",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FUE",
+    "GLA",
+    "GNB",
+    "GVA",
+    "HER",
+    "HRG",
+    "IBZ",
+    "INN",
+    "INV",
+    "JER",
+    "JMK",
+    "JTR",
+    "KEF",
+    "KRK",
+    "LCA",
+    "LIS",
+    "LPA",
+    "LYS",
+    "MAD",
+    "MAH",
+    "MPL",
+    "MXP",
+    "NAP",
+    "NCE",
+    "OLB",
+    "OPO",
+    "PFO",
+    "PMI",
+    "PMO",
+    "PRG",
+    "PSA",
+    "PUY",
+    "PVK",
+    "RAK",
+    "RHO",
+    "SKG",
+    "SPU",
+    "SSH",
+    "SZG",
+    "TFS",
+    "TLV",
+    "TRN",
+    "VCE",
+    "ZRH",
+    "ZTH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "STN",
+     "DistanceKm": 43.639
+    },
+    {
+     "Iata": "LGW",
+     "DistanceKm": 81.137
+    },
+    {
+     "Iata": "SEN",
+     "DistanceKm": 81.536
+    },
+    {
+     "Iata": "BHX",
+     "DistanceKm": 112.396
+    },
+    {
+     "Iata": "EMA",
+     "DistanceKm": 123.58
+    },
+    {
+     "Iata": "SOU",
+     "DistanceKm": 123.745
+    },
+    {
+     "Iata": "BOH",
+     "DistanceKm": 158.968
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Romance",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2944",
+   "EuropcarStationCode": "LTNT01",
+   "CityIata": "LTN",
+   "BookingIata": null,
+   "Iata": "LTN",
+   "Name": "London Luton",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "AGP",
+    "FAO",
+    "PMI"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "STN",
+     "DistanceKm": 46.68
+    },
+    {
+     "Iata": "LGW",
+     "DistanceKm": 75.702
+    },
+    {
+     "Iata": "LTN",
+     "DistanceKm": 81.536
+    },
+    {
+     "Iata": "SOU",
+     "DistanceKm": 158.507
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Romance",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2944,5098",
+   "EuropcarStationCode": "LONO01",
+   "CityIata": "SEN",
+   "BookingIata": null,
+   "Iata": "SEN",
+   "Name": "London Southend",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*SC",
+    "AMS",
+    "BFS",
+    "EDI",
+    "GLA"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LTN",
+     "DistanceKm": 43.639
+    },
+    {
+     "Iata": "SEN",
+     "DistanceKm": 46.68
+    },
+    {
+     "Iata": "LGW",
+     "DistanceKm": 86.531
+    },
+    {
+     "Iata": "BHX",
+     "DistanceKm": 149.697
+    },
+    {
+     "Iata": "EMA",
+     "DistanceKm": 150.063
+    },
+    {
+     "Iata": "SOU",
+     "DistanceKm": 153.23
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Romance",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2944",
+   "EuropcarStationCode": "STNT01",
+   "CityIata": "STN",
+   "BookingIata": null,
+   "Iata": "STN",
+   "Name": "London Stansted",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "WAW",
+     "DistanceKm": 158.822
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Going solo",
+    "Instagram hotspots",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "LUZT01",
+   "CityIata": "LUZ",
+   "BookingIata": null,
+   "Iata": "LUZ",
+   "Name": "Lublin",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "BOD",
+    "LGW",
+    "LIS",
+    "MXP",
+    "OPO"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CGN",
+     "DistanceKm": 151.873
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Family holiday",
+    "Going solo"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1977",
+   "EuropcarStationCode": "LXRO01",
+   "CityIata": "LUX",
+   "BookingIata": null,
+   "Iata": "LUX",
+   "Name": "Luxembourg",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGA",
+    "AJA",
+    "BCN",
+    "BER",
+    "BES",
+    "BFS",
+    "BIA",
+    "BIQ",
+    "BOD",
+    "BRS",
+    "CFU",
+    "CHQ",
+    "CLY",
+    "CPH",
+    "CTA",
+    "DBV",
+    "EDI",
+    "FAO",
+    "FCO",
+    "FNC",
+    "FSC",
+    "FUE",
+    "IBZ",
+    "JMK",
+    "KGS",
+    "LGW",
+    "LIS",
+    "LTN",
+    "MAH",
+    "MAN",
+    "NAP",
+    "NTE",
+    "OLB",
+    "OPO",
+    "PMI",
+    "PMO",
+    "RAK",
+    "RNS",
+    "SPU",
+    "TFS",
+    "TLS",
+    "TLV",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "GNB",
+     "DistanceKm": 44.798
+    },
+    {
+     "Iata": "GVA",
+     "DistanceKm": 98.427
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5191",
+   "EuropcarStationCode": "LYST01",
+   "CityIata": "LYS",
+   "BookingIata": null,
+   "Iata": "LYS",
+   "Name": "Lyon",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "BER",
+    "BRS",
+    "CDG",
+    "LGW",
+    "LIS",
+    "LYS",
+    "MAN",
+    "MXP",
+    "OPO"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PXO",
+     "DistanceKm": 57.939
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "City explorer",
+    "Foodies",
+    "Off the beaten track",
+    "Sand sun and swim",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2107",
+   "EuropcarStationCode": "FNCT01",
+   "CityIata": "FNC",
+   "BookingIata": null,
+   "Iata": "FNC",
+   "Name": "Madeira Funchal",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SC",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LPL",
+    "LTN",
+    "OPO"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Instagram hotspots",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2451",
+   "EuropcarStationCode": "MADT01",
+   "CityIata": "MAD",
+   "BookingIata": null,
+   "Iata": "MAD",
+   "Name": "Madrid",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BHX",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "CGN",
+    "CPH",
+    "EDI",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LIL",
+    "LIN",
+    "LPL",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "NCL",
+    "OPO",
+    "SEN",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MAH",
+     "DistanceKm": 132.392
+    },
+    {
+     "Iata": "IBZ",
+     "DistanceKm": 139.363
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2471",
+   "EuropcarStationCode": "PMIT01",
+   "CityIata": "PMI",
+   "BookingIata": null,
+   "Iata": "PMI",
+   "Name": "Majorca Palma",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BHX",
+    "BRS",
+    "BSL",
+    "CDG",
+    "CPH",
+    "EDI",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LPL",
+    "LTN",
+    "MAN",
+    "MXP",
+    "SEN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "GRX",
+     "DistanceKm": 85.306
+    },
+    {
+     "Iata": "GIB",
+     "DistanceKm": 96.028
+    },
+    {
+     "Iata": "XRY",
+     "DistanceKm": 139.811
+    },
+    {
+     "Iata": "SVQ",
+     "DistanceKm": 149.925
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim",
+    "Ski",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2333",
+   "EuropcarStationCode": "AGPT01",
+   "CityIata": "AGP",
+   "BookingIata": null,
+   "Iata": "AGP",
+   "Name": "Malaga",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "GVA",
+    "LGW",
+    "MAN",
+    "MXP",
+    "NAP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CIY",
+     "DistanceKm": 128.202
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Family",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Music and festivals",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1981",
+   "EuropcarStationCode": "MLAT01",
+   "CityIata": "MLA",
+   "BookingIata": null,
+   "Iata": "MLA",
+   "Name": "Malta",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*MI",
+    "*PA",
+    "*SD",
+    "*SY",
+    "ABZ",
+    "ACE",
+    "AGA",
+    "AGP",
+    "ALC",
+    "AMS",
+    "AQJ",
+    "ATH",
+    "AYT",
+    "BCN",
+    "BER",
+    "BFS",
+    "BIO",
+    "BOD",
+    "BOJ",
+    "BSL",
+    "BUD",
+    "CDG",
+    "CFU",
+    "CHQ",
+    "CPH",
+    "CTA",
+    "DBV",
+    "DLM",
+    "EFL",
+    "FAO",
+    "FCO",
+    "FNC",
+    "FUE",
+    "GIB",
+    "GVA",
+    "HAM",
+    "HER",
+    "HRG",
+    "IBZ",
+    "INN",
+    "INV",
+    "IOM",
+    "JER",
+    "JMK",
+    "JTR",
+    "KEF",
+    "KGS",
+    "KRK",
+    "LIS",
+    "LPA",
+    "LRH",
+    "LYS",
+    "MAH",
+    "MLA",
+    "MUC",
+    "MXP",
+    "NAP",
+    "NBE",
+    "NCE",
+    "NQY",
+    "OLB",
+    "OPO",
+    "PFO",
+    "PMI",
+    "PRG",
+    "PSA",
+    "PVK",
+    "RAK",
+    "RHO",
+    "RVN",
+    "SKG",
+    "SOF",
+    "SPU",
+    "SSH",
+    "TFS",
+    "TIV",
+    "TLV",
+    "TRN",
+    "VCE",
+    "ZTH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LPL",
+     "DistanceKm": 38.661
+    },
+    {
+     "Iata": "LBA",
+     "DistanceKm": 69.401
+    },
+    {
+     "Iata": "EMA",
+     "DistanceKm": 86.631
+    },
+    {
+     "Iata": "BHX",
+     "DistanceKm": 107.39
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Music and festivals",
+    "CityBreak",
+    "Culture"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2985",
+   "EuropcarStationCode": "MANT01",
+   "CityIata": "MAN",
+   "BookingIata": null,
+   "Iata": "MAN",
+   "Name": "Manchester",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "AMS",
+    "BER",
+    "BOD",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NCE",
+    "NTE",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ESU",
+     "DistanceKm": 159.062
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Foodies",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2007",
+   "EuropcarStationCode": "RAKT01",
+   "CityIata": "RAK",
+   "BookingIata": null,
+   "Iata": "RAK",
+   "Name": "Marrakech",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "BER",
+    "MXP",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5320, 5319",
+   "EuropcarStationCode": "",
+   "CityIata": "RMF",
+   "BookingIata": null,
+   "Iata": "RMF",
+   "Name": "Marsa Alam",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SC",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "GLA",
+    "LGW",
+    "LIS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TLN",
+     "DistanceKm": 84.817
+    },
+    {
+     "Iata": "MPL",
+     "DistanceKm": 102.701
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1300",
+   "EuropcarStationCode": "MRST01",
+   "CityIata": "MRS",
+   "BookingIata": null,
+   "Iata": "MRS",
+   "Name": "Marseille Provence",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "BER",
+    "BFS",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PMI",
+     "DistanceKm": 132.392
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Family holiday",
+    "Going solo",
+    "Sand sun and swim",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2541",
+   "EuropcarStationCode": "MAHT01",
+   "CityIata": "MAH",
+   "BookingIata": null,
+   "Iata": "MAH",
+   "Name": "Menorca Mahon",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SD",
+    "AMS",
+    "CDG",
+    "LGW",
+    "LIS",
+    "OLB",
+    "*CN",
+    "*CR",
+    "*SC",
+    "*SY",
+    "ACE",
+    "AGP",
+    "AHO",
+    "AQJ",
+    "ARN",
+    "ATH",
+    "BCN",
+    "BDS",
+    "BER",
+    "BIO",
+    "BOD",
+    "BRI",
+    "BRS",
+    "CAG",
+    "CFU",
+    "CHQ",
+    "CPH",
+    "CTA",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FNC",
+    "FUE",
+    "HER",
+    "HRG",
+    "IBZ",
+    "JMK",
+    "JSI",
+    "JTR",
+    "KEF",
+    "KGS",
+    "LCA",
+    "LMP",
+    "LTN",
+    "LUX",
+    "MAH",
+    "MAN",
+    "MLA",
+    "MUC",
+    "NAP",
+    "NTE",
+    "OPO",
+    "PMI",
+    "PMO",
+    "PRG",
+    "RAK",
+    "RHO",
+    "RMF",
+    "RVN",
+    "SPU",
+    "SSH",
+    "SUF",
+    "TFS",
+    "TLV",
+    "ZAD",
+    "ZTH",
+    "ORY"
+   ],
+   "B2bAreaCode": "MILAN",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "BGY",
+    "MXP",
+    "LIN"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "MXP",
+   "Iata": "*MI",
+   "Name": "Milan (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SD",
+    "AMS",
+    "CDG",
+    "LGW",
+    "LIS",
+    "OLB"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LIN",
+     "DistanceKm": 39.689
+    },
+    {
+     "Iata": "MXP",
+     "DistanceKm": 76.886
+    },
+    {
+     "Iata": "VRN",
+     "DistanceKm": 98.2
+    },
+    {
+     "Iata": "GOA",
+     "DistanceKm": 154.599
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "6006",
+   "EuropcarStationCode": "",
+   "CityIata": "BGY",
+   "BookingIata": null,
+   "Iata": "BGY",
+   "Name": "Milan Bergamo",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "AMS",
+    "BER",
+    "CDG",
+    "LGW",
+    "ORY",
+    "PMI"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BGY",
+     "DistanceKm": 39.689
+    },
+    {
+     "Iata": "MXP",
+     "DistanceKm": 48.554
+    },
+    {
+     "Iata": "GOA",
+     "DistanceKm": 121.449
+    },
+    {
+     "Iata": "VRN",
+     "DistanceKm": 126.641
+    },
+    {
+     "Iata": "TRN",
+     "DistanceKm": 131.431
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1781",
+   "EuropcarStationCode": "LINT01",
+   "CityIata": "LIN",
+   "BookingIata": null,
+   "Iata": "LIN",
+   "Name": "Milan Linate",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CN",
+    "*CR",
+    "*LO",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGP",
+    "AHO",
+    "AMS",
+    "AQJ",
+    "ARN",
+    "ATH",
+    "BCN",
+    "BDS",
+    "BER",
+    "BIO",
+    "BOD",
+    "BRI",
+    "BRS",
+    "CAG",
+    "CDG",
+    "CFU",
+    "CHQ",
+    "CPH",
+    "CTA",
+    "EDI",
+    "EFL",
+    "FAO",
+    "FNC",
+    "FUE",
+    "HER",
+    "HRG",
+    "IBZ",
+    "JMK",
+    "JSI",
+    "JTR",
+    "KEF",
+    "KGS",
+    "LCA",
+    "LGW",
+    "LIS",
+    "LMP",
+    "LTN",
+    "LUX",
+    "MAH",
+    "MAN",
+    "MLA",
+    "MUC",
+    "NAP",
+    "NTE",
+    "OLB",
+    "OPO",
+    "PMI",
+    "PMO",
+    "PRG",
+    "RAK",
+    "RHO",
+    "RMF",
+    "RVN",
+    "SPU",
+    "SSH",
+    "SUF",
+    "TFS",
+    "TLV",
+    "ZAD",
+    "ZTH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LIN",
+     "DistanceKm": 48.554
+    },
+    {
+     "Iata": "BGY",
+     "DistanceKm": 76.886
+    },
+    {
+     "Iata": "TRN",
+     "DistanceKm": 96.719
+    },
+    {
+     "Iata": "GOA",
+     "DistanceKm": 136.413
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1781",
+   "EuropcarStationCode": "MXPT02",
+   "CityIata": "MXP",
+   "BookingIata": null,
+   "Iata": "MXP",
+   "Name": "Milan Malpensa",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "BSL",
+    "LGW",
+    "LTN",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MRS",
+     "DistanceKm": 102.701
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5191",
+   "EuropcarStationCode": "MPLT01",
+   "CityIata": "MPL",
+   "BookingIata": null,
+   "Iata": "MPL",
+   "Name": "Montpellier",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "EDI",
+    "LGW",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SZG",
+     "DistanceKm": 109.336
+    },
+    {
+     "Iata": "INN",
+     "DistanceKm": 125.736
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Going solo",
+    "Music and festivals",
+    "Ski",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1432",
+   "EuropcarStationCode": "MUCT01",
+   "CityIata": "MUC",
+   "BookingIata": null,
+   "Iata": "MUC",
+   "Name": "Munich",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BRS",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ALC",
+     "DistanceKm": 72.735
+    },
+    {
+     "Iata": "LEI",
+     "DistanceKm": 153.396
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5135",
+   "EuropcarStationCode": "RMUT01",
+   "CityIata": "RMU",
+   "BookingIata": null,
+   "Iata": "RMU",
+   "Name": "Murcia Intl",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "BER",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "ORY",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "JTR",
+     "DistanceKm": 115.184
+    },
+    {
+     "Iata": "ATH",
+     "DistanceKm": 135.172
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1606",
+   "EuropcarStationCode": "JMKT01",
+   "CityIata": "JMK",
+   "BookingIata": null,
+   "Iata": "JMK",
+   "Name": "Mykonos",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*SD",
+    "*SY",
+    "AJA",
+    "BHX",
+    "BIA",
+    "BRI",
+    "BRS",
+    "BSL",
+    "CTA",
+    "DBV",
+    "FAO",
+    "FCO",
+    "FSC",
+    "GVA",
+    "HER",
+    "IBZ",
+    "LGW",
+    "LIL",
+    "LIS",
+    "LYS",
+    "MXP",
+    "NCE",
+    "OLB",
+    "OPO",
+    "RAK",
+    "TFS",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "RNS",
+     "DistanceKm": 101.852
+    },
+    {
+     "Iata": "LRH",
+     "DistanceKm": 113.613
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5193",
+   "EuropcarStationCode": "NTET01",
+   "CityIata": "NTE",
+   "BookingIata": null,
+   "Iata": "NTE",
+   "Name": "Nantes",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "AMS",
+    "ATH",
+    "BCN",
+    "BER",
+    "BRS",
+    "BSL",
+    "CAG",
+    "CDG",
+    "CFU",
+    "CTA",
+    "DBV",
+    "EDI",
+    "EFL",
+    "GVA",
+    "HRG",
+    "IBZ",
+    "JMK",
+    "JSI",
+    "JTR",
+    "KGS",
+    "LGW",
+    "LMP",
+    "LTN",
+    "LYS",
+    "MAH",
+    "MAN",
+    "MLA",
+    "MXP",
+    "NCE",
+    "OLB",
+    "ORY",
+    "PMI",
+    "PMO",
+    "PRG",
+    "RHO",
+    "SPU",
+    "SSH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1804,5104",
+   "EuropcarStationCode": "NAPT01",
+   "CityIata": "NAP",
+   "BookingIata": null,
+   "Iata": "NAP",
+   "Name": "Naples",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "BFS",
+    "BRS",
+    "GVA",
+    "PMI"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LBA",
+     "DistanceKm": 129.911
+    },
+    {
+     "Iata": "EDI",
+     "DistanceKm": 145.361
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "City explorer",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2989",
+   "EuropcarStationCode": "NCLT01",
+   "CityIata": "NCL",
+   "BookingIata": null,
+   "Iata": "NCL",
+   "Name": "Newcastle",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*SC",
+    "GLA",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Family"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "6004",
+   "EuropcarStationCode": "",
+   "CityIata": "NQY",
+   "BookingIata": null,
+   "Iata": "NQY",
+   "Name": "Newquay",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CR",
+    "*LO",
+    "*PA",
+    "*SC",
+    "*SD",
+    "*SY",
+    "AHO",
+    "AMS",
+    "BCN",
+    "BER",
+    "BES",
+    "BFS",
+    "BIQ",
+    "BOD",
+    "BRS",
+    "BRU",
+    "BSL",
+    "CDG",
+    "CHQ",
+    "CTA",
+    "EDI",
+    "FCO",
+    "GVA",
+    "IBZ",
+    "JMK",
+    "LGW",
+    "LIL",
+    "LIS",
+    "LPL",
+    "LRH",
+    "LTN",
+    "MAH",
+    "MAN",
+    "NAP",
+    "NTE",
+    "OLB",
+    "OPO",
+    "ORY",
+    "PMI",
+    "RAK",
+    "RNS",
+    "TFS",
+    "TLS",
+    "TLV",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TLN",
+     "DistanceKm": 105.996
+    },
+    {
+     "Iata": "GOA",
+     "DistanceKm": 155.572
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Sand sun and swim",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1300",
+   "EuropcarStationCode": "NCET02",
+   "CityIata": "NCE",
+   "BookingIata": null,
+   "Iata": "NCE",
+   "Name": "Nice",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "OSLT01",
+   "CityIata": "OSL",
+   "BookingIata": null,
+   "Iata": "OSL",
+   "Name": "Oslo",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGA",
+    "AGP",
+    "AJA",
+    "BCN",
+    "BER",
+    "BFS",
+    "BGY",
+    "BIA",
+    "BIQ",
+    "BRI",
+    "BRS",
+    "BUD",
+    "CFU",
+    "CLY",
+    "CPH",
+    "CTA",
+    "EDI",
+    "FAO",
+    "FNC",
+    "FSC",
+    "FUE",
+    "GLA",
+    "HER",
+    "JMK",
+    "KRK",
+    "LCA",
+    "LGW",
+    "LIN",
+    "LIS",
+    "LPL",
+    "LTN",
+    "MAD",
+    "MAH",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "OLB",
+    "OPO",
+    "PMI",
+    "PMO",
+    "PUY",
+    "RAK",
+    "SPU",
+    "TFS",
+    "TLN",
+    "TLS",
+    "TLV",
+    "VCE",
+    "ATH",
+    "BDS",
+    "CAG",
+    "DBV",
+    "FCO",
+    "GVA",
+    "MPL",
+    "PSA",
+    "RHO"
+   ],
+   "B2bAreaCode": "PARIS",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "BVA",
+    "CDG",
+    "ORY"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1308,5095",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "PAR",
+   "Iata": "*PA",
+   "Name": "Paris (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CDG",
+     "DistanceKm": 59.535
+    },
+    {
+     "Iata": "ORY",
+     "DistanceKm": 83.684
+    },
+    {
+     "Iata": "LIL",
+     "DistanceKm": 142.771
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "BVA",
+   "BookingIata": null,
+   "Iata": "BVA",
+   "Name": "Paris Beauvais",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*CN",
+    "*CO",
+    "*CR",
+    "*LO",
+    "*MI",
+    "*SC",
+    "*SD",
+    "*SY",
+    "ACE",
+    "AGA",
+    "AGP",
+    "AJA",
+    "BCN",
+    "BER",
+    "BFS",
+    "BGY",
+    "BIA",
+    "BIQ",
+    "BRI",
+    "BRS",
+    "BUD",
+    "CFU",
+    "CLY",
+    "CPH",
+    "CTA",
+    "EDI",
+    "FAO",
+    "FNC",
+    "FSC",
+    "FUE",
+    "GLA",
+    "HER",
+    "JMK",
+    "KRK",
+    "LCA",
+    "LGW",
+    "LIN",
+    "LIS",
+    "LPL",
+    "LTN",
+    "MAD",
+    "MAH",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "OLB",
+    "OPO",
+    "PMI",
+    "PMO",
+    "PUY",
+    "RAK",
+    "SPU",
+    "TFS",
+    "TLN",
+    "TLS",
+    "TLV",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ORY",
+     "DistanceKm": 34.449
+    },
+    {
+     "Iata": "BVA",
+     "DistanceKm": 59.535
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1308,5095",
+   "EuropcarStationCode": "CDGT02",
+   "CityIata": "CDG",
+   "BookingIata": null,
+   "Iata": "CDG",
+   "Name": "Paris Charles de Gaulle",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "*SD",
+    "*SY",
+    "ATH",
+    "BDS",
+    "BER",
+    "BRS",
+    "CAG",
+    "DBV",
+    "FAO",
+    "FCO",
+    "GVA",
+    "JMK",
+    "LIN",
+    "MPL",
+    "NAP",
+    "NCE",
+    "OLB",
+    "PMO",
+    "PSA",
+    "RHO",
+    "SPU",
+    "TLN",
+    "TLS",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CDG",
+     "DistanceKm": 34.449
+    },
+    {
+     "Iata": "BVA",
+     "DistanceKm": 83.684
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1308,5095",
+   "EuropcarStationCode": "ORYT01",
+   "CityIata": "ORY",
+   "BookingIata": null,
+   "Iata": "ORY",
+   "Name": "Paris Orly",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BIQ",
+     "DistanceKm": 90.633
+    },
+    {
+     "Iata": "TLS",
+     "DistanceKm": 147.088
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5192",
+   "EuropcarStationCode": "PUFT01",
+   "CityIata": "PUF",
+   "BookingIata": null,
+   "Iata": "PUF",
+   "Name": "Pau Pyr\u00c3\u00a9n\u00c3\u00a9es",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "AMS",
+    "BER",
+    "BRS",
+    "LGW",
+    "LTN",
+    "MAN",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BLQ",
+     "DistanceKm": 116.939
+    },
+    {
+     "Iata": "GOA",
+     "DistanceKm": 147.133
+    },
+    {
+     "Iata": "BIA",
+     "DistanceKm": 147.867
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Instagram hotspots",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5083",
+   "EuropcarStationCode": "PSAT01",
+   "CityIata": "PSA",
+   "BookingIata": null,
+   "Iata": "PSA",
+   "Name": "Pisa (Tuscany)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "CGN",
+    "FNC",
+    "GVA",
+    "IBZ",
+    "LGW",
+    "LTN",
+    "LUX",
+    "LYS",
+    "MAD",
+    "MAN",
+    "MXP",
+    "NCE",
+    "NTE",
+    "PMI",
+    "PRG",
+    "PXO",
+    "RNS",
+    "TLS",
+    "ZRH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Off the beaten track",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2122",
+   "EuropcarStationCode": "OPOT01",
+   "CityIata": "OPO",
+   "BookingIata": null,
+   "Iata": "OPO",
+   "Name": "Porto",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW",
+    "LIS",
+    "OPO"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "FNC",
+     "DistanceKm": 57.939
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Off the beaten track",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "PXO",
+   "BookingIata": null,
+   "Iata": "PXO",
+   "Name": "Porto Santo",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "AMS",
+    "BRS",
+    "BSL",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP",
+    "OPO"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "DRS",
+     "DistanceKm": 118.762
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1152,5119",
+   "EuropcarStationCode": "PRGT01",
+   "CityIata": "PRG",
+   "BookingIata": null,
+   "Iata": "PRG",
+   "Name": "Prague",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "BRS",
+    "LGW",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "EFL",
+     "DistanceKm": 93.193
+    },
+    {
+     "Iata": "CFU",
+     "DistanceKm": 105.469
+    },
+    {
+     "Iata": "ZTH",
+     "DistanceKm": 131.191
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1598",
+   "EuropcarStationCode": "PVKT01",
+   "CityIata": "PVK",
+   "BookingIata": null,
+   "Iata": "PVK",
+   "Name": "Preveza",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "BSL",
+    "GVA",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SKP",
+     "DistanceKm": 84.869
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5100",
+   "EuropcarStationCode": "PRNT01",
+   "CityIata": "PRN",
+   "BookingIata": null,
+   "Iata": "PRN",
+   "Name": "Pristina",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LTN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "RJK",
+     "DistanceKm": 61.921
+    },
+    {
+     "Iata": "VCE",
+     "DistanceKm": 141.133
+    },
+    {
+     "Iata": "ZAD",
+     "DistanceKm": 143.396
+    },
+    {
+     "Iata": "AOI",
+     "DistanceKm": 149.554
+    },
+    {
+     "Iata": "LJU",
+     "DistanceKm": 153.704
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1099",
+   "EuropcarStationCode": "PUYT01",
+   "CityIata": "PUY",
+   "BookingIata": null,
+   "Iata": "PUY",
+   "Name": "Pula",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LYS",
+    "NCE",
+    "OPO",
+    "TLS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "NTE",
+     "DistanceKm": 101.852
+    },
+    {
+     "Iata": "JER",
+     "DistanceKm": 130.781
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Music and festivals",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5193",
+   "EuropcarStationCode": "RNST01",
+   "CityIata": "RNS",
+   "BookingIata": null,
+   "Iata": "RNS",
+   "Name": "Rennes",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BCN",
+     "DistanceKm": 77.763
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "City explorer",
+    "Off the beaten track",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2613",
+   "EuropcarStationCode": "REUT02",
+   "CityIata": "REU",
+   "BookingIata": null,
+   "Iata": "REU",
+   "Name": "Reus",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*SC",
+    "BRS",
+    "EDI",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Culture",
+    "Family",
+    "Going solo",
+    "Off the beaten track",
+    "Romance"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1693",
+   "EuropcarStationCode": "KEFT01",
+   "CityIata": "KEF",
+   "BookingIata": null,
+   "Iata": "KEF",
+   "Name": "Reykjavik Keflavik",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "EDI",
+    "GVA",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP",
+    "ORY",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "DLM",
+     "DistanceKm": 71.3
+    },
+    {
+     "Iata": "KGS",
+     "DistanceKm": 99.749
+    },
+    {
+     "Iata": "BJV",
+     "DistanceKm": 100.698
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1639",
+   "EuropcarStationCode": "RHOT01",
+   "CityIata": "RHO",
+   "BookingIata": null,
+   "Iata": "RHO",
+   "Name": "Rhodes",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PUY",
+     "DistanceKm": 61.921
+    },
+    {
+     "Iata": "LJU",
+     "DistanceKm": 112.883
+    },
+    {
+     "Iata": "ZAD",
+     "DistanceKm": 138.273
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "RJK",
+   "BookingIata": null,
+   "Iata": "RJK",
+   "Name": "Rijeka",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "GVA",
+    "LGW",
+    "LYS",
+    "MAN",
+    "NCE",
+    "NTE",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Inspired by movies and TV"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1866",
+   "EuropcarStationCode": "FCOT01",
+   "CityIata": "FCO",
+   "BookingIata": null,
+   "Iata": "FCO",
+   "Name": "Rome Fiumicino",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "BRS",
+    "LGW",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "KTT",
+     "DistanceKm": 132.665
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5170",
+   "EuropcarStationCode": "ROV01",
+   "CityIata": "RVN",
+   "BookingIata": null,
+   "Iata": "RVN",
+   "Name": "Rovaniemi",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "AMS",
+    "BER",
+    "BRS",
+    "HAM",
+    "LGW",
+    "LPL",
+    "LTN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MUC",
+     "DistanceKm": 109.336
+    },
+    {
+     "Iata": "INN",
+     "DistanceKm": 137.28
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Snow and slopes",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1016",
+   "EuropcarStationCode": "SZGT01",
+   "CityIata": "SZG",
+   "BookingIata": null,
+   "Iata": "SZG",
+   "Name": "Salzburg",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BER"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TFS",
+     "DistanceKm": 132.032
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4233",
+   "EuropcarStationCode": "SPCT01",
+   "CityIata": "SPC",
+   "BookingIata": null,
+   "Iata": "SPC",
+   "Name": "Santa Cruz de la Palma",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BSL",
+    "GVA",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Going solo",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5138",
+   "EuropcarStationCode": "SCQT01",
+   "CityIata": "SCQ",
+   "BookingIata": null,
+   "Iata": "SCQ",
+   "Name": "Santiago de Compostela",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "BER",
+    "BRS",
+    "GVA",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "JMK",
+     "DistanceKm": 115.184
+    },
+    {
+     "Iata": "HER",
+     "DistanceKm": 121.577
+    },
+    {
+     "Iata": "KGS",
+     "DistanceKm": 151.013
+    },
+    {
+     "Iata": "CHQ",
+     "DistanceKm": 153.631
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1660",
+   "EuropcarStationCode": "JTRT01",
+   "CityIata": "JTR",
+   "BookingIata": null,
+   "Iata": "JTR",
+   "Name": "Santorini",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "GVA",
+    "MXP",
+    "NCE",
+    "*LO",
+    "*PA",
+    "BER",
+    "BSL",
+    "LGW",
+    "NAP",
+    "ORY",
+    "AMS",
+    "BGY",
+    "BLQ",
+    "BOD",
+    "BRS",
+    "CDG",
+    "LTN",
+    "LYS",
+    "MAN",
+    "NTE",
+    "TLS",
+    "TRN",
+    "VCE"
+   ],
+   "B2bAreaCode": "SARDINIA",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "AHO",
+    "CAG",
+    "OLB"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "OLB",
+   "Iata": "*SD",
+   "Name": "Sardinia (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "GVA",
+    "MXP",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "OLB",
+     "DistanceKm": 107.248
+    },
+    {
+     "Iata": "FSC",
+     "DistanceKm": 117.568
+    },
+    {
+     "Iata": "AJA",
+     "DistanceKm": 149.101
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5142",
+   "EuropcarStationCode": "AHOT02",
+   "CityIata": "AHO",
+   "BookingIata": null,
+   "Iata": "AHO",
+   "Name": "Sardinia Alghero",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "BER",
+    "BSL",
+    "GVA",
+    "LGW",
+    "MXP",
+    "NAP",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5142",
+   "EuropcarStationCode": "CAGT02",
+   "CityIata": "CAG",
+   "BookingIata": null,
+   "Iata": "CAG",
+   "Name": "Sardinia Cagliari",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "AMS",
+    "BER",
+    "BGY",
+    "BLQ",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "NTE",
+    "ORY",
+    "TLS",
+    "TRN",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "FSC",
+     "DistanceKm": 75.175
+    },
+    {
+     "Iata": "AHO",
+     "DistanceKm": 107.248
+    },
+    {
+     "Iata": "AJA",
+     "DistanceKm": 128.409
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Foodies",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5142",
+   "EuropcarStationCode": "OLBT02",
+   "CityIata": "OLB",
+   "BookingIata": null,
+   "Iata": "OLB",
+   "Name": "Sardinia Olbia",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "GVA",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "XRY",
+     "DistanceKm": 76.806
+    },
+    {
+     "Iata": "GIB",
+     "DistanceKm": 149.621
+    },
+    {
+     "Iata": "AGP",
+     "DistanceKm": 149.925
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Off the beaten track",
+    "Romance",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2646",
+   "EuropcarStationCode": "SVQT01",
+   "CityIata": "SVQ",
+   "BookingIata": null,
+   "Iata": "SVQ",
+   "Name": "Seville",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "GVA",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP",
+    "NAP",
+    "VCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "HRG",
+     "DistanceKm": 106.331
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Family holiday",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "6002",
+   "EuropcarStationCode": "SSHO01",
+   "CityIata": "SSH",
+   "BookingIata": null,
+   "Iata": "SSH",
+   "Name": "Sharm El Sheikh",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "MXP",
+    "NAP",
+    "*LO",
+    "*PA",
+    "AMS",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "NCE",
+    "NTE",
+    "ZRH",
+    "ORY"
+   ],
+   "B2bAreaCode": "SICILY",
+   "NearbyAirports": [],
+   "IsMarketGroup": true,
+   "MarketGroupIatas": [
+    "LMP",
+    "CTA",
+    "CIY",
+    "PMO"
+   ],
+   "Flags": null,
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": null,
+   "CityIata": "",
+   "BookingIata": "PMO",
+   "Iata": "*SY",
+   "Name": "Sicily (All Airports)",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "AMS",
+    "BER",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "NCE",
+    "NTE",
+    "ZRH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CIY",
+     "DistanceKm": 66.43
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Family",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1897",
+   "EuropcarStationCode": "CTAT01",
+   "CityIata": "CTA",
+   "BookingIata": null,
+   "Iata": "CTA",
+   "Name": "Sicily Catania",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "CTA",
+     "DistanceKm": 66.43
+    },
+    {
+     "Iata": "MLA",
+     "DistanceKm": 128.202
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Family",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "CIY",
+   "BookingIata": null,
+   "Iata": "CIY",
+   "Name": "Sicily Comiso",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "AMS",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MXP",
+    "NAP",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1897",
+   "EuropcarStationCode": "PMOT01",
+   "CityIata": "PMO",
+   "BookingIata": null,
+   "Iata": "PMO",
+   "Name": "Sicily Palermo",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "MXP",
+    "NAP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "VOL",
+     "DistanceKm": 60.961
+    },
+    {
+     "Iata": "ATH",
+     "DistanceKm": 143.323
+    },
+    {
+     "Iata": "SKG",
+     "DistanceKm": 156.301
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "JSI",
+   "BookingIata": null,
+   "Iata": "JSI",
+   "Name": "Skiathos",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "GVA"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PRN",
+     "DistanceKm": 84.869
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Foodies",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "",
+   "CityIata": "SKP",
+   "BookingIata": null,
+   "Iata": "SKP",
+   "Name": "Skopje",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BRS",
+    "LGW",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1071,1082",
+   "EuropcarStationCode": "SOFT01",
+   "CityIata": "SOF",
+   "BookingIata": null,
+   "Iata": "SOF",
+   "Name": "Sofia",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "GVA"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BOH",
+     "DistanceKm": 38.494
+    },
+    {
+     "Iata": "LGW",
+     "DistanceKm": 85.683
+    },
+    {
+     "Iata": "BRS",
+     "DistanceKm": 106.031
+    },
+    {
+     "Iata": "LTN",
+     "DistanceKm": 123.745
+    },
+    {
+     "Iata": "STN",
+     "DistanceKm": 153.23
+    },
+    {
+     "Iata": "SEN",
+     "DistanceKm": 158.507
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Family",
+    "City explorer",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5146,3022",
+   "EuropcarStationCode": "SOUT01",
+   "CityIata": "SOU",
+   "BookingIata": null,
+   "Iata": "SOU",
+   "Name": "Southampton",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "CDG",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NAP",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ZAD",
+     "DistanceKm": 98.965
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1113",
+   "EuropcarStationCode": "SPUT01",
+   "CityIata": "SPU",
+   "BookingIata": null,
+   "Iata": "SPU",
+   "Name": "Split",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*MI",
+    "BER",
+    "GVA",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2728",
+   "EuropcarStationCode": "ARNO01",
+   "CityIata": "ARN",
+   "BookingIata": null,
+   "Iata": "ARN",
+   "Name": "Stockholm Arlanda",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "FDH",
+     "DistanceKm": 115.627
+    },
+    {
+     "Iata": "ZRH",
+     "DistanceKm": 146.244
+    },
+    {
+     "Iata": "FRA",
+     "DistanceKm": 157.006
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Foodies",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1438",
+   "EuropcarStationCode": "STRT01",
+   "CityIata": "STR",
+   "BookingIata": null,
+   "Iata": "STR",
+   "Name": "Stuttgart",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Foodies",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "",
+   "EuropcarStationCode": "GWTT02",
+   "CityIata": "GWT",
+   "BookingIata": null,
+   "Iata": "GWT",
+   "Name": "Sylt",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "HEL",
+     "DistanceKm": 100.739
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1174",
+   "EuropcarStationCode": "TLLT01",
+   "CityIata": "TLL",
+   "BookingIata": null,
+   "Iata": "TLL",
+   "Name": "Tallinn",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "GIB",
+     "DistanceKm": 69.489
+    },
+    {
+     "Iata": "XRY",
+     "DistanceKm": 114.089
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Foodies",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5315",
+   "EuropcarStationCode": "TNGT01",
+   "CityIata": "TNG",
+   "BookingIata": null,
+   "Iata": "TNG",
+   "Name": "Tangier",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "*PA",
+    "AMS",
+    "BER",
+    "BSL",
+    "CDG",
+    "GVA",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NCE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Inspired by movies and TV",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1696",
+   "EuropcarStationCode": "TLVO01",
+   "CityIata": "TLV",
+   "BookingIata": null,
+   "Iata": "TLV",
+   "Name": "Tel Aviv",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*BE",
+    "*LO",
+    "*MI",
+    "*PA",
+    "*SC",
+    "AMS",
+    "BER",
+    "BFS",
+    "BOD",
+    "BRS",
+    "BSL",
+    "CDG",
+    "EDI",
+    "GLA",
+    "GVA",
+    "LGW",
+    "LIS",
+    "LPL",
+    "LTN",
+    "LYS",
+    "MAN",
+    "MXP",
+    "NCE",
+    "NTE"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LPA",
+     "DistanceKm": 117.292
+    },
+    {
+     "Iata": "SPC",
+     "DistanceKm": 132.032
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Family holiday",
+    "Honeymoons and romance",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2662",
+   "EuropcarStationCode": "TFST01",
+   "CityIata": "TFS",
+   "BookingIata": null,
+   "Iata": "TFS",
+   "Name": "Tenerife South",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "BSL",
+    "LGW",
+    "LTN",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "VOL",
+     "DistanceKm": 145.81
+    },
+    {
+     "Iata": "JSI",
+     "DistanceKm": 156.301
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Culture",
+    "Family",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1552",
+   "EuropcarStationCode": "SKGC01",
+   "CityIata": "SKG",
+   "BookingIata": null,
+   "Iata": "SKG",
+   "Name": "Thessaloniki",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "GVA",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "TIV",
+     "DistanceKm": 137.595
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5322, 5323, 5324",
+   "EuropcarStationCode": "TIAT01",
+   "CityIata": "TIA",
+   "BookingIata": null,
+   "Iata": "TIA",
+   "Name": "Tirana",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "GVA",
+    "LGW",
+    "MAN"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "DBV",
+     "DistanceKm": 40.893
+    },
+    {
+     "Iata": "TIA",
+     "DistanceKm": 137.595
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4022",
+   "EuropcarStationCode": "TIVT01",
+   "CityIata": "TIV",
+   "BookingIata": null,
+   "Iata": "TIV",
+   "Name": "Tivat",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "CDG",
+    "LGW",
+    "ORY"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MRS",
+     "DistanceKm": 84.817
+    },
+    {
+     "Iata": "NCE",
+     "DistanceKm": 105.996
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "6005",
+   "EuropcarStationCode": "",
+   "CityIata": "TLN",
+   "BookingIata": null,
+   "Iata": "TLN",
+   "Name": "Toulon-Hy\u00c3\u00a8res",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*CO",
+    "*LO",
+    "*PA",
+    "*SD",
+    "BIA",
+    "BRS",
+    "BSL",
+    "CDG",
+    "FSC",
+    "GVA",
+    "IBZ",
+    "LGW",
+    "LIL",
+    "LIS",
+    "LYS",
+    "MAH",
+    "NCE",
+    "NTE",
+    "OLB",
+    "OPO",
+    "ORY",
+    "PMI",
+    "RAK",
+    "RNS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "PUF",
+     "DistanceKm": 147.088
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Instagram hotspots",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5192",
+   "EuropcarStationCode": "TLST01",
+   "CityIata": "TLS",
+   "BookingIata": null,
+   "Iata": "TLS",
+   "Name": "Toulouse",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SD",
+    "BRS",
+    "LGW",
+    "LTN",
+    "MAN",
+    "OLB"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "MXP",
+     "DistanceKm": 96.719
+    },
+    {
+     "Iata": "GOA",
+     "DistanceKm": 128.522
+    },
+    {
+     "Iata": "LIN",
+     "DistanceKm": 131.431
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Inspired by movies and TV",
+    "Off the beaten track",
+    "Snow and slopes"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1748",
+   "EuropcarStationCode": "TRNT01",
+   "CityIata": "TRN",
+   "BookingIata": null,
+   "Iata": "TRN",
+   "Name": "Turin",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "BSL",
+    "GVA",
+    "LGW",
+    "LIS"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "ALC",
+     "DistanceKm": 134.346
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "CityBreak",
+    "Culture",
+    "City explorer",
+    "Foodies",
+    "Going solo",
+    "Off the beaten track",
+    "Spain"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2698",
+   "EuropcarStationCode": "VLCT01",
+   "CityIata": "VLC",
+   "BookingIata": null,
+   "Iata": "VLC",
+   "Name": "Valencia",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "BER",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BOJ",
+     "DistanceKm": 78.556
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Family holiday",
+    "Going solo",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4149,4375",
+   "EuropcarStationCode": "VART01",
+   "CityIata": "VAR",
+   "BookingIata": null,
+   "Iata": "VAR",
+   "Name": "Varna",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*PA",
+    "*SC",
+    "*SD",
+    "AMS",
+    "BER",
+    "BRS",
+    "BSL",
+    "CDG",
+    "CFU",
+    "EDI",
+    "EFL",
+    "GLA",
+    "GVA",
+    "IBZ",
+    "JMK",
+    "KGS",
+    "LGW",
+    "LTN",
+    "LYS",
+    "MAN",
+    "NCE",
+    "OLB",
+    "ORY",
+    "RHO",
+    "RMF",
+    "SSH"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "VRN",
+     "DistanceKm": 112.742
+    },
+    {
+     "Iata": "BLQ",
+     "DistanceKm": 136.213
+    },
+    {
+     "Iata": "PUY",
+     "DistanceKm": 141.133
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "CityBreak",
+    "Culture",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Honeymoons and romance",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Romance",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1950",
+   "EuropcarStationCode": "VCET01",
+   "CityIata": "VCE",
+   "BookingIata": null,
+   "Iata": "VCE",
+   "Name": "Venice Marco Polo",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "AMS",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "BGY",
+     "DistanceKm": 98.2
+    },
+    {
+     "Iata": "BLQ",
+     "DistanceKm": 101.838
+    },
+    {
+     "Iata": "VCE",
+     "DistanceKm": 112.742
+    },
+    {
+     "Iata": "LIN",
+     "DistanceKm": 126.641
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Culture",
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Foodies",
+    "Going solo",
+    "Music and festivals",
+    "Inspired by movies and TV",
+    "Instagram hotspots",
+    "Music and festivals",
+    "Off the beaten track",
+    "Snow and slopes",
+    "Romance",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5140",
+   "EuropcarStationCode": "VRNT01",
+   "CityIata": "VRN",
+   "BookingIata": null,
+   "Iata": "VRN",
+   "Name": "Verona",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "BER"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "GRZ",
+     "DistanceKm": 150.756
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Music and festivals"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1051",
+   "EuropcarStationCode": "VIET01",
+   "CityIata": "VIE",
+   "BookingIata": null,
+   "Iata": "VIE",
+   "Name": "Vienna",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "LGW"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "JSI",
+     "DistanceKm": 60.961
+    },
+    {
+     "Iata": "SKG",
+     "DistanceKm": 145.81
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Culture",
+    "Family",
+    "Family holiday",
+    "Going solo",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1448",
+   "EuropcarStationCode": "VOLT01",
+   "CityIata": "VOL",
+   "BookingIata": null,
+   "Iata": "VOL",
+   "Name": "Volos",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "LUZ",
+     "DistanceKm": 158.822
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Foodies",
+    "City explorer",
+    "Going solo",
+    "Off the beaten track"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "5168",
+   "EuropcarStationCode": "WAWT01",
+   "CityIata": "WAW",
+   "BookingIata": null,
+   "Iata": "WAW",
+   "Name": "Warsaw",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "AMS",
+    "BER",
+    "BSL",
+    "LGW",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "SPU",
+     "DistanceKm": 98.965
+    },
+    {
+     "Iata": "RJK",
+     "DistanceKm": 138.273
+    },
+    {
+     "Iata": "PUY",
+     "DistanceKm": 143.396
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Off the beaten track",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "4377",
+   "EuropcarStationCode": "ZADT01",
+   "CityIata": "ZAD",
+   "BookingIata": null,
+   "Iata": "ZAD",
+   "Name": "Zadar",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*MI",
+    "BER",
+    "BRS",
+    "LGW",
+    "LTN",
+    "MAN",
+    "MXP"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "EFL",
+     "DistanceKm": 52.622
+    },
+    {
+     "Iata": "KLX",
+     "DistanceKm": 125.764
+    },
+    {
+     "Iata": "PVK",
+     "DistanceKm": 131.191
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Beach",
+    "Family",
+    "Family holiday",
+    "Going solo",
+    "Honeymoons and romance",
+    "Instagram hotspots",
+    "Sand sun and swim"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "1676",
+   "EuropcarStationCode": "ZTHT01",
+   "CityIata": "ZTH",
+   "BookingIata": null,
+   "Iata": "ZTH",
+   "Name": "Zante Zakynthos",
+   "IsDestinationOnly": false
+  },
+  {
+   "Connections": [
+    "*LO",
+    "*SY",
+    "BER",
+    "CTA",
+    "LGW",
+    "LIS",
+    "LTN",
+    "OPO"
+   ],
+   "B2bAreaCode": null,
+   "NearbyAirports": [
+    {
+     "Iata": "FDH",
+     "DistanceKm": 76.26
+    },
+    {
+     "Iata": "BSL",
+     "DistanceKm": 79.194
+    },
+    {
+     "Iata": "STR",
+     "DistanceKm": 146.244
+    }
+   ],
+   "IsMarketGroup": false,
+   "MarketGroupIatas": [],
+   "Flags": [
+    "Adventure and the great outdoors",
+    "City explorer",
+    "Family holiday",
+    "Snow and slopes",
+    "Ski"
+   ],
+   "ShowDirectRoutesByDefault": false,
+   "PackageHolidayDestinationIds": "2772",
+   "EuropcarStationCode": "ZRHT01",
+   "CityIata": "ZRH",
+   "BookingIata": null,
+   "Iata": "ZRH",
+   "Name": "Zurich",
+   "IsDestinationOnly": false
+  }
+ ],
+ "Countries": [
+  {
+   "CarsCode": "AL",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Albania",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "AL",
+   "Name": "Albania",
+   "Airports": [
+    "TIA"
+   ]
+  },
+  {
+   "CarsCode": "AT",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Austria",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "AT",
+   "Name": "Austria",
+   "Airports": [
+    "GRZ",
+    "INN",
+    "KLU",
+    "SZG",
+    "VIE"
+   ]
+  },
+  {
+   "CarsCode": "BE",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Belgium",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "BE",
+   "Name": "Belgium",
+   "Airports": [
+    "BRU"
+   ]
+  },
+  {
+   "CarsCode": "BG",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Bulgaria",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "BG",
+   "Name": "Bulgaria",
+   "Airports": [
+    "BOJ",
+    "SOF",
+    "VAR"
+   ]
+  },
+  {
+   "CarsCode": "HR",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Croatia",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "HR",
+   "Name": "Croatia",
+   "Airports": [
+    "DBV",
+    "RJK",
+    "PUY",
+    "SPU",
+    "ZAD"
+   ]
+  },
+  {
+   "CarsCode": "CY",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Cyprus",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "CY",
+   "Name": "Cyprus",
+   "Airports": [
+    "LCA",
+    "PFO"
+   ]
+  },
+  {
+   "CarsCode": "CZ",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Czech%20Republic",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "0f8f467c-2e10-49b4-8d9b-dc007e3786ef",
+   "CarsPremiumInsuranceGroupId": "c2a79e35-2e5c-4cf0-8230-5c4afd72842c",
+   "Code": "CZ",
+   "Name": "Czech Republic",
+   "Airports": [
+    "PRG"
+   ]
+  },
+  {
+   "CarsCode": "DK",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Denmark",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "b7898440-b230-4a0c-a8f5-a4ab9e6db1fd",
+   "CarsPremiumInsuranceGroupId": "00000000-0000-0000-0000-000000000000",
+   "Code": "DK",
+   "Name": "Denmark",
+   "Airports": [
+    "AAR",
+    "CPH"
+   ]
+  },
+  {
+   "CarsCode": "EG",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Egypt",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "EG",
+   "Name": "Egypt",
+   "Airports": [
+    "RMF",
+    "HRG",
+    "SSH"
+   ]
+  },
+  {
+   "CarsCode": "EE",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Estonia",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "EE",
+   "Name": "Estonia",
+   "Airports": [
+    "TLL"
+   ]
+  },
+  {
+   "CarsCode": "FI",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Finland",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "FI",
+   "Name": "Finland",
+   "Airports": [
+    "HEL",
+    "KTT",
+    "RVN"
+   ]
+  },
+  {
+   "CarsCode": "FR",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "France",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "FR",
+   "Name": "France",
+   "Airports": [
+    "BIQ",
+    "BOD",
+    "BES",
+    "GNB",
+    "LRH",
+    "LIL",
+    "RNS",
+    "LIG",
+    "LYS",
+    "MRS",
+    "TLN",
+    "MPL",
+    "NTE",
+    "NCE",
+    "PUF",
+    "TLS",
+    "AJA",
+    "BIA",
+    "CLY",
+    "FSC",
+    "BVA",
+    "CDG",
+    "ORY",
+    "*CO",
+    "*PA"
+   ]
+  },
+  {
+   "CarsCode": "DE",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Germany",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "DE",
+   "Name": "Germany",
+   "Airports": [
+    "BER",
+    "CGN",
+    "DTM",
+    "DRS",
+    "FRA",
+    "DUS",
+    "HAM",
+    "MUC",
+    "FDH",
+    "STR",
+    "GWT"
+   ]
+  },
+  {
+   "CarsCode": "",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Gibraltar",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "Gibraltar",
+   "Name": "Gibraltar",
+   "Airports": [
+    "GIB"
+   ]
+  },
+  {
+   "CarsCode": "GR",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Greece",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "53db7a38-20aa-406b-98b9-46fe22fffd90",
+   "CarsPremiumInsuranceGroupId": "77097ce6-a60a-4f7f-8a52-c06c28d095cf",
+   "Code": "GR",
+   "Name": "Greece",
+   "Airports": [
+    "ATH",
+    "CFU",
+    "KLX",
+    "EFL",
+    "KGS",
+    "JMK",
+    "PVK",
+    "RHO",
+    "JTR",
+    "JSI",
+    "SKG",
+    "VOL",
+    "ZTH",
+    "CHQ",
+    "HER",
+    "*CR"
+   ]
+  },
+  {
+   "CarsCode": "HU",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Hungary",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "97f2f19a-1f72-41f3-965e-c025c86f5e1f",
+   "CarsPremiumInsuranceGroupId": "00000000-0000-0000-0000-000000000000",
+   "Code": "HU",
+   "Name": "Hungary",
+   "Airports": [
+    "BUD"
+   ]
+  },
+  {
+   "CarsCode": "IS",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Iceland",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "6c7507c4-c2ed-4d28-bf10-75c9d8d4d737",
+   "CarsPremiumInsuranceGroupId": "00000000-0000-0000-0000-000000000000",
+   "Code": "IS",
+   "Name": "Iceland",
+   "Airports": [
+    "KEF"
+   ]
+  },
+  {
+   "CarsCode": "IL",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Israel",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "IL",
+   "Name": "Israel",
+   "Airports": [
+    "TLV"
+   ]
+  },
+  {
+   "CarsCode": "IT",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Italy",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "IT",
+   "Name": "Italy",
+   "Airports": [
+    "FCO",
+    "AOI",
+    "BRI",
+    "GOA",
+    "BLQ",
+    "BDS",
+    "SUF",
+    "NAP",
+    "PSA",
+    "TRN",
+    "VCE",
+    "VRN",
+    "AHO",
+    "CAG",
+    "OLB",
+    "BGY",
+    "MXP",
+    "LIN",
+    "LMP",
+    "CTA",
+    "CIY",
+    "PMO",
+    "*SD",
+    "*MI",
+    "*SY"
+   ]
+  },
+  {
+   "CarsCode": "JO",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Jordan",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "JO",
+   "Name": "Jordan",
+   "Airports": [
+    "AQJ"
+   ]
+  },
+  {
+   "CarsCode": "XK",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Kosovo",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "486091f0-d049-43df-8d6a-8c0e18f1c000",
+   "CarsPremiumInsuranceGroupId": "00000000-0000-0000-0000-000000000000",
+   "Code": "XK",
+   "Name": "Kosovo",
+   "Airports": [
+    "PRN"
+   ]
+  },
+  {
+   "CarsCode": "LU",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Luxembourg",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "361028ba-86d3-47ad-9089-bbda89c51f6a",
+   "Code": "LU",
+   "Name": "Luxembourg",
+   "Airports": [
+    "LUX"
+   ]
+  },
+  {
+   "CarsCode": "MT",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Malta",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "MT",
+   "Name": "Malta",
+   "Airports": [
+    "MLA"
+   ]
+  },
+  {
+   "CarsCode": "ME",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Montenegro",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "ME",
+   "Name": "Montenegro",
+   "Airports": [
+    "TIV"
+   ]
+  },
+  {
+   "CarsCode": "MA",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Morocco",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "MA",
+   "Name": "Morocco",
+   "Airports": [
+    "AGA",
+    "ESU",
+    "RAK",
+    "TNG"
+   ]
+  },
+  {
+   "CarsCode": "NL",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Netherlands",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "919df721-ef64-46e1-bfe0-66b688a8f897",
+   "CarsPremiumInsuranceGroupId": "4f0dbafd-3187-408a-a7ce-3397350c508a",
+   "Code": "NL",
+   "Name": "Netherlands",
+   "Airports": [
+    "AMS"
+   ]
+  },
+  {
+   "CarsCode": "",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "North%20Macedonia",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "MK",
+   "Name": "North Macedonia",
+   "Airports": [
+    "SKP"
+   ]
+  },
+  {
+   "CarsCode": "NO",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Norway",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "NO",
+   "Name": "Norway",
+   "Airports": [
+    "OSL"
+   ]
+  },
+  {
+   "CarsCode": "PL",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Poland",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "64eedc46-7f97-45a7-833c-fe660ac66f44",
+   "CarsPremiumInsuranceGroupId": "2eb57b1f-7d33-42ce-aa9e-75f42d9c8f85",
+   "Code": "PL",
+   "Name": "Poland",
+   "Airports": [
+    "GDN",
+    "KRK",
+    "LUZ",
+    "WAW"
+   ]
+  },
+  {
+   "CarsCode": "PT",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Portugal",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "PT",
+   "Name": "Portugal",
+   "Airports": [
+    "FAO",
+    "LIS",
+    "FNC",
+    "OPO",
+    "PXO"
+   ]
+  },
+  {
+   "CarsCode": "RO",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Romania",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "RO",
+   "Name": "Romania",
+   "Airports": [
+    "OTP"
+   ]
+  },
+  {
+   "CarsCode": "RS",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Serbia",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "RS",
+   "Name": "Serbia",
+   "Airports": [
+    "BEG"
+   ]
+  },
+  {
+   "CarsCode": "SI",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Slovenia",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "5fbcf276-e904-4e12-b594-e173a085724e",
+   "CarsPremiumInsuranceGroupId": "42e15bcb-6e27-4e30-b403-dce54ee7522c",
+   "Code": "SI",
+   "Name": "Slovenia",
+   "Airports": [
+    "LJU"
+   ]
+  },
+  {
+   "CarsCode": "ES",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Spain",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "ES",
+   "Name": "Spain",
+   "Airports": [
+    "XRY",
+    "ALC",
+    "LEI",
+    "BCN",
+    "BIO",
+    "IBZ",
+    "MAD",
+    "PMI",
+    "GRX",
+    "AGP",
+    "MAH",
+    "RMU",
+    "REU",
+    "SCQ",
+    "SVQ",
+    "VLC",
+    "SPC",
+    "FUE",
+    "LPA",
+    "ACE",
+    "TFS",
+    "*CN"
+   ]
+  },
+  {
+   "CarsCode": "SE",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Sweden",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "b2aa19fc-c709-4be4-901d-479e434cd906",
+   "CarsPremiumInsuranceGroupId": "00000000-0000-0000-0000-000000000000",
+   "Code": "SE",
+   "Name": "Sweden",
+   "Airports": [
+    "OSD",
+    "GOT",
+    "ARN"
+   ]
+  },
+  {
+   "CarsCode": "CH",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Switzerland",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "CH",
+   "Name": "Switzerland",
+   "Airports": [
+    "BSL",
+    "GVA",
+    "ZRH"
+   ]
+  },
+  {
+   "CarsCode": "TN",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Tunisia",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "TN",
+   "Name": "Tunisia",
+   "Airports": [
+    "NBE"
+   ]
+  },
+  {
+   "CarsCode": "TR",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "Turkey",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "a3dbd300-f763-4480-8f32-453dca997999",
+   "CarsPremiumInsuranceGroupId": "50853b4c-d2bb-4591-b130-53655b1e1f12",
+   "Code": "TR",
+   "Name": "Turkey",
+   "Airports": [
+    "AYT",
+    "BJV",
+    "DLM",
+    "ADB"
+   ]
+  },
+  {
+   "CarsCode": "GB",
+   "TravelInsuranceOrganisationCode": "",
+   "TravelInsuranceDestinationCountryName": "United%20Kingdom",
+   "CarsBasicInsuranceGroupId": "7f358a4b-adf0-467f-b79a-b1c625122723",
+   "CarsMediumInsuranceGroupId": "96cf68b2-f461-46bd-8b1b-b26dbe50f756",
+   "CarsPremiumInsuranceGroupId": "ffc9a328-203f-4061-9418-69ca17cfed7a",
+   "Code": "GB",
+   "Name": "United Kingdom",
+   "Airports": [
+    "ABZ",
+    "BHX",
+    "BOH",
+    "BRS",
+    "EMA",
+    "INV",
+    "IOM",
+    "JER",
+    "LBA",
+    "LPL",
+    "MAN",
+    "NCL",
+    "NQY",
+    "SOU",
+    "EDI",
+    "GLA",
+    "BHD",
+    "BFS",
+    "LGW",
+    "LTN",
+    "SEN",
+    "STN",
+    "*SC",
+    "*BE",
+    "*LO"
+   ]
+  }
+ ],
+ "Cities": [
+  {
+   "Name": "Belfast",
+   "Code": "*BE",
+   "Iatas": [
+    "BHD",
+    "BFS"
+   ]
+  },
+  {
+   "Name": "London",
+   "Code": "*LO",
+   "Iatas": [
+    "LGW",
+    "LTN",
+    "SEN",
+    "STN"
+   ]
+  },
+  {
+   "Name": "Milan",
+   "Code": "*MI",
+   "Iatas": [
+    "BGY",
+    "MXP",
+    "LIN"
+   ]
+  },
+  {
+   "Name": "Paris",
+   "Code": "*PA",
+   "Iatas": [
+    "BVA",
+    "CDG",
+    "ORY"
+   ]
+  }
+ ]
+}

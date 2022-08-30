@@ -1,0 +1,199 @@
+{
+  "CanBeFinalised": true,
+  "HasBeenFinalised": false,
+  "CurrencyCode": "GBP",
+  "LanguageCode": "EN",
+  "WebsiteRegionCode": "en",
+  "JourneyPairs": [
+    {
+      "Id": 1,
+      "IsPrimaryPair": true,
+      "BaseCurrency": "GBP",
+      "OutboundSlot": {
+        "Flight": {
+          "FlightFares": [
+            {
+              "FareType": "Standard",
+              "Prices": {
+                "Adult": {
+                  "Price": 24.99,
+                  "PriceWithDebitCard": 24.99,
+                  "PriceWithCreditCard": 24.99
+                }
+              },
+              "FlightIdentification": "MUMwMUJCQkI0RnF3QkJCQkJCQkJMR1dCQkJCUC5BTVNDUS5HQlBCQkJCRy5HQlBCQjA2MjAyMi0xMC0wNCAwNjowMDowMDFQ"
+            }
+          ],
+          "FlightTaxes": {
+            "TaxAmount": 13.0,
+            "ApplyApdRules": false
+          },
+          "InternalId": "d548d10c-7abe-f2c3-b9ae-47bbf6dc486c",
+          "CarrierCode": "EZY",
+          "FlightNumber": 8869,
+          "DepartureIata": "LGW",
+          "ArrivalIata": "AMS",
+          "DepTerminalName": "",
+          "ArrTerminalName": "",
+          "LocalDepartureTime": "2022-10-04T06:00:00",
+          "LocalArrivalTime": "2022-10-04T08:25:00",
+          "SegmentId": "20221004LGWAMS8869"
+        }
+      },
+      "ReturnSlot": {
+        "Flight": {
+          "FlightFares": [
+            {
+              "FareType": "Standard",
+              "Prices": {
+                "Adult": {
+                  "Price": 36.69,
+                  "PriceWithDebitCard": 36.69,
+                  "PriceWithCreditCard": 36.69
+                }
+              },
+              "FlightIdentification": "UFEwMUJCQkI0RDVNQkJCQkJCQkJBTVNCQkJCZi5MR1dCPS5HQlBCQkJCJS5HQlBCezA2MjAyMi0xMC0xMCAwNzowNTowMDEy"
+            }
+          ],
+          "FlightTaxes": {
+            "TaxAmount": 6.7,
+            "ApplyApdRules": false
+          },
+          "InternalId": "9d07845d-c032-ed08-dead-133488831ecf",
+          "CarrierCode": "EJU",
+          "FlightNumber": 8868,
+          "DepartureIata": "AMS",
+          "ArrivalIata": "LGW",
+          "DepTerminalName": "",
+          "ArrTerminalName": "",
+          "LocalDepartureTime": "2022-10-10T07:05:00",
+          "LocalArrivalTime": "2022-10-10T07:20:00",
+          "SegmentId": "20221010AMSLGW8868"
+        }
+      }
+    }
+  ],
+  "Bags": [],
+  "SportsEquipment": [],
+  "FareType": "Standard",
+  "FlightItemChargesList": [
+    {
+      "SegmentId": "20221004LGWAMS8869",
+      "HoldLuggage": {
+        "ChargeCode": "HoldLuggage",
+        "Amount": 22.49,
+        "AmountWithCreditCard": 22.49
+      },
+      "HoldLuggageExcessWeight": {
+        "ChargeCode": "HoldLuggageExcessWeight",
+        "Amount": 12.0,
+        "AmountWithCreditCard": 12.0
+      },
+      "SmallSportsEquipment": {
+        "ChargeCode": "SmallSportsEquipment",
+        "Amount": 37.0,
+        "AmountWithCreditCard": 37.0
+      },
+      "LargeSportsEquipment": {
+        "ChargeCode": "LargeSportsEquipment",
+        "Amount": 45.0,
+        "AmountWithCreditCard": 45.0
+      },
+      "SmallHoldLuggage": {
+        "ChargeCode": "SmallHoldLuggage",
+        "Amount": 18.49,
+        "AmountWithCreditCard": 18.49
+      },
+      "VouchersCost": {
+        "ChargeCode": "VoucherCost",
+        "Amount": 8.0,
+        "AmountWithCreditCard": 8.0
+      },
+      "VouchersRedeemableAmount": {
+        "ChargeCode": "InFlightVoucherOnBoardPrice",
+        "Amount": 10.0,
+        "AmountWithCreditCard": 10.0
+      }
+    },
+    {
+      "SegmentId": "20221010AMSLGW8868",
+      "HoldLuggage": {
+        "ChargeCode": "HoldLuggage",
+        "Amount": 24.49,
+        "AmountWithCreditCard": 24.49
+      },
+      "HoldLuggageExcessWeight": {
+        "ChargeCode": "HoldLuggageExcessWeight",
+        "Amount": 12.0,
+        "AmountWithCreditCard": 12.0
+      },
+      "SmallSportsEquipment": {
+        "ChargeCode": "SmallSportsEquipment",
+        "Amount": 37.0,
+        "AmountWithCreditCard": 37.0
+      },
+      "LargeSportsEquipment": {
+        "ChargeCode": "LargeSportsEquipment",
+        "Amount": 45.0,
+        "AmountWithCreditCard": 45.0
+      },
+      "SmallHoldLuggage": {
+        "ChargeCode": "SmallHoldLuggage",
+        "Amount": 21.99,
+        "AmountWithCreditCard": 21.99
+      },
+      "VouchersCost": {
+        "ChargeCode": "VoucherCost",
+        "Amount": 8.0,
+        "AmountWithCreditCard": 8.0
+      },
+      "VouchersRedeemableAmount": {
+        "ChargeCode": "InFlightVoucherOnBoardPrice",
+        "Amount": 10.0,
+        "AmountWithCreditCard": 10.0
+      }
+    }
+  ],
+  "AdminFee": {
+    "AdminFee": {
+      "Price": 0.0,
+      "PriceWithDebitCard": 0.0,
+      "PriceWithCreditCard": 0.0
+    }
+  },
+  "Passengers": [
+    {
+      "InternalId": "23452037-4719-05e8-4f14-55ff34ed54c9",
+      "FirstName": "",
+      "LastName": "",
+      "Type": "Adult",
+      "HasSpecialServiceFlags": false
+    },
+    {
+      "InternalId": "dbecd422-0cae-4a34-4652-3c5f772699d2",
+      "FirstName": "",
+      "LastName": "",
+      "Type": "Adult",
+      "HasSpecialServiceFlags": false
+    }
+  ],
+  "Associations": [
+    {
+      "FlightInternalId": "d548d10c-7abe-f2c3-b9ae-47bbf6dc486c",
+      "PassengerInternalId": "23452037-4719-05e8-4f14-55ff34ed54c9"
+    },
+    {
+      "FlightInternalId": "d548d10c-7abe-f2c3-b9ae-47bbf6dc486c",
+      "PassengerInternalId": "dbecd422-0cae-4a34-4652-3c5f772699d2"
+    },
+    {
+      "FlightInternalId": "9d07845d-c032-ed08-dead-133488831ecf",
+      "PassengerInternalId": "23452037-4719-05e8-4f14-55ff34ed54c9"
+    },
+    {
+      "FlightInternalId": "9d07845d-c032-ed08-dead-133488831ecf",
+      "PassengerInternalId": "dbecd422-0cae-4a34-4652-3c5f772699d2"
+    }
+  ],
+  "CarriedInfants": []
+}

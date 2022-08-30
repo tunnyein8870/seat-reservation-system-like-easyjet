@@ -1,0 +1,184 @@
+{
+  "CanBeFinalised": true,
+  "HasBeenFinalised": false,
+  "CurrencyCode": "GBP",
+  "LanguageCode": "EN",
+  "WebsiteRegionCode": "en",
+  "JourneyPairs": [
+    {
+      "Id": 1,
+      "IsPrimaryPair": true,
+      "BaseCurrency": "GBP",
+      "OutboundSlot": {
+        "Flight": {
+          "FlightFares": [
+            {
+              "FareType": "Standard",
+              "Prices": {
+                "Adult": {
+                  "Price": 43.99,
+                  "PriceWithDebitCard": 43.99,
+                  "PriceWithCreditCard": 43.99
+                }
+              },
+              "FlightIdentification": "UjIwMUJCQkI0JEdeQkJCQkJCQkJMR1dCQkJCNy5CUklDUS5HQlBCQkJCRy5HQlBCQjA2MjAyMi0xMC0wMyAxMjoyNTowME5M"
+            }
+          ],
+          "FlightTaxes": {
+            "TaxAmount": 13.0,
+            "ApplyApdRules": false
+          },
+          "InternalId": "f21985c8-b558-0e2f-c967-98279e404161",
+          "CarrierCode": "EZY",
+          "FlightNumber": 8365,
+          "DepartureIata": "LGW",
+          "ArrivalIata": "BRI",
+          "DepTerminalName": "",
+          "ArrTerminalName": "",
+          "LocalDepartureTime": "2022-10-03T12:25:00",
+          "LocalArrivalTime": "2022-10-03T16:20:00",
+          "SegmentId": "20221003LGWBRI8365"
+        }
+      },
+      "ReturnSlot": {
+        "Flight": {
+          "FlightFares": [
+            {
+              "FareType": "Standard",
+              "Prices": {
+                "Adult": {
+                  "Price": 41.47,
+                  "PriceWithDebitCard": 41.47,
+                  "PriceWithCreditCard": 41.47
+                }
+              },
+              "FlightIdentification": "UlIwMUJCQkI0RHprQkJCQkJCQkJCUklCQkJCNS5MR1dCbS5HQlBCQkJCJC5HQlBCbjA2MjAyMi0xMC0xMCAxNjo1NTowMDJL"
+            }
+          ],
+          "FlightTaxes": {
+            "TaxAmount": 5.48,
+            "ApplyApdRules": false
+          },
+          "InternalId": "1942f57c-1009-5597-0d14-3ccfc4027013",
+          "CarrierCode": "EZY",
+          "FlightNumber": 8366,
+          "DepartureIata": "BRI",
+          "ArrivalIata": "LGW",
+          "DepTerminalName": "",
+          "ArrTerminalName": "",
+          "LocalDepartureTime": "2022-10-10T16:55:00",
+          "LocalArrivalTime": "2022-10-10T18:50:00",
+          "SegmentId": "20221010BRILGW8366"
+        }
+      }
+    }
+  ],
+  "Bags": [],
+  "SportsEquipment": [],
+  "FareType": "Standard",
+  "FlightItemChargesList": [
+    {
+      "SegmentId": "20221003LGWBRI8365",
+      "HoldLuggage": {
+        "ChargeCode": "HoldLuggage",
+        "Amount": 27.99,
+        "AmountWithCreditCard": 27.99
+      },
+      "HoldLuggageExcessWeight": {
+        "ChargeCode": "HoldLuggageExcessWeight",
+        "Amount": 12.0,
+        "AmountWithCreditCard": 12.0
+      },
+      "SmallSportsEquipment": {
+        "ChargeCode": "SmallSportsEquipment",
+        "Amount": 37.0,
+        "AmountWithCreditCard": 37.0
+      },
+      "LargeSportsEquipment": {
+        "ChargeCode": "LargeSportsEquipment",
+        "Amount": 45.0,
+        "AmountWithCreditCard": 45.0
+      },
+      "SmallHoldLuggage": {
+        "ChargeCode": "SmallHoldLuggage",
+        "Amount": 23.99,
+        "AmountWithCreditCard": 23.99
+      },
+      "VouchersCost": {
+        "ChargeCode": "VoucherCost",
+        "Amount": 8.0,
+        "AmountWithCreditCard": 8.0
+      },
+      "VouchersRedeemableAmount": {
+        "ChargeCode": "InFlightVoucherOnBoardPrice",
+        "Amount": 10.0,
+        "AmountWithCreditCard": 10.0
+      }
+    },
+    {
+      "SegmentId": "20221010BRILGW8366",
+      "HoldLuggage": {
+        "ChargeCode": "HoldLuggage",
+        "Amount": 26.99,
+        "AmountWithCreditCard": 26.99
+      },
+      "HoldLuggageExcessWeight": {
+        "ChargeCode": "HoldLuggageExcessWeight",
+        "Amount": 12.0,
+        "AmountWithCreditCard": 12.0
+      },
+      "SmallSportsEquipment": {
+        "ChargeCode": "SmallSportsEquipment",
+        "Amount": 37.0,
+        "AmountWithCreditCard": 37.0
+      },
+      "LargeSportsEquipment": {
+        "ChargeCode": "LargeSportsEquipment",
+        "Amount": 45.0,
+        "AmountWithCreditCard": 45.0
+      },
+      "SmallHoldLuggage": {
+        "ChargeCode": "SmallHoldLuggage",
+        "Amount": 22.49,
+        "AmountWithCreditCard": 22.49
+      },
+      "VouchersCost": {
+        "ChargeCode": "VoucherCost",
+        "Amount": 8.0,
+        "AmountWithCreditCard": 8.0
+      },
+      "VouchersRedeemableAmount": {
+        "ChargeCode": "InFlightVoucherOnBoardPrice",
+        "Amount": 10.0,
+        "AmountWithCreditCard": 10.0
+      }
+    }
+  ],
+  "AdminFee": {
+    "AdminFee": {
+      "Price": 0.0,
+      "PriceWithDebitCard": 0.0,
+      "PriceWithCreditCard": 0.0
+    }
+  },
+  "Passengers": [
+    {
+      "InternalId": "22faa568-7a12-16e7-531e-9a8110934fc3",
+      "FirstName": "",
+      "LastName": "",
+      "Type": "Adult",
+      "HasSpecialServiceFlags": false
+    }
+  ],
+  "Associations": [
+    {
+      "FlightInternalId": "f21985c8-b558-0e2f-c967-98279e404161",
+      "PassengerInternalId": "22faa568-7a12-16e7-531e-9a8110934fc3"
+    },
+    {
+      "FlightInternalId": "1942f57c-1009-5597-0d14-3ccfc4027013",
+      "PassengerInternalId": "22faa568-7a12-16e7-531e-9a8110934fc3"
+    }
+  ],
+  "CarriedInfants": []
+}
