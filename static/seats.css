@@ -2,13 +2,32 @@
     display: inline-block;
 }
 
+.seat.available.occupied{
+    background-image: url(/static/seat-occupied-by-adult.png);
+}
+
+.seat.available{
+    background-image: url(/static/seat-available.png);
+}
+.seat.unavailable{
+    background-image: url(/static/seat-unavailable.png);
+}
+
+.rowshow{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .seat{
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-image: url(/static/seat-available.png);
+    /* background-image: url(/static/seat-available.png); */
     background-size: cover;
-}
+    cursor: pointer;
+}*
+
 
 #rhs{
     display: inline-block;
@@ -27,3 +46,8 @@
     background-color:pink;
     vertical-align: top;
 }
+
+.block{
+    display:inline-block;
+}
+
