@@ -27,16 +27,26 @@ document.body.onload=async()=>{
         let divrow = document.createElement('div');  
         divrow.classList = "row";
         divrow.setAttribute("row", `row_${r+1}`);
-        // <div class="block">
+        // create <div class="block">
         let divblock = document.createElement('div');  
         divblock.classList = "block";
+        let block_count = 0;
         for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
             for(let s = 0; s < seats.Rows[r].Blocks[b].Seats.length; s++){
-                // <div class="seat" id="seat_1A">
+                // create <div class="seat" id="seat_1A">
                 let divseat = document.createElement('div');
                 divseat.classList = "seat";
                 let seat_id = `seat_${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`;
+                console.log(`${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`);
                 divseat.id = `${seat_id}`;
+                // create row number between seets.
+                if (block_count == seats.Rows[r].Blocks[b].Seats.length){
+                    let rownumber = document.createElement('div');
+                    rownumber.classList = "rowshow";
+                    rownumber.innerHTML = r+1;
+                    divblock.append(rownumber);
+                }
+                block_count += 1;
                 divblock.append(divseat);
             }
             divrow.append(divblock);

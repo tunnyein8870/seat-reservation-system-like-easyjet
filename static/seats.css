@@ -1,5 +1,6 @@
 .block{
     display: inline-block;
+    text-align: center;
 }
 
 .seat.available.occupied{
@@ -15,8 +16,14 @@
 
 .rowshow{
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    color: blanchedalmond;
+    background: gray;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .seat{
@@ -26,7 +33,8 @@
     /* background-image: url(/static/seat-available.png); */
     background-size: cover;
     cursor: pointer;
-}*
+    padding: 7px;
+}
 
 
 #rhs{
@@ -41,13 +49,25 @@
     vertical-align: top;
 }
 #center{
+    padding-top: 10px;
+    padding-bottom: 10px;
     width:310px;
     display: inline-block;
     background-color:pink;
     vertical-align: top;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .block{
     display:inline-block;
 }
+
+#colnum{
+    width: 100%;
+    columns: white;
+}
+
 
