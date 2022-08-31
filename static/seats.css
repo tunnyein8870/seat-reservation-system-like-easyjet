@@ -1,6 +1,6 @@
 .block{
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .seat.available.occupied{
@@ -16,14 +16,27 @@
 
 .rowshow{
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     width: 20px;
     color: blanchedalmond;
     background: gray;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+.block{
+    display:inline-block;
+}
+
+#colnum{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#colnum span{
+    padding: 18px;
 }
 
 .seat{
@@ -56,18 +69,10 @@
     background-color:pink;
     vertical-align: top;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: 18px;
 }
 
-.block{
-    display:inline-block;
-}
-
-#colnum{
-    width: 100%;
-    columns: white;
-}
 
 
