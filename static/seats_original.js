@@ -22,7 +22,7 @@ document.body.onload=async()=>{
     `;
 
     // create dynamic seats
-    for(let r = 0; r < seats.Rows.length; r++){
+    for(let r=0;r<seats.Rows.length;r++){
         // create <div class="row" row="row_1">
         let divrow = document.createElement('div');  
         divrow.classList = "row";
@@ -30,8 +30,8 @@ document.body.onload=async()=>{
         // <div class="block">
         let divblock = document.createElement('div');  
         divblock.classList = "block";
-        for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
-            for(let s = 0; s < seats.Rows[r].Blocks[b].Seats.length; s++){
+        for(let b=0;b<seats.Rows[r].Blocks.length;b++){
+            for(let s=0; s < seats.Rows[r].Blocks[b].Seats.length;s++){
                 // <div class="seat" id="seat_1A">
                 let divseat = document.createElement('div');
                 divseat.classList = "seat";
@@ -45,9 +45,9 @@ document.body.onload=async()=>{
     }
 
     //Mark seats as available or not-available
-    for(let r = 0; r < seats.Rows.length; r++){
-        for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
-            for(let s = 0; s < seats.Rows[r].Blocks[b].Seats.length; s++){
+    for(let r=0;r<seats.Rows.length;r++){
+        for(let b=0;b<seats.Rows[r].Blocks.length;b++){
+            for(let s=0; s < seats.Rows[r].Blocks[b].Seats.length;s++){
                 let seat_id = `seat_${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`;
                 let seat_div = document.getElementById(seat_id);
                 if (seat_div){
