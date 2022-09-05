@@ -87,37 +87,52 @@ document.body.onload=async()=>{
                 // create seat number in outbound
                 let seatnum_div = document.createElement('div');
                 seatnum_div.classList = "seats";
-                clickcount = 1;
                 if (seat_div){
                     if (seats.Rows[r].Blocks[b].Seats[s].IsAvailable){
                         seat_div.classList.add('available');
                     }else{
                         seat_div.classList.add('unavailable');
                     }
-                    seat_div.onclick = ()=>{    
-                        if (seat_div.classList.contains('occupied')){
-                            seat_div.classList.remove('occupied');
-                            document.getElementById('outbound').removeChild(seatnum_div);
-                        
-                        }
-                        else{
-                            seat_div.classList.add('occupied');
-                            seatnum_div.id = seat_id;
+                    seat_div.onclick = ()=>{
+                        let al = seat_div.classList.contains('available');
+                        // check only available seats to add in outbound.
+                        if (al){
+                            // set id to seats div and display seat number in outbound.
+                            seatnum_div.id = `seat_${seat_id}`;
                             seatnum_div.innerHTML = `Seat: ${seat_id}`;
                             document.getElementById('outbound').append(seatnum_div);
-                        }
-                        let a = document.querySelectorAll(".seats");
-                        // console.log(a);
-                        if (a.length > 2){
-                            document.getElementById('outbound').replaceChild(a[2], a[1]);
+                            // select all seats inside outbound div
+                            let a = document.querySelectorAll("#outbound .seats");
+                            // check if 'a' NodeList less than 2 for two seats.
+                            if (a.length <= 2){
+                                if (seat_div.classList.contains('occupied')){
+                                    seat_div.classList.remove('occupied');
+                                    // remove seat when seat is deselected.
+                                    document.getElementById('outbound').removeChild(seatnum_div);
+                                }
+                                else{
+                                    seat_div.classList.add('occupied');
+    
+                                }
+                            }
+                            else{
+                                // when 'a' NodeList is greater than 2 change seats.
+                                seatnumid1 = split_seatnumber(a[1].id);
+                                seatnumid2 = split_seatnumber(a[2].id);
+                                let b = document.getElementById(seatnumid1);
+                                let c = document.getElementById(seatnumid2);
+                                c.classList.add('occupied');
+                                b.classList.remove('occupied');
+                                document.getElementById('outbound').replaceChild(a[2], a[1]);
+                            }
                         }
                     } // seat_div onclick end
-
-                    
                 } // check seat_div end
-
             } // seat end
         } // blocks end
     } // row end
+}
+function split_seatnumber(seat_num){
+    return seat_num.split('_')[1];
 }
 

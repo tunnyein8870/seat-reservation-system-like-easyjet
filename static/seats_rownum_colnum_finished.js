@@ -87,28 +87,50 @@ document.body.onload=async()=>{
                 // create seat number in outbound
                 let seatnum_div = document.createElement('div');
                 seatnum_div.classList = "seats";
-                clickcount = 1;
                 if (seat_div){
                     if (seats.Rows[r].Blocks[b].Seats[s].IsAvailable){
                         seat_div.classList.add('available');
                     }else{
                         seat_div.classList.add('unavailable');
                     }
-                    seat_div.onclick = ()=>{                        
-                        if (seat_div.classList.contains('occupied')){
-                            seat_div.classList.remove('occupied');
-                            document.getElementById('outbound').removeChild(seatnum_div);
-                        }
-                        else{
-                            seat_div.classList.add('occupied');
-                            seatnum_div.id = seat_id;
+                    seat_div.onclick = ()=>{
+                        let al = seat_div.classList.contains('available');
+                        if (al){
+                            seatnum_div.id = `seat_${seat_id}`;
                             seatnum_div.innerHTML = `Seat: ${seat_id}`;
                             document.getElementById('outbound').append(seatnum_div);
-                        }        
+                            let a = document.querySelectorAll("#outbound .seats");
+                            if (a.length <= 2){
+                                if (seat_div.classList.contains('occupied')){
+                                    seat_div.classList.remove('occupied');
+                                    document.getElementById('outbound').removeChild(seatnum_div);
+                                }
+                                else{
+                                    seat_div.classList.add('occupied');
+    
+                                }
+                            }
+                            else{
+                                seatnumid1 = split_seatnumber(a[1].id);
+                                console.log(seatnumid1);
+                                seatnumid2 = split_seatnumber(a[2].id);
+                                console.log(seatnumid2);
+                                let b = document.getElementById(seatnumid1);
+                                let c = document.getElementById(seatnumid2);
+                                console.log(a);
+                                console.log(b, c);
+                                c.classList.add('occupied');
+                                b.classList.remove('occupied');
+                                document.getElementById('outbound').replaceChild(a[2], a[1]);
+                            }
+                        }
                     } // seat_div onclick end
                 } // check seat_div end
             } // seat end
         } // blocks end
     } // row end
+}
+function split_seatnumber(seat_num){
+    return seat_num.split('_')[1];
 }
 
