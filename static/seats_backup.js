@@ -14,19 +14,23 @@ document.body.onload=async()=>{
     let departAirport = basket.JourneyPairs[0].OutboundSlot.Flight.DepartureIata;
     let arriveAirport = basket.JourneyPairs[0].OutboundSlot.Flight.ArrivalIata;
     let geo_dict = {};
-    for (let g=0; g < geography.Countries.length; g++){
-        let countrycode = geography.Countries[g].Code;
-        let countryname = geography.Countries[g].Name;
-        let airport  = geography.Countries[g].Airports;
-        // console.log(countrycode, countryname, airport)
-        geo_dict[[countrycode, countryname]] = airport;
-    }
-    for (let k in geo_dict){
-        // console.log(k, geo_dict[k]);
-        for (let ap in geo_dict[k]){
-            // console.log(geo_dict[k][ap]);
+
+    for (let c = 0; c < geography.Airports.length; c++){
+        let ciata = geography.Airports[c].CityIata;
+        let cname = geography.Airports[c].Name;
+        for (let g=0; g < geography.Countries.length; g++){
+            let countryname = geography.Countries[g].Name;
+            let airport  = geography.Countries[g].Airports;
+            if (airport.includes(ciata)){
+                if(departAirport == ciata){
+                    console.log(ciata, cname, countryname);
+                    continue
+                }
+            }
         }
+        // console.log("leave",departAirport, arriveAirport);
     }
+
     // console.log(geo_dict)
     document.getElementById('outbound').innerHTML = `
     <h3>Departure</h3>
@@ -61,10 +65,13 @@ document.body.onload=async()=>{
                 // create <div class="seat" id="seat_1A">
                 let divseat = document.createElement('div');
                 divseat.classList = "seat";
+                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
                 let seat_id = `${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`;
                 divseat.id = `${seat_id}`;
                 let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand;
-                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
+                if (priceband == 0){
+                    priceband = "Regular";
+                }
                 // console.log(priceband, price);
                 seat_count += 1;
                 divblock.append(divseat);
@@ -95,14 +102,23 @@ document.body.onload=async()=>{
                     }
                     seat_div.onclick = ()=>{
                         let al = seat_div.classList.contains('available');
+                        // check only available seats to add in outbound.
                         if (al){
+                            // set id to seats div and display seat number in outbound.
                             seatnum_div.id = `seat_${seat_id}`;
-                            seatnum_div.innerHTML = `Seat: ${seat_id}`;
+                            seatnum_div.innerHTML = `
+                            <div>Seat: <b><i>${seat_id}</i></b></div>
+                            <div>Price: <b><i>${price}</i></b></div>
+                            <div>Class: <b><i>${priceband}</i></b></div>
+                            `;
                             document.getElementById('outbound').append(seatnum_div);
+                            // select all seats inside outbound div
                             let a = document.querySelectorAll("#outbound .seats");
+                            // check if 'a' NodeList less than 2 for two seats.
                             if (a.length <= 2){
                                 if (seat_div.classList.contains('occupied')){
                                     seat_div.classList.remove('occupied');
+                                    // remove seat when seat is deselected.
                                     document.getElementById('outbound').removeChild(seatnum_div);
                                 }
                                 else{
@@ -111,14 +127,11 @@ document.body.onload=async()=>{
                                 }
                             }
                             else{
+                                // when 'a' NodeList is greater than 2 change seats.
                                 seatnumid1 = split_seatnumber(a[1].id);
-                                console.log(seatnumid1);
                                 seatnumid2 = split_seatnumber(a[2].id);
-                                console.log(seatnumid2);
                                 let b = document.getElementById(seatnumid1);
                                 let c = document.getElementById(seatnumid2);
-                                console.log(a);
-                                console.log(b, c);
                                 c.classList.add('occupied');
                                 b.classList.remove('occupied');
                                 document.getElementById('outbound').replaceChild(a[2], a[1]);

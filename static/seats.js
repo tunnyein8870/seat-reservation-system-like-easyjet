@@ -13,24 +13,33 @@ document.body.onload=async()=>{
     //Find outbound flight details
     let departAirport = basket.JourneyPairs[0].OutboundSlot.Flight.DepartureIata;
     let arriveAirport = basket.JourneyPairs[0].OutboundSlot.Flight.ArrivalIata;
-    let geo_dict = {};
-    for (let g=0; g < geography.Countries.length; g++){
-        let countrycode = geography.Countries[g].Code;
-        let countryname = geography.Countries[g].Name;
-        let airport  = geography.Countries[g].Airports;
-        // console.log(countrycode, countryname, airport)
-        geo_dict[[countrycode, countryname]] = airport;
-    }
-    for (let k in geo_dict){
-        // console.log(k, geo_dict[k]);
-        for (let ap in geo_dict[k]){
-            // console.log(geo_dict[k][ap]);
+
+    let departcountry = "";
+    let arrivecountry = "";
+    for (let c = 0; c < geography.Airports.length; c++){
+        let ciata = geography.Airports[c].CityIata;
+        let cname = geography.Airports[c].Name;
+        for (let g=0; g < geography.Countries.length; g++){
+            let countryname = geography.Countries[g].Name;
+            let airport  = geography.Countries[g].Airports;
+            if (airport.includes(ciata)){
+                if(departAirport == ciata){
+                    departcountry = [countryname, cname];
+                    console.log(ciata, cname, countryname);
+                }
+                if(arriveAirport == ciata){
+                    arrivecountry = [countryname, cname];
+                    console.log(ciata, cname, countryname);
+                }
+            }
         }
     }
-    // console.log(geo_dict)
+    // console.log(departcountry[1], arrivecountry[1]);
+
     document.getElementById('outbound').innerHTML = `
     <h3>Departure</h3>
-    <div>${departAirport} to ${arriveAirport}</div>
+    <div>Country: ${departcountry[0]} to ${arrivecountry[0]}</div>
+    <div>Airport: ${departcountry[1]}(${departAirport}) to ${arrivecountry[1]}(${arriveAirport})</div>
     <div>${basket.JourneyPairs[0].OutboundSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
     <div>Departure: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalDepartureTime}</div>
     <div>Arrival: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
@@ -41,7 +50,7 @@ document.body.onload=async()=>{
     <div>${basket.JourneyPairs[0].ReturnSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
     <div>Departure: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalDepartureTime}</div>
     <div>Arrival: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
-    `
+    `;
 
     // create dynamic seats
     for(let r = 0; r < seats.Rows.length; r++){
@@ -61,10 +70,13 @@ document.body.onload=async()=>{
                 // create <div class="seat" id="seat_1A">
                 let divseat = document.createElement('div');
                 divseat.classList = "seat";
+                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
                 let seat_id = `${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`;
                 divseat.id = `${seat_id}`;
                 let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand;
-                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
+                if (priceband == 0){
+                    priceband = "Regular";
+                }
                 // console.log(priceband, price);
                 seat_count += 1;
                 divblock.append(divseat);
@@ -99,7 +111,11 @@ document.body.onload=async()=>{
                         if (al){
                             // set id to seats div and display seat number in outbound.
                             seatnum_div.id = `seat_${seat_id}`;
-                            seatnum_div.innerHTML = `Seat: ${seat_id}`;
+                            seatnum_div.innerHTML = `
+                            <div>Seat: <b><i>${seat_id}</i></b></div>
+                            <div>Price: <b><i>${price}</i></b></div>
+                            <div>Class: <b><i>${priceband}</i></b></div>
+                            `;
                             document.getElementById('outbound').append(seatnum_div);
                             // select all seats inside outbound div
                             let a = document.querySelectorAll("#outbound .seats");
