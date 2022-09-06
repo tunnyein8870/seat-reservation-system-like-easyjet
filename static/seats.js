@@ -1,5 +1,8 @@
 document.body.onload=async()=>{
     let basket = await(await fetch('/static/basket.json')).json();
+    // let basket = await(await fetch('/static/basket-amsterdam.json')).json();
+    // let basket = await(await fetch('/static/basket-paris.json')).json();
+    // let basket = await(await fetch('/static/basket-bari.json')).json();
     let seats = await(await fetch('/static/seatsOut.json')).json();
     let geography = await(await fetch('/static/geography.json')).json();
 
@@ -10,10 +13,31 @@ document.body.onload=async()=>{
     let total = (outfare+retfare) * numberPassengers;
     document.getElementById('basketTotal').innerText = total.toFixed(2);
 
+    for (let p=0; p<numberPassengers; p++){
+        let adult_div = document.createElement('div');
+        adult_div.classList = "adult";
+        let adult_img = document.createElement('div');
+        adult_img.classList = "adult_img";
+        let control_img = document.createElement('div');
+        control_img.classList = "control_img";
+        control_img.id = `control_${p}`;
+        let cspan = document.createElement('span');
+        cspan.classList = "cspan";
+        cspan.id = "cspan_${p}";
+        adult_div.append(control_img,adult_img);
+        document.getElementById('passengerList').append(adult_div);
+        adult_div.onclick = ()=>{
+            let getcurrent = document.querySelector('.current');
+            console.log(getcurrent);
+            getcurrent.classList.remove('current');
+            control_img.classList.add("current");
+        }
+    }
+    document.getElementById('control_0').classList.add('current');
+
     //Find outbound flight details
     let departAirport = basket.JourneyPairs[0].OutboundSlot.Flight.DepartureIata;
     let arriveAirport = basket.JourneyPairs[0].OutboundSlot.Flight.ArrivalIata;
-
     let departcountry = "";
     let arrivecountry = "";
     for (let c = 0; c < geography.Airports.length; c++){
@@ -25,31 +49,32 @@ document.body.onload=async()=>{
             if (airport.includes(ciata)){
                 if(departAirport == ciata){
                     departcountry = [countryname, cname];
-                    console.log(ciata, cname, countryname);
+                    // console.log(ciata, cname, countryname);
                 }
                 if(arriveAirport == ciata){
                     arrivecountry = [countryname, cname];
-                    console.log(ciata, cname, countryname);
+                    // console.log(ciata, cname, countryname);
                 }
             }
         }
     }
     // console.log(departcountry[1], arrivecountry[1]);
-
     document.getElementById('outbound').innerHTML = `
-    <h3>Departure</h3>
-    <div>Country: ${departcountry[0]} to ${arrivecountry[0]}</div>
+    <h3>Departure Details</h3>
+    <div>Country: <i>${departcountry[0]} to ${arrivecountry[0]}</i></div>
     <div>Airport: ${departcountry[1]}(${departAirport}) to ${arrivecountry[1]}(${arriveAirport})</div>
-    <div>${basket.JourneyPairs[0].OutboundSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
-    <div>Departure: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalDepartureTime}</div>
-    <div>Arrival: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
+    <div>Flight No.: ${basket.JourneyPairs[0].OutboundSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
+    <div>Departure Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalDepartureTime}</div>
+    <div>Arrival Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
     `;
     document.getElementById('inbound').innerHTML = `
-    <h3>Return</h3>
-    <div>${departAirport} to ${arriveAirport}</div>
-    <div>${basket.JourneyPairs[0].ReturnSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
+    <h3>Return Details</h3>
+    <div>Country: <i>${arrivecountry[0]} to ${departcountry[0]}</i></div>
+    <div>Airport: ${arrivecountry[1]}(${arriveAirport}) to ${departcountry[1]}(${departAirport})</div>
+    <div>${arriveAirport} to ${departAirport}</div>
+    <div>Flight No.:${basket.JourneyPairs[0].ReturnSlot.Flight.CarrierCode}${basket.JourneyPairs[0].ReturnSlot.Flight.FlightNumber}</div>
     <div>Departure: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalDepartureTime}</div>
-    <div>Arrival: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
+    <div>Arrival Time: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
     `;
 
     // create dynamic seats
@@ -58,7 +83,6 @@ document.body.onload=async()=>{
         let divrow = document.createElement('div');  
         divrow.classList = "row";
         divrow.setAttribute("row", `row_${r+1}`);
-        
         let seat_count = 0;
         for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
             // create <div class="block">
@@ -119,8 +143,9 @@ document.body.onload=async()=>{
                             document.getElementById('outbound').append(seatnum_div);
                             // select all seats inside outbound div
                             let a = document.querySelectorAll("#outbound .seats");
+                            console.log(a);
                             // check if 'a' NodeList less than 2 for two seats.
-                            if (a.length <= 2){
+                            if (a.length <= numberPassengers){
                                 if (seat_div.classList.contains('occupied')){
                                     seat_div.classList.remove('occupied');
                                     // remove seat when seat is deselected.
@@ -128,7 +153,6 @@ document.body.onload=async()=>{
                                 }
                                 else{
                                     seat_div.classList.add('occupied');
-    
                                 }
                             }
                             else{
