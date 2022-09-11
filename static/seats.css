@@ -6,7 +6,29 @@
 #lhs{
     width: 100%;
 }
+.cspan{
+    background-color: blue;
+    width: 30%;
+    margin: 5px;
+    padding-top: 13px;
+    padding-left: 10%;
+    font-size: large;
+}
 
+#passengerList{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.head_outbound{
+    text-align: center;
+}
+.hr_outbound{
+    width: 75%;
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: yellow;
+
+}
 .adult{
     display: flex;
     position: relative;
@@ -15,20 +37,20 @@
 }
 .adult_img{
     display: block;
-    width: 35px;
-    height: 40px;
+    width: 30px;
+    height: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-size: 35px;
+    background-size: 30px;
     background-image: url(/static/passengers-adult.png);
 }
 
 .control_img{
-    width: 20px;
-    height: 20px;
-    margin-top: 19px;
+    width: 15px;
+    height: 15px;
+    margin-top: 23px;
     margin-right: 20px;
-    background-size: 20px;
+    background-size: 15px;
 }
 .control_img.current{
     background-image: url(/static/control-icon-play-hovered.png);
@@ -44,6 +66,7 @@
 }
 .seat.unavailable{
     background-image: url(/static/seat-unavailable.png);
+    cursor: unset;
 }
 .seat{
     display: inline-block;
