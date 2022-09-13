@@ -1,3 +1,4 @@
+
 document.body.onload=async()=>{
     let basket = await(await fetch('/static/basket.json')).json();
     // let basket = await(await fetch('/static/basket-amsterdam.json')).json();
@@ -26,7 +27,7 @@ document.body.onload=async()=>{
         let adult_text = document.createElement('span');
         adult_text.classList = "adult_text";
         adult_text.innerHTML = `Adult: ${p+1}`;
-        let cspan = document.createElement('span');
+        let cspan = document.createElement('div');
         cspan.classList = "cspan";
         cspan.id = `cspan_${p}`;
         adult_div.append(control_img, adult_text, adult_img, cspan);
@@ -59,7 +60,7 @@ document.body.onload=async()=>{
             }
         }
     }
-    
+
     // console.log(departcountry[1], arrivecountry[1]);
     document.getElementById('outbound').innerHTML = `
     <h3>Departure Details</h3>
@@ -68,7 +69,7 @@ document.body.onload=async()=>{
     <div>Flight No.: ${basket.JourneyPairs[0].OutboundSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
     <div>Departure Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalDepartureTime}</div>
     <div>Arrival Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
-    `; 
+    `;
 
     document.getElementById('inbound').innerHTML = `
     <h3>Return Details</h3>
@@ -139,17 +140,17 @@ document.body.onload=async()=>{
                         // remove seat
                         if (seat_div.classList.contains('occupied')){
                             seat_div.classList.remove('occupied');
-                            // delete seat number and move selection from current to next adult seat
-                            for (let s in cspan){
-                                if (cspan[s].innerHTML == seat_div.id){
-                                    cspan[s].innerHTML = "";
+                            for (let s of cspan.values()){
+                                if (s.classList.contains(seat_div.id)){
+                                    s.innerHTML = "";
+                                    s.classList.remove(seat_div.id);
                                     document.getElementById(`control_${current_passenger}`).classList.remove('current'); // remove current
-                                    document.getElementById(`control_${s}`).classList.add('current'); // move cursor to current
+                                    document.getElementById(`control_${split_number(s.id)}`).classList.add('current'); // move cursor to current
+                                    document.getElementById(`control_${split_number(s.id)}`).classList.remove(seat_div.id);
                                 }
                             }
                             // remove outbound flight seat
                             for (let se of seat.values()){ // get values to avoid null
-                                console.log(se);
                                 if (se.classList.contains(seat_div.id)){
                                     se.innerHTML = "-";
                                     se.classList.remove(seat_div.id);
@@ -175,15 +176,42 @@ document.body.onload=async()=>{
                                 document.getElementById(`control_${current_passenger}`).classList.remove('current');
                                 document.getElementById(`control_${next_passenger}`).classList.add('current');
                             }
-                            document.getElementById(`cspan_${current_passenger}`).innerHTML = seat_div.id;
+                            // document.getElementById(`cspan_${current_passenger}`).classList.add(seat_div.id);
+                            let cspan_div = document.getElementById(`cspan_${current_passenger}`);
+                            cspan_div.classList.add(seat_div.id);
+                            if (cspan_div.classList.length > 2){
+                                let last = cspan_div.classList[cspan_div.classList.length-2]
+                                cspan_div.classList.remove(last);
+                            }
+                            let del_div = document.createElement('div');
+                            del_div.classList = 'del_div';
+                            document.getElementById(`cspan_${current_passenger}`).innerHTML = 
+                            `<div class="seat_num">${seat_div.id}</div>`;
+                            document.getElementById(`cspan_${current_passenger}`).append(del_div);
+                            del_div.onclick =()=>{
+                                for (let s of cspan.values()){
+                                    if (s.classList.contains(seat_div.id)){
+                                        s.innerHTML = "";
+                                        s.classList.remove(seat_div.id);
+                                    }
+                                }
+                                for (let se of seat.values()){ // get values to avoid null
+                                    if (se.classList.contains(seat_div.id)){
+                                        se.innerHTML = "-";
+                                        se.classList.remove(seat_div.id);
+                                    }
+                                }
+                                seat_div.classList.remove('occupied');
+                            }
+
                             // show seats in outbound flight details
                             let outbound_current = document.getElementById(`outbound_${current_passenger}`);
                             outbound_current.classList.add(seat_div.id);
                             if (outbound_current.classList.length > 2){
-                                let a = outbound_current.classList[outbound_current.classList.length-1]
+                                // let a = outbound_current.classList[outbound_current.classList.length-1]
                                 let b = outbound_current.classList[outbound_current.classList.length-2]
                                 outbound_current.classList.remove(b);
-                                outbound_current.classList.add(a);
+                                // outbound_current.classList.add(a);
                             }
                             document.getElementById(`outbound_${current_passenger}`).innerHTML = `
                             <div>Seat No.: ${seat_div.id}</div>

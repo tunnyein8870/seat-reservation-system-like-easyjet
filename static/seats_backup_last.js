@@ -141,8 +141,8 @@ document.body.onload=async()=>{
                             delete_seats(seat_div, current_passenger); // remove seat
                         }
                         else{
-                            seat_div.classList.add('occupied'); // select seat
                             passenger.classList.add(seat_div.id); // add seat_id to classlist
+                            seat_div.classList.add('occupied'); // select seat
                             if (passenger.classList.length > 3){ // to move passenger
                                 passenger.classList.remove('current');
                                 passenger.classList.add('current'); // set current at the end of classlist
@@ -167,10 +167,11 @@ document.body.onload=async()=>{
                             document.getElementById(`cspan_${current_passenger}`).innerHTML = 
                             `<div class="seat_num">${seat_div.id}</div>`;
                             document.getElementById(`cspan_${current_passenger}`).append(del_div);
-                            del_div.onclick =()=>{ // delete seat on click
+                            del_div.onclick =()=>{
                                 delete_seats(seat_div, current_passenger);
                                 seat_div.classList.remove('occupied');
                             }
+
                             // show seats in outbound flight details
                             let outbound_current = document.getElementById(`outbound_${current_passenger}`);
                             outbound_current.classList.add(seat_div.id);
@@ -191,13 +192,14 @@ document.body.onload=async()=>{
     } // row end
 }
 
-// create functions to use next time
 function split_number(seat_num){
     return seat_num.split('_')[1];
 }
 
+// create function to use for next time
 function delete_seats(seat_div, current_passenger){
     let cspan = document.querySelectorAll('.cspan'); // get all cspan for adults
+    let seat = document.querySelectorAll('.seats'); // get all seats from outbound flight
     for (let s of cspan.values()){
         if (s.classList.contains(seat_div.id)){
             console.log(s, current_passenger);
@@ -209,11 +211,11 @@ function delete_seats(seat_div, current_passenger){
                 document.getElementById(`control_${split_number(s.id)}`).classList.add('current'); // move cursor to current
             }
             document.getElementById(`control_${split_number(s.id)}`).classList.remove(seat_div.id);
+
         }
     }
     // remove outbound flight seat
-    let seat = document.querySelectorAll('.seats'); // get all seats from outbound flight
-    for (let se of seat.values()){
+    for (let se of seat.values()){ // get values to avoid null
         if (se.classList.contains(seat_div.id)){
             se.innerHTML = "-";
             se.classList.remove(seat_div.id);
