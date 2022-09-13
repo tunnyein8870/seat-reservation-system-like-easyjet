@@ -8,8 +8,8 @@ document.body.onload=async()=>{
     let geography = await(await fetch('/static/geography.json')).json();
 
     //Calculate the total fare frm the basket
-    // let numberPassengers = basket.Passengers.length;
-    let numberPassengers = 3;
+    let numberPassengers = basket.Passengers.length;
+    // let numberPassengers = 3;
     let outfare = basket.JourneyPairs[0].OutboundSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let retfare = basket.JourneyPairs[0].ReturnSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let total = (outfare+retfare) * numberPassengers;
@@ -96,7 +96,13 @@ document.body.onload=async()=>{
     document.getElementById('outbound').append(outbound_seats);
 
     // create dynamic seats
+    let nose = document.createElement('div');
+    nose.className = "nose";
+    document.getElementById('center').append(nose);
+    price_and_brand = new Set();
     for(let r = 0; r < seats.Rows.length; r++){
+        let price_div = document.createElement('div');
+        price_div.className = "price_div";
         let divrow = document.createElement('div');  // create <div class="row" row="row_1">
         divrow.classList = "row";
         divrow.setAttribute("row", `row_${r+1}`);
@@ -105,12 +111,6 @@ document.body.onload=async()=>{
             let divblock = document.createElement('div');  // create <div class="block">
             divblock.classList = "block";
             for(let s = 0; s < seats.Rows[r].Blocks[b].Seats.length; s++){
-                seat_row = seats.Rows[r].Blocks[b].Seats[s].SeatNumber.slice(1);  // get 'A' 'B' 'C' 'D', etc. from SeatNumber
-                if (r == 0){  // create column number between seets. (A, B, C, D)
-                    let rowspan = document.createElement('span');
-                    rowspan.append(seat_row);
-                    document.getElementById('colnum').append(rowspan);
-                }
                 let divseat = document.createElement('div');  // create <div class="seat" id="seat_1A">
                 divseat.classList = "seat";
                 let seat_id = `${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`; // get seat id
@@ -118,29 +118,52 @@ document.body.onload=async()=>{
                 let price = seats.Rows[r].Blocks[b].Seats[s].Price;
                 let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
                 (priceband == 0) ? priceband = "Regular" : priceband;
+                price_and_brand.add(price);
                 seat_count += 1;  // count seat to display in the block middle
+                if (price == 39.99){
+                    price_div.innerHTML = priceband + ':' + price;
+                    price_div.append(divrow);
+                }
+                else if (price == 4.99){
+                    price_div.innerHTML = priceband + ':' + price;
+                    price_div.append(divrow);
+
+                }else if (price == 34.99){
+                    price_div.innerHTML = priceband + ':' + price;
+                    price_div.append(divrow);
+                    
+                }else if (price == 8.99){
+                    price_div.innerHTML = priceband + ':' + price;
+                    price_div.append(divrow);
+                }
+                else if(price == 32.99){
+                    price_div.innerHTML = priceband + ':' + price;
+                    price_div.append(divrow);
+                }
+
                 divblock.append(divseat);
                 divrow.append(divblock);
-                document.getElementById('center').append(divrow);
+                document.getElementById('center').append(price_div);
                 if (seat_count == seats.Rows[r].Blocks[b].Seats.length){ // create row numbers (1, 2, 3, etc.)
                     let rownumber = document.createElement('div');
                     rownumber.classList = "rowshow";
                     rownumber.innerHTML = r+1;
                     divblock.append(rownumber);
                 }
+                
                 let seat_div = document.getElementById(seat_id);
                 (seats.Rows[r].Blocks[b].Seats[s].IsAvailable) ? seat_div.classList.add('available') : seat_div.classList.add('unavailable');
                 if (seat_div && seat_div.classList.contains('available')){
                     seat_div.onclick = ()=>{
-                        // dynamic seat selection
-                        passenger = document.querySelector('.current'); // select current seat
-                        current_passenger = split_number(passenger.id); // get current_passenter's id
-                        // remove and unselect seats
-                        if (seat_div.classList.contains('occupied')){
+                        passenger = document.querySelector('.current');
+                        current_passenger = split_number(passenger.id); // e.g. passenger_0 to 0
+                        if (seat_div.classList.contains('occupied')){  // remove or unselect seat
                             seat_div.classList.remove('occupied'); // unselect seat
                             delete_seats(seat_div, current_passenger); // remove seat
+                            total -= price;
+                            document.getElementById('basketTotal').innerText = total.toFixed(2);
                         }
-                        else{
+                        else{ // select seat
                             seat_div.classList.add('occupied'); // select seat
                             passenger.classList.add(seat_div.id); // add seat_id to classlist
                             if (passenger.classList.length > 3){ // to move passenger
@@ -158,10 +181,8 @@ document.body.onload=async()=>{
                             }
                             let cspan_div = document.getElementById(`cspan_${current_passenger}`);
                             cspan_div.classList.add(seat_div.id);
-                            if (cspan_div.classList.length > 2){
-                                let last = cspan_div.classList[cspan_div.classList.length-2]
-                                cspan_div.classList.remove(last);
-                            }
+                            remove_classList(cspan_div); // check classlist and remove class
+                            // create delete button
                             let del_div = document.createElement('div');
                             del_div.classList = 'del_div';
                             document.getElementById(`cspan_${current_passenger}`).innerHTML = 
@@ -173,29 +194,36 @@ document.body.onload=async()=>{
                             }
                             // show seats in outbound flight details
                             let outbound_current = document.getElementById(`outbound_${current_passenger}`);
-                            outbound_current.classList.add(seat_div.id);
-                            if (outbound_current.classList.length > 2){
-                                let b = outbound_current.classList[outbound_current.classList.length-2]
-                                outbound_current.classList.remove(b);
-                            }
+                            outbound_current.classList.add(seat_div.id); // check classlist and remove class
+                            remove_classList(outbound_current);
                             document.getElementById(`outbound_${current_passenger}`).innerHTML = `
                             <div>Seat No.: ${seat_div.id}</div>
                             <div>Price: ${price}</div>
                             <div>Class: ${priceband}</div>
                             `;
+                            total += price;
+                            document.getElementById('basketTotal').innerText = total.toFixed(2);
                         }
                     } // seat_div onclick end
                 } // check seat_div end
             } // seat end
         } // blocks end
     } // row end
+    let tail = document.createElement('div');
+    tail.className = "tail";
+    document.getElementById('center').append(tail);
 }
 
 // create functions to use next time
 function split_number(seat_num){
     return seat_num.split('_')[1];
 }
-
+function remove_classList(cl){
+    if (cl.classList.length > 2){
+        let last = cl.classList[cl.classList.length-2]
+        cl.classList.remove(last);
+    }
+}
 function delete_seats(seat_div, current_passenger){
     let cspan = document.querySelectorAll('.cspan'); // get all cspan for adults
     for (let s of cspan.values()){

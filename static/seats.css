@@ -33,7 +33,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-size: 30px;
-    background-image: url(/static/passengers-adult.png);
+    background-image: url(/static/pics/passengers-adult.png);
     background-color: darkcyan;
 }
 .adult_img:hover, .cspan:hover{
@@ -48,7 +48,7 @@
     background-size: 15px;
 }
 .control_img.current{
-    background-image: url(/static/control-icon-play-hovered.png);
+    background-image: url(/static/pics/control-icon-play-hovered.png);
 }
 .adult_text{
     margin: 5px;
@@ -70,10 +70,21 @@
 }
 .seat_num{
     margin-top: 8px;
-    margin-left: 50px;
+    margin-left: 65px;
     padding-left: 15px;
     font-weight: bold;
     color: beige;
+}
+.nose{
+    height: 90px;
+    background-size: 100%;
+    background-image: url(/static/pics/320-nose.png);
+}
+.tail{
+    height: 90px;
+    margin:auto;
+    background-size: 100%;
+    background-image: url(/static/pics/320-tail.png);
 }
 
 .del_div{
@@ -82,19 +93,19 @@
     margin-top: 7px;
     margin-left: 5px;
     background-size: 20px;
-    background-image: url(/static/Remove-Hover.png);
+    background-image: url(/static/pics/Remove-Hover.png);
 }
 .cspan div:hover{
     opacity: 0.7;
 }
 .seat.available.occupied{
-    background-image: url(/static/seat-occupied-by-adult.png);
+    background-image: url(/static/pics/seat-occupied-by-adult.png);
 }
 .seat.available{
-    background-image: url(/static/seat-available.png);
+    background-image: url(/static/pics/seat-available.png);
 }
 .seat.unavailable{
-    background-image: url(/static/seat-unavailable.png);
+    background-image: url(/static/pics/seat-unavailable.png);
     cursor: unset;
 }
 .seat{
@@ -141,14 +152,19 @@
 #center{
     padding-top: 10px;
     padding-bottom: 10px;
-    width:310px;
+    width:320px;
     display: inline-block;
-    background-color:pink;
+    background-color:grey;
     vertical-align: top;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: 18px;
+    color: lightcyan;
+}
+.price_div{
+    font-weight: lighter;
+    font-size: 12px;
 }
 
 
