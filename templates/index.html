@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="static/seats.js" defer></script>
-        <link rel="stylesheet" href="static/seats.css">
-    </head>
-    <body>
-       <div id="top"></div> 
-       <div id="lhs">
+
+<head>
+    <script src="static/seats.js" defer></script>
+    <link rel="stylesheet" href="static/seats.css">
+</head>
+
+<body>
+    <div id="top">
+        <div id="top-label"><a href="#">easyJet</a></div>
+        <div id="top-optional">
+            <h3>Seat selection <label>optional</label>
+            </h3>
+        </div>
+        <div class="skip_div">
+            <div id="skip-btn" type="submit"></div>
+            <div id="flight-info">Seats Selected</div>
+        </div>
+    </div>
+    <div id="items">
+    <div id="lhs">
         <h2 class="head_outbound">Outbound
-            <hr class="hr_outbound">      
-        </h2>  
+            <hr class="hr_outbound">
+        </h2>
         <div>For each passenger, please select from the available seats.</div>
         <div id="passengerList"></div>
-        </div> 
-       <div id="center">Aircraft
-       </div>
-       <div id="rhs">
+    </div>
+
+    <div id="center">Aircraft
+    </div>
+
+    <div id="rhs">
         <h3>Basket £<span id=basketTotal></span></h3>
         <div id="outbound"></div>
         <div id="inbound"></div>
-       </div>
-    </body>
+    </div>
+    </div>
+</body>
+
 </html>

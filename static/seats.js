@@ -1,4 +1,3 @@
-
 document.body.onload=async()=>{
     let basket = await(await fetch('/static/basket.json')).json();
     // let basket = await(await fetch('/static/basket-amsterdam.json')).json();
@@ -8,7 +7,7 @@ document.body.onload=async()=>{
     let geography = await(await fetch('/static/geography.json')).json();
 
     //Calculate the total fare frm the basket
-    let numberPassengers = basket.Passengers.length;
+    var numberPassengers = basket.Passengers.length;
     // let numberPassengers = 3;
     let outfare = basket.JourneyPairs[0].OutboundSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let retfare = basket.JourneyPairs[0].ReturnSlot.Flight.FlightFares[0].Prices.Adult.Price;
@@ -80,7 +79,14 @@ document.body.onload=async()=>{
     <div>Departure: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalDepartureTime}</div>
     <div>Arrival Time: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
     `;
+    // create button in inbound/return details
+    skip_btn = document.createElement('div');
+    skip_btn.id = 'skip_btn';
+    skip_btn.innerHTML = "Skip seats >";
+    document.getElementById('inbound').append(skip_btn);
+    document.getElementById('skip-btn').innerHTML = "Skip seats >";
 
+    // create seat div for outbound
     let outbound_seats = document.createElement('div');
     outbound_seats.className = "outbound_seats";
     for (let adult=0; adult<numberPassengers; adult++){
@@ -120,30 +126,9 @@ document.body.onload=async()=>{
                 (priceband == 0) ? priceband = "Regular" : priceband;
                 price_and_brand.add(price);
                 seat_count += 1;  // count seat to display in the block middle
-                if (price == 39.99){
-                    price_div.innerHTML = priceband + ':' + price;
-                    price_div.append(divrow);
-                }
-                else if (price == 4.99){
-                    price_div.innerHTML = priceband + ':' + price;
-                    price_div.append(divrow);
-
-                }else if (price == 34.99){
-                    price_div.innerHTML = priceband + ':' + price;
-                    price_div.append(divrow);
-                    
-                }else if (price == 8.99){
-                    price_div.innerHTML = priceband + ':' + price;
-                    price_div.append(divrow);
-                }
-                else if(price == 32.99){
-                    price_div.innerHTML = priceband + ':' + price;
-                    price_div.append(divrow);
-                }
-
                 divblock.append(divseat);
                 divrow.append(divblock);
-                document.getElementById('center').append(price_div);
+                document.getElementById('center').append(divrow);
                 if (seat_count == seats.Rows[r].Blocks[b].Seats.length){ // create row numbers (1, 2, 3, etc.)
                     let rownumber = document.createElement('div');
                     rownumber.classList = "rowshow";
@@ -203,7 +188,9 @@ document.body.onload=async()=>{
                             `;
                             total += price;
                             document.getElementById('basketTotal').innerText = total.toFixed(2);
-                        }
+                            document.getElementById('skip-btn').innerHTML = change_btn(numberPassengers);
+                            document.getElementById('skip_btn').innerHTML = change_btn(numberPassengers);
+                        } //if occupied end
                     } // seat_div onclick end
                 } // check seat_div end
             } // seat end
@@ -228,7 +215,6 @@ function delete_seats(seat_div, current_passenger){
     let cspan = document.querySelectorAll('.cspan'); // get all cspan for adults
     for (let s of cspan.values()){
         if (s.classList.contains(seat_div.id)){
-            console.log(s, current_passenger);
             s.innerHTML = "";
             s.classList.remove(seat_div.id);
             control = document.getElementById(`control_${current_passenger}`);
@@ -246,5 +232,16 @@ function delete_seats(seat_div, current_passenger){
             se.innerHTML = "-";
             se.classList.remove(seat_div.id);
         }
+    }
+    document.getElementById('skip-btn').innerHTML = change_btn();
+    document.getElementById('skip_btn').innerHTML = change_btn();
+}
+function change_btn(numberPassengers){
+    let occupy = document.querySelectorAll('.occupied');
+    if (occupy.length == numberPassengers){
+        return "Continue";
+    }
+    else{
+        return "Skip seats >";
     }
 }
