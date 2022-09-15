@@ -14,8 +14,9 @@
             </h3>
         </div>
         <div class="skip_div">
-            <div id="skip-btn" type="submit"></div>
             <div id="flight-info">Please select a seat</div>
+            <div id="skip-btn" type="submit"></div>
+            <div id="basket"> Basket £<span id=basketTotal></span></div>
         </div>
     </div>
     <div id="items">
@@ -29,9 +30,10 @@
 
     <div id="center">Aircraft
     </div>
-
-    <div id="rhs">
-        <h3>Basket £<span id=basketTotal></span></h3>
+    
+    <div id="rhs" class="sidenav">
+        <!-- <div id="basket"><h3>Basket £<span id=basketTotal></span></h3></div> -->
+        <a href="javascript:void(0)" id="close" class="closebtn">&times;</a>
         <div id="outbound"></div>
         <div id="inbound"></div>
     </div>

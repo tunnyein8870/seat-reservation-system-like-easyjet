@@ -244,6 +244,7 @@ function delete_seats(seat_div, current_passenger){
     }
     document.getElementById('skip-btn').innerHTML = change_btn();
     document.getElementById('skip_btn').innerHTML = change_btn();
+
 }
 function change_btn(numberPassengers){
     let occupy = document.querySelectorAll('.occupied');
@@ -271,3 +272,11 @@ function get_date_time(sdate){
     return `${settime} <b>${setdate}</b>`;
 }
 
+document.getElementById('basket').onclick =()=>{
+    document.getElementById("rhs").style.width = "30%";
+}
+document.getElementById("close").onclick = ()=>{
+    document.getElementById("rhs").style.width = "0";
+}
+let a = document.getElementById("row_0");
+console.log(a);
