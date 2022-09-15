@@ -59,26 +59,37 @@ document.body.onload=async()=>{
             }
         }
     }
-
     // console.log(departcountry[1], arrivecountry[1]);
+    odate = get_date_time(`${basket.JourneyPairs[0].OutboundSlot.Flight.LocalDepartureTime}`);
+    rdate = get_date_time(`${basket.JourneyPairs[0].ReturnSlot.Flight.LocalDepartureTime}`);
     document.getElementById('outbound').innerHTML = `
     <h3>Departure Details</h3>
-    <div>Country: <i>${departcountry[0]} to ${arrivecountry[0]}</i></div>
-    <div>Airport: ${departcountry[1]}(${departAirport}) to ${arrivecountry[1]}(${arriveAirport})</div>
-    <div>Flight No.: ${basket.JourneyPairs[0].OutboundSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
-    <div>Departure Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalDepartureTime}</div>
-    <div>Arrival Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
+    <div class="country">From ${departcountry[0]} To ${arrivecountry[0]}</div>
+    <div class="airport">${departcountry[1]}(${departAirport}) to ${arrivecountry[1]}(${arriveAirport})</div>
+    <div class="flight">Flight No.: ${basket.JourneyPairs[0].OutboundSlot.Flight.CarrierCode}${basket.JourneyPairs[0].OutboundSlot.Flight.FlightNumber}</div>
+    <div class="dtime">Departure Time: ${odate}</div>
+    <div class="atime">Arrival Time: ${basket.JourneyPairs[0].OutboundSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
     `;
 
     document.getElementById('inbound').innerHTML = `
     <h3>Return Details</h3>
-    <div>Country: <i>${arrivecountry[0]} to ${departcountry[0]}</i></div>
-    <div>Airport: ${arrivecountry[1]}(${arriveAirport}) to ${departcountry[1]}(${departAirport})</div>
-    <div>${arriveAirport} to ${departAirport}</div>
-    <div>Flight No.:${basket.JourneyPairs[0].ReturnSlot.Flight.CarrierCode}${basket.JourneyPairs[0].ReturnSlot.Flight.FlightNumber}</div>
-    <div>Departure: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalDepartureTime}</div>
-    <div>Arrival Time: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
+    <div class="country">From ${arrivecountry[0]} To ${departcountry[0]}</div>
+    <div class="airport">${arrivecountry[1]}(${arriveAirport}) to ${departcountry[1]}(${departAirport})</div>
+    <div class="flight">Flight No.:${basket.JourneyPairs[0].ReturnSlot.Flight.CarrierCode}${basket.JourneyPairs[0].ReturnSlot.Flight.FlightNumber}</div>
+    <div class="dtime">Departure: ${rdate}</div>
+    <div class="atime">Arrival Time: ${basket.JourneyPairs[0].ReturnSlot.Flight.LocalArrivalTime.substring(11,16)}</div>
     `;
+
+    // show fares in outbound and return
+    let fare = document.createElement('div');
+    fare.classList = "allfare";
+    fare.innerHTML = `<div class="fares">Your fares</div> <div class="fare_pass">Adult</div><div class="numpass">${numberPassengers} x ${outfare}</div>`;
+    document.getElementById('outbound').append(fare);
+    let re = document.createElement('div');
+    re.innerHTML = `<div class="fares">Your fares</div> <div class="fare_pass">Adult</div><div class="numpass">${numberPassengers} x ${retfare}</div>`;
+    re.classList = "allfare";
+    document.getElementById('inbound').append(re);
+    
     // create button in inbound/return details
     skip_btn = document.createElement('div');
     skip_btn.id = 'skip_btn';
@@ -87,35 +98,34 @@ document.body.onload=async()=>{
     document.getElementById('skip-btn').innerHTML = "Skip seats >";
 
     // create seat div for outbound
+    let flight_details = document.createElement('div');
+    flight_details.classList = "flight_details";
+    flight_details.innerHTML = "Your Flight Details"
     let outbound_seats = document.createElement('div');
     outbound_seats.className = "outbound_seats";
     for (let adult=0; adult<numberPassengers; adult++){
         let seatnum_div = document.createElement('div');
-        let seatnum_text = document.createElement('label');
         seatnum_div.id = `outbound_${adult}`;
         seatnum_div.classList = 'seats';
         seatnum_div.innerHTML = "-";
-        seatnum_text.innerHTML = `Adult ${adult+1}`;
-        seatnum_text.append(seatnum_div);
-        outbound_seats.append(seatnum_text);
+        outbound_seats.append(seatnum_div);
     }
-    document.getElementById('outbound').append(outbound_seats);
-
+    flight_details.append(outbound_seats);
+    document.getElementById('outbound').append(flight_details);
+    // document.getElementById('outbound').append(outbound_seats);
     // create dynamic seats
     let nose = document.createElement('div');
     nose.className = "nose";
     document.getElementById('center').append(nose);
-    price_and_brand = new Set();
     for(let r = 0; r < seats.Rows.length; r++){
-        let price_div = document.createElement('div');
-        price_div.className = "price_div";
         let divrow = document.createElement('div');  // create <div class="row" row="row_1">
-        divrow.classList = "row";
         divrow.setAttribute("row", `row_${r+1}`);
+        document.getElementById('center').append(divrow);
         let seat_count = 0;
         for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
             let divblock = document.createElement('div');  // create <div class="block">
             divblock.classList = "block";
+            divrow.append(divblock);
             for(let s = 0; s < seats.Rows[r].Blocks[b].Seats.length; s++){
                 let divseat = document.createElement('div');  // create <div class="seat" id="seat_1A">
                 divseat.classList = "seat";
@@ -124,18 +134,14 @@ document.body.onload=async()=>{
                 let price = seats.Rows[r].Blocks[b].Seats[s].Price;
                 let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
                 (priceband == 0) ? priceband = "Regular" : priceband;
-                price_and_brand.add(price);
                 seat_count += 1;  // count seat to display in the block middle
                 divblock.append(divseat);
-                divrow.append(divblock);
-                document.getElementById('center').append(divrow);
                 if (seat_count == seats.Rows[r].Blocks[b].Seats.length){ // create row numbers (1, 2, 3, etc.)
                     let rownumber = document.createElement('div');
                     rownumber.classList = "rowshow";
                     rownumber.innerHTML = r+1;
                     divblock.append(rownumber);
                 }
-                
                 let seat_div = document.getElementById(seat_id);
                 (seats.Rows[r].Blocks[b].Seats[s].IsAvailable) ? seat_div.classList.add('available') : seat_div.classList.add('unavailable');
                 if (seat_div && seat_div.classList.contains('available')){
@@ -147,6 +153,7 @@ document.body.onload=async()=>{
                             delete_seats(seat_div, current_passenger); // remove seat
                             total -= price;
                             document.getElementById('basketTotal').innerText = total.toFixed(2);
+                            show_select_text();
                         }
                         else{ // select seat
                             seat_div.classList.add('occupied'); // select seat
@@ -179,17 +186,17 @@ document.body.onload=async()=>{
                             }
                             // show seats in outbound flight details
                             let outbound_current = document.getElementById(`outbound_${current_passenger}`);
-                            outbound_current.classList.add(seat_div.id); // check classlist and remove class
+                            outbound_current.classList.add(seat_div.id);
                             remove_classList(outbound_current);
                             document.getElementById(`outbound_${current_passenger}`).innerHTML = `
-                            <div>Seat No.: ${seat_div.id}</div>
-                            <div>Price: ${price}</div>
-                            <div>Class: ${priceband}</div>
+                            <div class="band">${priceband} seat ${seat_div.id}</div>
+                            <div class="price">${price}</div>
                             `;
                             total += price;
                             document.getElementById('basketTotal').innerText = total.toFixed(2);
                             document.getElementById('skip-btn').innerHTML = change_btn(numberPassengers);
                             document.getElementById('skip_btn').innerHTML = change_btn(numberPassengers);
+                            show_select_text();
                         } //if occupied end
                     } // seat_div onclick end
                 } // check seat_div end
@@ -199,18 +206,20 @@ document.body.onload=async()=>{
     let tail = document.createElement('div');
     tail.className = "tail";
     document.getElementById('center').append(tail);
-}
+} // body onload end
 
 // create functions to use next time
 function split_number(seat_num){
     return seat_num.split('_')[1];
 }
+// remove previous class list
 function remove_classList(cl){
     if (cl.classList.length > 2){
         let last = cl.classList[cl.classList.length-2]
         cl.classList.remove(last);
     }
 }
+// remove seats
 function delete_seats(seat_div, current_passenger){
     let cspan = document.querySelectorAll('.cspan'); // get all cspan for adults
     for (let s of cspan.values()){
@@ -245,3 +254,20 @@ function change_btn(numberPassengers){
         return "Skip seats >";
     }
 }
+function show_select_text(){
+    let checkselected = document.querySelectorAll('.occupied');
+    if (checkselected.length == 0){
+        document.getElementById('flight-info').innerHTML = "Please select a seat";
+    }
+    else{
+        document.getElementById('flight-info').innerHTML = "Seat selected";
+    }
+}
+
+function get_date_time(sdate){
+    sdate = new Date(sdate);
+    let setdate = sdate.toString().split(' ').slice(0,3).join('-');
+    let settime = sdate.toString().split(' ')[4];
+    return `${settime} <b>${setdate}</b>`;
+}
+
