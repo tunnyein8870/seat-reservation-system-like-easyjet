@@ -8,7 +8,6 @@ document.body.onload=async()=>{
 
     //Calculate the total fare frm the basket
     var numberPassengers = basket.Passengers.length;
-    // let numberPassengers = 3;
     let outfare = basket.JourneyPairs[0].OutboundSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let retfare = basket.JourneyPairs[0].ReturnSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let total = (outfare+retfare) * numberPassengers;
@@ -112,12 +111,13 @@ document.body.onload=async()=>{
     }
     flight_details.append(outbound_seats);
     document.getElementById('outbound').append(flight_details);
-    // document.getElementById('outbound').append(outbound_seats);
+    
     // create dynamic seats
     let nose = document.createElement('div');
     nose.className = "nose";
     document.getElementById('center').append(nose);
     for(let r = 0; r < seats.Rows.length; r++){
+        let divprice = document.createElement('div');
         let divrow = document.createElement('div');  // create <div class="row" row="row_1">
         divrow.setAttribute("row", `row_${r+1}`);
         document.getElementById('center').append(divrow);
@@ -131,7 +131,7 @@ document.body.onload=async()=>{
                 divseat.classList = "seat";
                 let seat_id = `${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`; // get seat id
                 divseat.id = `${seat_id}`;
-                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
+                var price = seats.Rows[r].Blocks[b].Seats[s].Price;
                 let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
                 (priceband == 0) ? priceband = "Regular" : priceband;
                 seat_count += 1;  // count seat to display in the block middle
@@ -203,6 +203,7 @@ document.body.onload=async()=>{
             } // seat end
         } // blocks end
     } // row end
+
     let tail = document.createElement('div');
     tail.className = "tail";
     document.getElementById('center').append(tail);
@@ -269,7 +270,8 @@ function get_date_time(sdate){
     sdate = new Date(sdate);
     let setdate = sdate.toString().split(' ').slice(0,3).join('-');
     let settime = sdate.toString().split(' ')[4];
-    return `${settime} <b>${setdate}</b>`;
+    let newtime = settime.split(':').slice(0,2).join(':');
+    return `${newtime} <b>${setdate}</b>`;
 }
 
 document.getElementById('basket').onclick =()=>{
@@ -278,5 +280,4 @@ document.getElementById('basket').onclick =()=>{
 document.getElementById("close").onclick = ()=>{
     document.getElementById("rhs").style.width = "0";
 }
-let a = document.getElementById("row_0");
-console.log(a);
+

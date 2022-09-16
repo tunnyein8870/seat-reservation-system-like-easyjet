@@ -107,7 +107,7 @@ body{
     text-align: center;
 }
 .hr_outbound{
-    width: 75%;
+    width: 100%;
     border: 2px solid;
     border-radius: 2px;
     background-color: yellow;
@@ -241,7 +241,8 @@ body{
 #rhs h3{
     text-align: left;
 }
-#lhs{
+#lhs, #lhs h2{
+    text-align: left;
     width:320px;
     display: inline-block;
     /* background-color:aqua; */
