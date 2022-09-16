@@ -210,13 +210,20 @@ body{
     cursor: pointer;
     padding: 7px;
 }
+.rowprice{
+    margin-top: 5px;
+    margin-left: 78%;
+    width: 50px;
+    background: darkgray;
+    border-radius: 5px;
+}
 .rowshow{
     display: inline-block;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+    margin-bottom: 15px;
     width: 20px;
     color: blanchedalmond;
     background: darkcyan;
+    color: lightblue;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;

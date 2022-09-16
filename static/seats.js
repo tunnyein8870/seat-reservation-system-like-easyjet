@@ -1,4 +1,5 @@
 document.body.onload=async()=>{
+    document.getElementById("rhs").style.width = "0";
     let basket = await(await fetch('/static/basket.json')).json();
     // let basket = await(await fetch('/static/basket-amsterdam.json')).json();
     // let basket = await(await fetch('/static/basket-paris.json')).json();
@@ -117,7 +118,6 @@ document.body.onload=async()=>{
     nose.className = "nose";
     document.getElementById('center').append(nose);
     for(let r = 0; r < seats.Rows.length; r++){
-        let divprice = document.createElement('div');
         let divrow = document.createElement('div');  // create <div class="row" row="row_1">
         divrow.setAttribute("row", `row_${r+1}`);
         document.getElementById('center').append(divrow);
@@ -131,15 +131,23 @@ document.body.onload=async()=>{
                 divseat.classList = "seat";
                 let seat_id = `${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`; // get seat id
                 divseat.id = `${seat_id}`;
-                var price = seats.Rows[r].Blocks[b].Seats[s].Price;
+                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
                 let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
                 (priceband == 0) ? priceband = "Regular" : priceband;
                 seat_count += 1;  // count seat to display in the block middle
+                if (seat_count == seats.Rows[r].Blocks[b].Seats.length-2){ // create row numbers (1, 2, 3, etc.)
+                    let rowprice = document.createElement('div');
+                    rowprice.classList = `${price} rowprice`;
+                    rowprice.innerHTML = `${price}`;
+                    divblock.append(rowprice);
+                }
                 divblock.append(divseat);
                 if (seat_count == seats.Rows[r].Blocks[b].Seats.length){ // create row numbers (1, 2, 3, etc.)
                     let rownumber = document.createElement('div');
                     rownumber.classList = "rowshow";
                     rownumber.innerHTML = r+1;
+                    let rowprice = document.createElement('div');
+                    rowprice.innerHTML = price;
                     divblock.append(rownumber);
                 }
                 let seat_div = document.getElementById(seat_id);
@@ -203,7 +211,6 @@ document.body.onload=async()=>{
             } // seat end
         } // blocks end
     } // row end
-
     let tail = document.createElement('div');
     tail.className = "tail";
     document.getElementById('center').append(tail);
@@ -245,8 +252,8 @@ function delete_seats(seat_div, current_passenger){
     }
     document.getElementById('skip-btn').innerHTML = change_btn();
     document.getElementById('skip_btn').innerHTML = change_btn();
-
 }
+// change continue when all seats are selected.
 function change_btn(numberPassengers){
     let occupy = document.querySelectorAll('.occupied');
     if (occupy.length == numberPassengers){
@@ -256,6 +263,7 @@ function change_btn(numberPassengers){
         return "Skip seats >";
     }
 }
+// text changes after seat selection
 function show_select_text(){
     let checkselected = document.querySelectorAll('.occupied');
     if (checkselected.length == 0){
@@ -265,7 +273,7 @@ function show_select_text(){
         document.getElementById('flight-info').innerHTML = "Seat selected";
     }
 }
-
+// convert and format date
 function get_date_time(sdate){
     sdate = new Date(sdate);
     let setdate = sdate.toString().split(' ').slice(0,3).join('-');
@@ -273,11 +281,10 @@ function get_date_time(sdate){
     let newtime = settime.split(':').slice(0,2).join(':');
     return `${newtime} <b>${setdate}</b>`;
 }
-
+// expand and close when basket is clicked
 document.getElementById('basket').onclick =()=>{
     document.getElementById("rhs").style.width = "30%";
 }
 document.getElementById("close").onclick = ()=>{
     document.getElementById("rhs").style.width = "0";
 }
-
