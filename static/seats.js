@@ -309,10 +309,19 @@ function rPriceing(seats, rPrice, rPlace){
     }
 }
 // expand and close when basket is clicked
+let flag = 1;
 document.getElementById('basket').onclick =()=>{
-    document.getElementById("rhs").style.width = "30%";
+    if (flag == 1){
+        document.getElementById("rhs").style.width = "30%";
+        flag = 0;
+    }
+    else{
+        document.getElementById("rhs").style.width = "0";
+        flag = 1;
+    }
 }
 document.getElementById("close").onclick = ()=>{
     document.getElementById("rhs").style.width = "0";
+    flag = 1;
 }
 
