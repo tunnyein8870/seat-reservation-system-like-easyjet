@@ -9,7 +9,6 @@ document.body.onload=async()=>{
 
     //Calculate the total fare frm the basket
     var numberPassengers = basket.Passengers.length;
-    var numberPassengers = 3;
     let outfare = basket.JourneyPairs[0].OutboundSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let retfare = basket.JourneyPairs[0].ReturnSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let total = (outfare+retfare) * numberPassengers;
@@ -290,6 +289,7 @@ function get_date_time(sdate){
     let newtime = settime.split(':').slice(0,2).join(':');
     return `${newtime} <b>${setdate}</b>`;
 }
+// group rows of same prices of seats
 function rPriceing(seats, rPrice, rPlace){
     for (let r = 0; r < seats.Rows.length; r++) {
         for (let b = 0; b < seats.Rows[r].Blocks.length; b++) {
