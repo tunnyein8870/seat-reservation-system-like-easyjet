@@ -215,16 +215,24 @@ body{
     cursor: pointer;
     padding: 7px;
 }
-.rowprice{
-    margin-top: 5px;
-    margin-left: 78%;
-    width: 50px;
-    background: darkgray;
-    border-radius: 5px;
+.rprice{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    width: 30%;
+    margin-left: 35%;
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+.rband{
+    padding-bottom: 3px;
+    padding-top: 2px;
+    border-bottom: 1px solid lightblue;
+    width: 50%;
+    margin-left: 25%;
 }
 .rowshow{
     display: inline-block;
-    margin-bottom: 15px;
     width: 20px;
     color: blanchedalmond;
     background: darkcyan;

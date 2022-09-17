@@ -117,9 +117,25 @@ document.body.onload=async()=>{
     let nose = document.createElement('div');
     nose.className = "nose";
     document.getElementById('center').append(nose);
+    let rPrice = new Map();
+    let rPlace = new Map();
+    rPriceing(seats, rPrice, rPlace); // group rows of same price
     for(let r = 0; r < seats.Rows.length; r++){
         let divrow = document.createElement('div');  // create <div class="row" row="row_1">
         divrow.setAttribute("row", `row_${r+1}`);
+        divrow.id = `r_${r}`;
+        for (const price of rPlace.keys()) {
+            if(rPlace.get(price)==r){
+                rowPrice =document.createElement('span');
+                rowPrice.className = "rowprice";
+                rowPrice.innerHTML =`
+                <div class="rprice">£${price.split(' ')[0]}</div>
+                <div class="rband">${price.slice(5,)}</div>
+                `;
+                document.getElementById('center').append(rowPrice);
+                rPlace.delete(price);
+            }
+         } 
         document.getElementById('center').append(divrow);
         let seat_count = 0;
         for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
@@ -131,23 +147,12 @@ document.body.onload=async()=>{
                 divseat.classList = "seat";
                 let seat_id = `${seats.Rows[r].Blocks[b].Seats[s].SeatNumber}`; // get seat id
                 divseat.id = `${seat_id}`;
-                let price = seats.Rows[r].Blocks[b].Seats[s].Price;
-                let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
-                (priceband == 0) ? priceband = "Regular" : priceband;
                 seat_count += 1;  // count seat to display in the block middle
-                if (seat_count == seats.Rows[r].Blocks[b].Seats.length-2){ // create row numbers (1, 2, 3, etc.)
-                    let rowprice = document.createElement('div');
-                    rowprice.classList = `${price} rowprice`;
-                    rowprice.innerHTML = `${price}`;
-                    divblock.append(rowprice);
-                }
                 divblock.append(divseat);
                 if (seat_count == seats.Rows[r].Blocks[b].Seats.length){ // create row numbers (1, 2, 3, etc.)
                     let rownumber = document.createElement('div');
                     rownumber.classList = "rowshow";
                     rownumber.innerHTML = r+1;
-                    let rowprice = document.createElement('div');
-                    rowprice.innerHTML = price;
                     divblock.append(rownumber);
                 }
                 let seat_div = document.getElementById(seat_id);
@@ -281,6 +286,24 @@ function get_date_time(sdate){
     let newtime = settime.split(':').slice(0,2).join(':');
     return `${newtime} <b>${setdate}</b>`;
 }
+function rPriceing(seats, rPrice, rPlace){
+    for (let r = 0; r < seats.Rows.length; r++) {
+        for (let b = 0; b < seats.Rows[r].Blocks.length; b++) {
+            for (let s = 0; s < seats.Rows[r].Blocks[b].Seats.length; s++) {
+                seatPrice =seats.Rows[r].Blocks[b].Seats[s].Price;
+                let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
+                (priceband == 0) ? priceband = "Regular" : priceband;
+                rPrice.set(r, `${seatPrice} ${priceband}`);
+            }
+        }
+    }
+    for (let index = 0; index < rPrice.size; index++) {
+        const element = rPrice.get(index);
+        if(!rPlace.has(element)){
+            rPlace.set(element,index);
+        }
+    }
+}
 // expand and close when basket is clicked
 document.getElementById('basket').onclick =()=>{
     document.getElementById("rhs").style.width = "30%";
@@ -288,3 +311,4 @@ document.getElementById('basket').onclick =()=>{
 document.getElementById("close").onclick = ()=>{
     document.getElementById("rhs").style.width = "0";
 }
+
