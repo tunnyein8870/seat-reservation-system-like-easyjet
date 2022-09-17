@@ -9,6 +9,7 @@ document.body.onload=async()=>{
 
     //Calculate the total fare frm the basket
     var numberPassengers = basket.Passengers.length;
+    var numberPassengers = 3;
     let outfare = basket.JourneyPairs[0].OutboundSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let retfare = basket.JourneyPairs[0].ReturnSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let total = (outfare+retfare) * numberPassengers;
@@ -155,6 +156,9 @@ document.body.onload=async()=>{
                     rownumber.innerHTML = r+1;
                     divblock.append(rownumber);
                 }
+                let price =seats.Rows[r].Blocks[b].Seats[s].Price;
+                let priceband = seats.Rows[r].Blocks[b].Seats[s].PriceBand; // set price band
+                (priceband == 0) ? priceband = "Regular" : priceband;
                 let seat_div = document.getElementById(seat_id);
                 (seats.Rows[r].Blocks[b].Seats[s].IsAvailable) ? seat_div.classList.add('available') : seat_div.classList.add('unavailable');
                 if (seat_div && seat_div.classList.contains('available')){

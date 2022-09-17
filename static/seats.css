@@ -158,7 +158,7 @@ body{
     color: darkblue;
 }
 .cspan{
-    width: 45%;
+    width: 48%;
     height: 35px;
     margin-top: 10px;
     background-color: darkcyan;
@@ -216,7 +216,7 @@ body{
     padding: 7px;
 }
 .rprice{
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 2px;
     padding-bottom: 2px;
     width: 30%;
@@ -230,6 +230,7 @@ body{
     border-bottom: 1px solid lightblue;
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 5px;
 }
 .rowshow{
     display: inline-block;
@@ -258,6 +259,7 @@ body{
     width:30%;
     background-color: lightblue;
     border-radius: 10px;
+    height: 100%;
 }
 #rhs h3{
     text-align: left;
@@ -342,7 +344,7 @@ body{
     padding-right: 5px;
 }
 #inbound, #outbound{
-    height: 350px;
+    height: 400px;
     text-align: left;
 }
 #outbound h3, #inbound h3{
