@@ -1,5 +1,4 @@
 document.body.onload=async()=>{
-    document.getElementById("rhs").style.width = "0";
     let basket = await(await fetch('/static/basket.json')).json();
     // let basket = await(await fetch('/static/basket-amsterdam.json')).json();
     // let basket = await(await fetch('/static/basket-paris.json')).json();
@@ -308,8 +307,9 @@ function rPriceing(seats, rPrice, rPlace){
         }
     }
 }
+
 // expand and close when basket is clicked
-let flag = 1;
+let flag;
 document.getElementById('basket').onclick =()=>{
     if (flag == 1){
         document.getElementById("rhs").style.width = "30%";
