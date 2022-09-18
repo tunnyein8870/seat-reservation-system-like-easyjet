@@ -16,7 +16,10 @@
         <div class="skip_div">
             <div id="flight-info">Please select a seat</div>
             <div id="skip-btn" type="submit"></div>
+            <div class="babr">
             <div id="basket"> Basket £<span id=basketTotal></span></div>
+            <div id="breakdown"><a href="#">Price Breakdown >> </a></div>
+            </div>
         </div>
     </div>
     <div id="items">
@@ -30,12 +33,20 @@
 
     <div id="center">Aircraft
     </div>
-    
     <div id="rhs" class="sidenav">
         <a href="javascript:void(0)" id="close" class="closebtn">&times;</a>
         <div id="outbound"></div>
         <div id="inbound"></div>
     </div>
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="totalairfare"></div>
+        </div>
+      
+      </div>
+
     </div>
 </body>
 </html>

@@ -1,3 +1,7 @@
+let fareamount;
+let taxamount;
+let baskettotal;
+let seatprice;
 document.body.onload=async()=>{
     let basket = await(await fetch('/static/basket.json')).json();
     // let basket = await(await fetch('/static/basket-amsterdam.json')).json();
@@ -10,7 +14,15 @@ document.body.onload=async()=>{
     var numberPassengers = basket.Passengers.length;
     let outfare = basket.JourneyPairs[0].OutboundSlot.Flight.FlightFares[0].Prices.Adult.Price;
     let retfare = basket.JourneyPairs[0].ReturnSlot.Flight.FlightFares[0].Prices.Adult.Price;
+    let outtax = basket.JourneyPairs[0].OutboundSlot.Flight.FlightTaxes.TaxAmount;
+    let retax = basket.JourneyPairs[0].ReturnSlot.Flight.FlightTaxes.TaxAmount;
+    let taxtotal = (outtax+retax) * numberPassengers;
     let total = (outfare+retfare) * numberPassengers;
+    fareamount = total - taxtotal;
+    taxamount = taxtotal;
+    baskettotal = total;
+    
+
     document.getElementById('basketTotal').innerText = total.toFixed(2);
 
     // Choose adult seat for outbound flight
@@ -165,13 +177,16 @@ document.body.onload=async()=>{
                         current_passenger = split_number(passenger.id); // e.g. passenger_0 to 0
                         if (seat_div.classList.contains('occupied')){  // remove or unselect seat
                             seat_div.classList.remove('occupied'); // unselect seat
+                            // seat_div.classList.remove(price.toFixed(2));
                             delete_seats(seat_div, current_passenger); // remove seat
                             total -= price;
+                            baskettotal = total;
                             document.getElementById('basketTotal').innerText = total.toFixed(2);
                             show_select_text();
                         }
                         else{ // select seat
                             seat_div.classList.add('occupied'); // select seat
+                            // seat_div.classList.add(price.toFixed(2));
                             passenger.classList.add(seat_div.id); // add seat_id to classlist
                             if (passenger.classList.length > 3){ // to move passenger
                                 passenger.classList.remove('current');
@@ -198,6 +213,9 @@ document.body.onload=async()=>{
                             del_div.onclick =()=>{ // delete seat on click
                                 delete_seats(seat_div, current_passenger);
                                 seat_div.classList.remove('occupied');
+                                total -= price;
+                                baskettotal = total;
+                                document.getElementById('basketTotal').innerText = total.toFixed(2);
                             }
                             // show seats in outbound flight details
                             let outbound_current = document.getElementById(`outbound_${current_passenger}`);
@@ -208,6 +226,7 @@ document.body.onload=async()=>{
                             <div class="price">${price}</div>
                             `;
                             total += price;
+                            baskettotal = total;
                             document.getElementById('basketTotal').innerText = total.toFixed(2);
                             document.getElementById('skip-btn').innerHTML = change_btn(numberPassengers);
                             document.getElementById('skip_btn').innerHTML = change_btn(numberPassengers);
@@ -307,7 +326,6 @@ function rPriceing(seats, rPrice, rPlace){
         }
     }
 }
-
 // expand and close when basket is clicked
 let flag;
 document.getElementById('basket').onclick =()=>{
@@ -323,5 +341,53 @@ document.getElementById('basket').onclick =()=>{
 document.getElementById("close").onclick = ()=>{
     document.getElementById("rhs").style.width = "0";
     flag = 1;
+}
+// modal box from w3schools
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+document.getElementById("breakdown").onclick = ()=>{
+    modal.style.display = "block";
+    setfares();
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+function setfares(){
+    let occupy = document.querySelectorAll('.seats .price');
+    if (occupy.length == 0){
+        document.getElementById('totalairfare').innerHTML = `
+        <table class="pricebreakdown">
+        <tr><th>Price Breakdown</th></tr>
+        <tr><th>Total airfare(s)</th><td>${fareamount.toFixed(2)}£</td></tr>
+        <tr><th>Government taxes</th><td>${taxamount.toFixed(2)}£</td><td></tr>
+        <tr><th>Basket Total</th><td>${baskettotal.toFixed(2)}£</td></tr>
+        </table>
+        `;
+    }
+    else{
+        let pricetotal = 0;
+        for (let c of occupy.values()){
+            let price = parseFloat(c.textContent);
+            pricetotal += price;
+        }
+        document.getElementById('totalairfare').innerHTML = `
+        <h1> Welcome </h1>
+        <table class="pricebreakdown">
+        <tr><th>Price Breakdown</th></tr>
+        <tr><th>Total airfare(s)</th><td>${fareamount.toFixed(2)}£</td></tr>
+        <tr><th>Government taxes</th><td>${taxamount.toFixed(2)}£</td><td></tr>
+        <tr><th>Seats</th><td>${pricetotal}</td></tr>
+        <tr><th>Basket Total</th><td>${baskettotal.toFixed(2)}£</td></tr>
+        </table>
+        `;
+    }
+    
 }
 
