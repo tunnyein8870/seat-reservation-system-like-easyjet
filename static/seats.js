@@ -20,7 +20,7 @@ document.body.onload=async()=>{
     let total = (outfare+retfare) * numberPassengers;
     fareamount = total - taxtotal;
     taxamount = taxtotal;
-    baskettotal = total;
+    baskettotal = total.toFixed(2);
     
 
     document.getElementById('basketTotal').innerText = total.toFixed(2);
@@ -136,17 +136,17 @@ document.body.onload=async()=>{
         divrow.setAttribute("row", `row_${r+1}`);
         divrow.id = `r_${r}`;
         for (const price of rPlace.keys()) {
-            if(rPlace.get(price)==r){
-                rowPrice =document.createElement('span');
-                rowPrice.className = "rowprice";
-                rowPrice.innerHTML =`
-                <div class="rprice">£${price.split(' ')[0]}</div>
-                <div class="rband">${price.slice(5,)}</div>
+          if (rPlace.get(price) == r) {
+            let rowPrice = document.createElement("span");
+            rowPrice.className = "rowprice";
+            rowPrice.innerHTML = `
+                <div class="rprice">£${price.split(" ")[0]}</div>
+                <div class="rband">${price.slice(5)}</div>
                 `;
-                document.getElementById('center').append(rowPrice);
-                rPlace.delete(price);
-            }
-         } 
+            document.getElementById("center").append(rowPrice);
+            rPlace.delete(price);
+          }
+        }
         document.getElementById('center').append(divrow);
         let seat_count = 0;
         for(let b = 0; b < seats.Rows[r].Blocks.length; b++){
@@ -176,24 +176,22 @@ document.body.onload=async()=>{
                         passenger = document.querySelector('.current');
                         current_passenger = split_number(passenger.id); // e.g. passenger_0 to 0
                         if (seat_div.classList.contains('occupied')){  // remove or unselect seat
-                            seat_div.classList.remove('occupied'); // unselect seat
-                            // seat_div.classList.remove(price.toFixed(2));
+                            seat_div.classList.remove('occupied', price.toFixed(2)); // unselect seat
                             delete_seats(seat_div, current_passenger); // remove seat
-                            total -= price;
-                            baskettotal = total;
-                            document.getElementById('basketTotal').innerText = total.toFixed(2);
+                            baskettotal = find_total(total);
+                            document.getElementById('basketTotal').innerText = baskettotal;
                             show_select_text();
                         }
                         else{ // select seat
-                            seat_div.classList.add('occupied'); // select seat
-                            // seat_div.classList.add(price.toFixed(2));
+                            seat_div.classList.add('occupied', price.toFixed(2)); // select seat
                             passenger.classList.add(seat_div.id); // add seat_id to classlist
                             if (passenger.classList.length > 3){ // to move passenger
                                 passenger.classList.remove('current');
                                 passenger.classList.add('current'); // set current at the end of classlist
-                                document.getElementById(passenger.classList[passenger.classList.length-3]).classList.remove('occupied'); // remove previous seat class
-                                document.getElementById(passenger.classList[passenger.classList.length-2]).classList.add('occupied'); // add current seat class
+                                document.getElementById(passenger.classList[passenger.classList.length-3]).classList.remove('occupied', price.toFixed(2)); // remove previous seat class
+                                document.getElementById(passenger.classList[passenger.classList.length-2]).classList.add('occupied', price.toFixed(2)); // add current seat class
                                 passenger.classList.remove(passenger.classList[passenger.classList.length-3]); // remove to avoid duplicate class
+                                baskettotal = find_total(total);
                             }
                             // to point last passenger of adult seat
                             if (current_passenger != numberPassengers-1){
@@ -212,10 +210,9 @@ document.body.onload=async()=>{
                             document.getElementById(`cspan_${current_passenger}`).append(del_div);
                             del_div.onclick =()=>{ // delete seat on click
                                 delete_seats(seat_div, current_passenger);
-                                seat_div.classList.remove('occupied');
-                                total -= price;
-                                baskettotal = total;
-                                document.getElementById('basketTotal').innerText = total.toFixed(2);
+                                seat_div.classList.remove('occupied', price.toFixed(2));
+                                baskettotal = find_total(total);
+                                document.getElementById('basketTotal').innerText = baskettotal;
                             }
                             // show seats in outbound flight details
                             let outbound_current = document.getElementById(`outbound_${current_passenger}`);
@@ -225,9 +222,10 @@ document.body.onload=async()=>{
                             <div class="band">${priceband} seat ${seat_div.id}</div>
                             <div class="price">${price}</div>
                             `;
-                            total += price;
-                            baskettotal = total;
-                            document.getElementById('basketTotal').innerText = total.toFixed(2);
+                            baskettotal = find_total(total);
+                            // total += price;
+                            // baskettotal = total;
+                            document.getElementById('basketTotal').innerText = baskettotal;
                             document.getElementById('skip-btn').innerHTML = change_btn(numberPassengers);
                             document.getElementById('skip_btn').innerHTML = change_btn(numberPassengers);
                             show_select_text();
@@ -252,6 +250,16 @@ function remove_classList(cl){
         let last = cl.classList[cl.classList.length-2]
         cl.classList.remove(last);
     }
+}
+// find total for baskettotal and pricebreakdown
+function find_total(total){
+    let a = document.querySelectorAll('.occupied');
+    for (let i of a){
+        // console.log(i.classList[3], total);
+        pr = parseFloat(i.classList[3]);
+        total += pr
+    }
+    return total.toFixed(2);
 }
 // remove seats
 function delete_seats(seat_div, current_passenger){
@@ -342,7 +350,7 @@ document.getElementById("close").onclick = ()=>{
     document.getElementById("rhs").style.width = "0";
     flag = 1;
 }
-// modal box from w3schools
+// modal box for pricebreakdown (ref: w3schools)
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 document.getElementById("breakdown").onclick = ()=>{
@@ -359,15 +367,17 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+// display respective price breakdown sections.
 function setfares(){
     let occupy = document.querySelectorAll('.seats .price');
+    console.log(occupy)
     if (occupy.length == 0){
         document.getElementById('totalairfare').innerHTML = `
         <table class="pricebreakdown">
         <tr><th>Price Breakdown</th></tr>
         <tr><th>Total airfare(s)</th><td>${fareamount.toFixed(2)}£</td></tr>
         <tr><th>Government taxes</th><td>${taxamount.toFixed(2)}£</td><td></tr>
-        <tr><th>Basket Total</th><td>${baskettotal.toFixed(2)}£</td></tr>
+        <tr><th>Basket Total</th><td>${baskettotal}£</td></tr>
         </table>
         `;
     }
@@ -384,10 +394,9 @@ function setfares(){
         <tr><th>Total airfare(s)</th><td>${fareamount.toFixed(2)}£</td></tr>
         <tr><th>Government taxes</th><td>${taxamount.toFixed(2)}£</td><td></tr>
         <tr><th>Seats</th><td>${pricetotal}</td></tr>
-        <tr><th>Basket Total</th><td>${baskettotal.toFixed(2)}£</td></tr>
+        <tr><th>Basket Total</th><td>${baskettotal}£</td></tr>
         </table>
         `;
     }
-    
 }
 
