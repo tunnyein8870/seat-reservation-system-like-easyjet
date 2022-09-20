@@ -373,8 +373,8 @@ function setfares(){
     console.log(occupy)
     if (occupy.length == 0){
         document.getElementById('totalairfare').innerHTML = `
-        <table class="pricebreakdown">
-        <tr><th>Price Breakdown</th></tr>
+        <div><h3>Price Breakdown</h3></div>
+        <table>
         <tr><th>Total airfare(s)</th><td>${fareamount.toFixed(2)}£</td></tr>
         <tr><th>Government taxes</th><td>${taxamount.toFixed(2)}£</td><td></tr>
         <tr><th>Basket Total</th><td>${baskettotal}£</td></tr>
@@ -388,9 +388,8 @@ function setfares(){
             pricetotal += price;
         }
         document.getElementById('totalairfare').innerHTML = `
-        <h1> Welcome </h1>
-        <table class="pricebreakdown">
-        <tr><th>Price Breakdown</th></tr>
+        <div><h3>Price Breakdown</h3></div>
+        <table>
         <tr><th>Total airfare(s)</th><td>${fareamount.toFixed(2)}£</td></tr>
         <tr><th>Government taxes</th><td>${taxamount.toFixed(2)}£</td><td></tr>
         <tr><th>Seats</th><td>${pricetotal}</td></tr>
