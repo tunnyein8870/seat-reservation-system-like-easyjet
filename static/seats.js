@@ -21,8 +21,6 @@ document.body.onload=async()=>{
     fareamount = total - taxtotal;
     taxamount = taxtotal;
     baskettotal = total.toFixed(2);
-    
-
     document.getElementById('basketTotal').innerText = total.toFixed(2);
 
     // Choose adult seat for outbound flight
